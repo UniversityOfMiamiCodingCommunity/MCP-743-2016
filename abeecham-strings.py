@@ -14,6 +14,7 @@ startCodon = "ATG"
 stopCodons = ["TAG", "TGA", "TAA"]
 dna = "GGACGTTTAAAAGGGAAAAAATGGAACCACCCGGGATAATGAAATTTTATGGGCCCCACCAGGACTAAGATAGCGTGAATGTAAATAAATAGCCC"
 
+## Below are Ashley Beecham's solutions to the String assignment
 ## 1) Identify the index of each start codon in the DNA sequence provided below.
 
 print 'Question 1'
