@@ -18,7 +18,7 @@ F = (C * (9/5)) + 32.0
 
 #Print C, K, and F to screen
 ############################
-message = "Equation 1 indicates that " + str(C) + " degrees Celsius is " + str(F) + " degrees Farenheit and " + str(K) + " degrees Kelvin"
+message = "These equations indicate that " + str(C) + " degrees Celsius is " + str(F) + " degrees Farenheit and " + str(K) + " degrees Kelvin"
 print message
 
 
