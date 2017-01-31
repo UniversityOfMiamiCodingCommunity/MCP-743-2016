@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Date: 2017.01.28
 ###################
 
@@ -6,7 +5,7 @@
 # https://docs.python.org/3/tutorial/
 # Also, Stackoverflow is a great resource: 
 # http://stackoverflow.com
-##################################################################
+#################################################################
 
 ############################################################################################################
 # Throughout these tutorials, you may have to add your own print statements to see the results of the code.
@@ -24,46 +23,79 @@
 
 # 1) Integers: all whole numbers (i.e. no decimal points)
 ##########################################################################
-=======
-# AARON STOCK, Assignment 1 numbers
-
-# Equation: Quadratic Formula
-
-# Factor of the quadratic term, a
->>>>>>> origin/master
 a = 1
+b = 2
 
-# Factor of the linear term, b
-b = 1
+# The usual mathematical operations are available for integers. 
+###############################################################
+answer1 = a + b
+answer2 = a - b
+answer3 = a * b
+answer4 = a / b
 
-# Factor of the constant term, c
-c = -6
+# You don't need to have spaces bewteen operators and numbers, but spaces help with readability. 
+# For example, these expressions give equivalent answers to those above. 
+################################################################################################
+answer1 = a+b
+answer2 = a-b
+answer3 = a*b
+answer4 = a/b
 
-# Quadratic equation solving for first root
+# 2) Floats: floating point numbers (i.e. numbers with decimal values)
+######################################################################
+a = 1.0
+b = 2.0
 
-x1 = (-b+(b**2-4*a*c)**(0.5))/(2*a)
+# The usual mathematical operations are available for floats. 
+#############################################################
+answer1 = a + b
+answer2 = a - b
+answer3 = a * b
+answer4 = a / b
 
-# Quadratic equation solving for second root
+# There is an operator for floats that you may not be familiar with called the modulo (%).
+# It returns the remainder of a division operation.
+###########################################################################################
+answer5 = a % b # remainder is 1.0
+b = 1.0
+answer6 = a % b # now that we reassigned the variable b, the remainder is 0
 
-x2 = (-b-(b**2-4*a*c)**(0.5))/(2*a)
+#############################################################
+# There are other, infrequently used operators for floats.
+# For a full list explore the links at the top of this page. 
+#############################################################
 
-print(x1,x2)
+####################################################################
+# Assignment
+# Code two scientific equations of your choosing in Python.
+# Make sure the equations are fully commented. See my example below.
+####################################################################
 
-# Equation: Slope of a line given two points
+# Example: Ideal Gas Law
+# Note: usually the numbers in scientifc equations are floats, so code them as such.
+# For example, below I have 1.0 mole, not 1 mole. 
+####################################################################################
 
-# Point 1, abscissa
-w1 = 2
+# Variable for pressure in units of Pascal (1 atm = 101325.0 Pascal).
+#####################################################################
+p = 101325.0 
 
-# Point 2, abscissa
-w2 = 3
+# Variable for number of moles of gas molecules.
+################################################
+n = 1.0
 
-# Point 1, ordinate
-y1 = 6
+# Ideal gas constant in units J/(K mol).
+########################################
+R = 8.314
 
-# Point 2, ordinate
-y2 = 10
+# Variable for temperature in units of Kelvin.
+##############################################
+T = 298.0
 
-# Equation: Formula to calculate slope of a line given two points
-m = (y2 - y1) / (w2 - w1)
+# Solve for volume.
+###################
+v = (n*R*T)/p
 
-print(m)
+# Print the results to the screen.
+##################################
+print("Volume:", v, "liters") 
