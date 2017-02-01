@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-
-
-# Equation: Quadratic Formula
-
-# Factor of the quadratic term, a
-a = 1
-=======
-## Date: 2017.01.28
+# Date: 2017.01.28
 ###################
 
 # When you are stuck or need to explore something new start here:
@@ -107,44 +99,29 @@ v = (n*R*T)/p
 # Print the results to the screen.
 ##################################
 print("Volume:", v, "liters") 
-=======
->>>>>>> origin/master
-
-# Factor of the linear term, b
-b = 1
-
-# Factor of the constant term, c
-c = -6
-
-# Quadratic equation solving for first root
-
-x1 = (-b+(b**2-4*a*c)**(0.5))/(2*a)
-
-# Quadratic equation solving for second root
-
-x2 = (-b-(b**2-4*a*c)**(0.5))/(2*a)
-
-print(x1,x2)
-
-# Equation: Slope of a line given two points
-
-# Point 1, abscissa
-w1 = 2
-
-# Point 2, abscissa
-w2 = 3
-
-# Point 1, ordinate
-y1 = 6
-
-# Point 2, ordinate
-y2 = 10
-
-# Equation: Formula to calculate slope of a line given two points
-m = (y2 - y1) / (w2 - w1)
-
-print(m)
-<<<<<<< HEAD
-=======
->>>>>>> origin/master
->>>>>>> origin/master
+################################################################################################################
+#Equation of Choice 1: Newton's Law
+#Variable for mass of a body (kg).
+m=75.0
+#Variable for acceleration (m/s^2)
+a=3.0
+#Solve for force (Newton or kgm/s^2)
+#Set F as the variable for force
+F=m*a
+#Print the results to the screen
+print("The force applied to the body is: "+str(F)+" Newtons")
+################################################################################################################
+#Equation of Choice 2: Heat Capacity 
+#Variable for mass of a body (grams).
+m=300.0
+#Variable for specific heat (J/(gC))
+s=2.44
+#Variable for initial temperature (degree Celcius)
+i=10.0
+#Variable for final temperature (degree Celcius)
+f=30.0
+#Solve for energy supplied (Joules)
+#Set E as the variable for energy supplied
+E=m*s*(f-i)
+#Print the results to the screen
+print("The energy supplied is: "+str(E)+" Joules")

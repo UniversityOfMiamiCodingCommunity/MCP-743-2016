@@ -1,5 +1,28 @@
 
+<<<<<<< HEAD
 #########################################################################################################################
+=======
+# When you are stuck or need to explore something new start here:
+# https://docs.python.org/3/tutorial/
+# Also, Stackoverflow is a great resource: 
+# http://stackoverflow.com
+#################################################################
+
+############################################################################################################
+# Throughout these tutorials, you may have to add your own print statements to see the results of the code.
+############################################################################################################
+
+#################################################################################
+# Strings
+# If you need help or need to explore something new regarding strings start here:
+# Introduction: https://docs.python.org/3/tutorial/introduction.html#strings
+# String Methods: https://docs.python.org/3/library/stdtypes.html#string-methods
+#################################################################################
+
+# Strings are sequences of characters concatenated into "words". 
+# They are assigned and indicated using either single or double quotes. 
+#######################################################################
+>>>>>>> origin/master
 startCodon = "ATG"
 stopCodons = ["TAG", "TGA", "TAA"]
 dna = "GGACGTTTAAAAGGGAAAAAATGGAACCACCCGGGATAATGAAATTTTATGGGCCCCACCAGGACTAAGATAGCGTGAATGTAAATAAATAGCCC"
