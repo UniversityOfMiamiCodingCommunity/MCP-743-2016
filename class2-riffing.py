@@ -1,5 +1,7 @@
 # When you are stuck or need to explore something new start here:
 # https://docs.python.org/3/tutorial/
+# Also, Stackoverflow is a great resource: 
+# http://stackoverflow.com
 #################################################################
 
 # Numbers
