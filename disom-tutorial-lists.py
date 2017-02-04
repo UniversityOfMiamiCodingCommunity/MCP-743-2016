@@ -17,12 +17,15 @@
 # The most boring example list ever. 
 ####################################
 exampleList1 = [10, 3, 5, 1, 2, 5, 6, 9, 8, 7, 4]
+# Lists must be made of the same type.
+
 
 # Get slice.
 ############
 
 # Pop an element. 
 #################
+# Permenantly deletes an item. Use brackets if you only want to delete part of the list.
 print("Pop example:", exampleList1)
 poppedItem = exampleList1.pop(-1)
 print("Pop example:", exampleList1)
@@ -40,7 +43,7 @@ exampleList2 = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 
 # One way to combine two lists into one:
 #########################################
-combinedList1 = exampleList1 + exampleList2
+combinedList1 = exampleList1 + exampleList2 # only works if the types are the same. list + list vs str. + str.
 print("Combining lists example 1:", combinedList1)
 # Why not sort it?
 ###################
@@ -66,6 +69,7 @@ print("Sorted combined lists example 2:", combinedList2)
 
 # Tuples are like lists, but they are immutable, and are denoted by parenthesis () instead of brackets []. They are equally as boring.
 ######################################################################################################################################
+# Tuples are immutable lists.
 
 # I am so lazy that I am not even going to type out an example tuple.
 # Instead I will convert our combinedList2 list to a tuple using the built-in Python type conversion function tuple().

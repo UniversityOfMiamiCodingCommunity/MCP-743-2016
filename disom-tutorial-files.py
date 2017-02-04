@@ -19,43 +19,44 @@
 # In this case, the file is in the same directory as our script, so we can just use the file name. 
 # The second argument is the file mode: "r" for read mode, or "w" for write, or "a" for append.
 ##############################################################################################################################################################
-fileInput = open("class3-pdbExcerptShort.pdb", "r")
+#~ # Open takes two arguments (the file, the mode("r", "w", or "a") 
+#~ fileInput = open("class3-pdbExcerptShort.pdb", "r")
 
-# You can loop over the lines in a file, the same as you would loop over a list.
-################################################################################
-for line in fileInput:
-	print(line)
+#~ # You can loop over the lines in a file, the same as you would loop over a list.
+#~ ################################################################################
+#~ for line in fileInput:
+	#~ print(line)
 
-# Close the file.
-#################
-fileInput.close()
+#~ # Close the file.
+#~ #################
+#~ fileInput.close()
 
-# If a file is in a directory different from that of your Python script (i.e. this script), you have to include the relative path to the file in open()
-# For example, the class3-pdbExcerptLong.pdb file is in the sub-directory class3-pdbExcerptLong...
-#######################################################################################################################################################
-fileInput = open("class3-pdbExcerptLong/class3-pdbExcerptLong.pdb", "r")
-for line in fileInput:
-	print(line)
-fileInput.close()
+#~ # If a file is in a directory different from that of your Python script (i.e. this script), you have to include the relative path to the file in open()
+#~ # For example, the class3-pdbExcerptLong.pdb file is in the sub-directory class3-pdbExcerptLong...
+#~ #######################################################################################################################################################
+#~ fileInput = open("class3-pdbExcerptLong/class3-pdbExcerptLong.pdb", "r")
+#~ for line in fileInput:
+	#~ print(line)
+#~ fileInput.close()
 
-# This file path would work too.
-################################
-fileInput = open("./class3-pdbExcerptLong/class3-pdbExcerptLong.pdb", "r") # "./" means "this directory", and "../" means "up one directory"
-for line in fileInput:
-	print(line)
-fileInput.close()
+#~ # This file path would work too.
+#~ ################################
+#~ fileInput = open("./class3-pdbExcerptLong/class3-pdbExcerptLong.pdb", "r") # "./" means "this directory", and "../" means "up one directory"
+#~ for line in fileInput:
+	#~ print(line)
+#~ fileInput.close()
 
-# File path separators are different on Macs and PCs. 
-# One was to deal with this is to import the Python variable sep, that corresponds to the proper file path separator on the current OS being used. 
-# If you use sep, than your file paths will work on all computer OSs (i.e. your code will be truly cross platform).
-# The sep variable can be imported from the os module, which is part of the standard Python library.
-# This is how it is done, reworking the sample code above:
-##################################################################################################################################################
-from os import sep # we have imported sep and can now use it as a key word
-fileInput = open("." + sep + "class3-pdbExcerptLong" + sep + "class3-pdbExcerptLong.pdb", "r") # Note: the backslashes have been replaced by sep in a concatenated string. 
-for line in fileInput:
-	print("using sep", line)
-fileInput.close()
+#~ # File path separators are different on Macs and PCs. 
+#~ # One was to deal with this is to import the Python variable sep, that corresponds to the proper file path separator on the current OS being used. 
+#~ # If you use sep, than your file paths will work on all computer OSs (i.e. your code will be truly cross platform).
+#~ # The sep variable can be imported from the os module, which is part of the standard Python library.
+#~ # This is how it is done, reworking the sample code above:
+#~ ##################################################################################################################################################
+#~ from os import sep # we have imported sep and can now use it as a key word
+#~ fileInput = open("." + sep + "class3-pdbExcerptLong" + sep + "class3-pdbExcerptLong.pdb", "r") # Note: the backslashes have been replaced by sep in a concatenated string. 
+#~ for line in fileInput:
+	#~ print("using sep", line)
+#~ fileInput.close()
 
 # Now that we know how to get access to file contents, let me show you how you get the informatoin you want.
 # Say I only wanted the file lines that corresponded to atoms. 
@@ -91,5 +92,5 @@ fileInput.close()
 #
 ######################################
 
-
+# Try to open files. AND to loop through and get info out of them.
 
