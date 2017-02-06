@@ -210,10 +210,10 @@ for stopCodon in stopCodons:
 				# The condition was true, so a stop codon has been found. 
 				# Record the find by resetting minStopCodon and minStopCodonIndex
 				#################################################################
-				minStopCodon = iCodon
-				minStopCodonIndex = stopCodonIndex
-				print("In frame codon is:", iCodon, i)
-				break # Once you find the first instance of each codon type, you can quit the loop
+				if stopCodonIndex < minStopCodon:
+					minStopCodon = iCodon
+					minStopCodonIndex = stopCodonIndex
+					print("In frame codon is:", iCodon, i)
 		# Increment the index counter.
 		##############################
 		i += 1

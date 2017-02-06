@@ -12,8 +12,8 @@
 ############################################################################################################
 
 #################################################################################
-# Strings
-# If you need help or need to explore something new regarding strings start here:
+# Numbers
+# If you need help or need to explore something new regarding numbers start here:
 # Introduction: https://docs.python.org/3/tutorial/introduction.html#strings
 # String Methods: https://docs.python.org/3/library/stdtypes.html#string-methods
 #################################################################################
@@ -179,7 +179,3 @@ print("The distance between the two atoms is:", distance, "Angstroms")
 startCodon = "ATG"
 stopCodons = ["TAG", "TGA", "TAA"]
 dna = "GGACGTTTAAAAGGGAAAAAATGGAACCACCCGGGATAATGAAATTTTATGGGCCCCACCAGGACTAAGATAGCGTGAATGTAAATAAATAGCCC"
-
-
-
-
