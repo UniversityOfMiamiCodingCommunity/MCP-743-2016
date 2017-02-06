@@ -76,8 +76,8 @@ file2.write('The total number of stop codons is ')
 file2.write(str(count))
 file2.write('.\n')
 
-index = 0
 for stopCodon in stopCodons:
+	index = 0
 	while index < len(sequence):
 		index = sequence.find(stopCodon, index)
 		if index == -1:
