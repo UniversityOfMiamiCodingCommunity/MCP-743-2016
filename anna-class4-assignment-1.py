@@ -46,7 +46,7 @@ for stopCodon in stopCodons:
 # 4) Identify the stop codon, and it's index that is in frame with the first start codon encountered in the DNA sequence.
 stopCodonsFound = []
 for stopCodon in stopCodons:
-	index = 31
+	index = startCodonIndex
 	while index < len(weirdAssDna):
 		index = weirdAssDna.find(stopCodon, index)
 		if index == -1:
