@@ -61,7 +61,6 @@ for stop_codon in stop_codons:
 			print("Found stop codon", iCodon, "at index", i)
 			stop_codon_count += 1
 		i += 1
-print("The total number of stop codons found in the DNA sequence is:", stop_codon_count)
 print("\n")
 
 
