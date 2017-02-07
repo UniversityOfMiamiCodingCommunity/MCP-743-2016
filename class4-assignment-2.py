@@ -61,8 +61,8 @@ for stopCodon in stopCodons:
 		if iCodon == stopCodon:
 			stop_index.append(i)
 			# Increment the start codon count.
-		    #################################
-		    stopCodonCount += 1 
+			#################################
+			stopCodonCount += 1 
 		# Increment the index counter.
 		##############################
 		i += 1
