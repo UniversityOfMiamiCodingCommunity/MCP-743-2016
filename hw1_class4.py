@@ -24,22 +24,38 @@ while start_codon_count < len(weirdAssDna):
 print("\n")
 
 
+
 # 2) Get the index of the first start codon.
 print("Index of the first start codon is:" , weirdAssDna.find(start_codon))
 print("\n")	
 
 # 3) Identify the index of each stop codon in the DNA sequence. 
-stop_codon_count = 0
+
 for stop_codon in stop_codons:
 	i = 0
 	while i < len(weirdAssDna) -5:
-		in_codon = weirdAssDna[i:i+6]
+		in_codon = weirdAssDna[i:i + 6]
 		if in_codon == stop_codon:
-			print("Stop codon ", in_codon, "found at index", i)
+			print("Stop codon ",stop_codon, "found at index", i)
+		i += 1
 print("\n")			
 
 
 # 4) Identify the stop codon, and it's index that is in frame with the first start codon encountered in the DNA sequence.
+
+
+stop_codon_index = []
+for stop_codon in stop_codons:
+	i = weirdAssDna.find(start_codon)
+	while i < len(weirdAssDna) -5:
+		Codon = weirdAssDna[i:i+6]
+		if Codon == stop_codon:
+			if ((i + 6) - 31) % 6 == 0:
+				stop_codon_index.append(i)
+		i += 6
+print("First stop codon", stop_codon, "found at index" , min(stop_codon_index))
+
+
 # Note: you must use at least one "for" and "while" loop in your approach.
 # May the force be with you.
 #########################################################################################################################

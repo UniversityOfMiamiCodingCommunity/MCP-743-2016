@@ -80,13 +80,20 @@ print("\n")
 # 			ORF_codon_count += 1
 # 		i += 1
 
+minStopCodon, minStopCodonIndex = "", 10000000
 for stop_codon in stop_codons:
-	i=0
+	i = 0
 	while i < len(dna) -2:
-		codon = dna[i:i+3]
-		if codon == stop_codon:
-			if ((i + 3) -20) % 3 == 0:
+		iCodon = dna[i:i+3]
+		if iCodon == stop_codon:
+			StopCodonIndex = i
+			if ((StopCodonIndex + 3) - 20) % 3 == 0:
+				minStopCodon = iCodon
+				minStopCodonIndex = StopCodonIndex
 				print("Codon", codon, "found at index", i)
+				break
+			i += 1
+print("The first in frame stop codon is", minStopCodon, "at index", minStopCodonIndex)
 
 print("\n")
 
