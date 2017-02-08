@@ -1,6 +1,3 @@
-# Date: 2017.01.28
-###################
-
 # When you are stuck or need to explore something new start here:
 # https://docs.python.org/3/tutorial/
 # Also, Stackoverflow is a great resource: 
@@ -12,8 +9,8 @@
 ############################################################################################################
 
 #################################################################################
-# Strings
-# If you need help or need to explore something new regarding strings start here:
+# Numbers
+# If you need help or need to explore something new regarding numbers start here:
 # Introduction: https://docs.python.org/3/tutorial/introduction.html#strings
 # String Methods: https://docs.python.org/3/library/stdtypes.html#string-methods
 #################################################################################
@@ -70,7 +67,7 @@ print("Missing last index:", thirdBase)
 # The objective is to use this method to find the first instance of the "startCodon" variable in the string "dna".
 # The find method accepts an argument (i.e. startCodon): the string you are trying to find!  
 ###########################################################################################################################
-result1 = dna.find(startCodon) # this method returns the start index of the query string if it is found
+result1 = dna.find(startCodon) # this methods return the start index of the query string if it is found
 result2 = dna.find("Dan") # if the query string is not found, it returns -1 in Python2.7, and may return False in Python3.0
 
 # Let's shake things up a bit to find stop codons in the DNA using a for loop.
@@ -80,19 +77,19 @@ for stopCodon in stopCodons:
 	stopCodonSearchResult = dna.find(stopCodon)
 	print("Found stop codon (method 1):", stopCodon)
 
-# Here is another way to search for the stop codons that doesn't use the find() method.
+# Here is another way to search for a string that doesn't use the find method.
 # You will use this version more often that find in your scientfic coding.
-########################################################################################
+##############################################################################
 for stopCodon in stopCodons:
 	if stopCodon in dna:
 		print("Found stop codon (method 2):", stopCodon)
 
-# Here is a version that searches for each stop codon, and also finds the index at which it they occur.
+# Here is a version that searches for the stop codon, and also finds the index at which it occurs.
 # This code also counts the total number of stop codons that are encountered.
-#######################################################################################################
+##################################################################################################
 stopCodonCount = 0
 for stopCodon in stopCodons:
-	# This is while loop. It will keep looping as long as the statement after "while" keyword is true.
+	# This is while loop. It will keep running as long as the statement after "while" keyword is true.
 	# Note: len() is a built-in Python function that returns the length of strings, list, and dictionaries.
 	# See this page for the full list of built-in functions: https://docs.python.org/3/library/functions.html
 	######################################################################################################### 
@@ -112,8 +109,8 @@ for stopCodon in stopCodons:
 print("The total number of stop codons found in the DNA sequence is:", stopCodonCount)
 
 # There are many other string methods. 
-# Here are examples of a few more so that you can see how they work. 
-####################################################################
+# Here are exampls of a few more so that you can see how they work. 
+###################################################################
 # Convert the dna string variable from upper case to lower case.
 ################################################################
 dnaLowerCase = dna.lower() # note that the dna string variable is still in upper case
@@ -125,9 +122,9 @@ startCodonCount = dna.count(startCodon)
 # By far, the most important string variable method for your programming will be the split() method.
 ####################################################################################################
 testString = "At the end of 8 weeks you will all be dangerous programmers."
-print(testString.split()) # split with no arguments divides the string into a list object by its empty spaces
+print(testString.split()) # split with no arguments divides the string by its empty spaces into a list object
 print(testString.split("8")) # you can split a string using a substring it contains
-print(testString.split("weeks you will")) # another example using a substring to split a string
+print(testString.split("weeks you will")) # another example using a substring
 
 # A practical example of using split: this is relevant to how you will parse information from data files.
 ##########################################################################################################
@@ -136,7 +133,7 @@ examplePdbFileLine2 = "ATOM     11  C   PRO A   7     -11.147  39.272   9.252  1
 # Parse and do type conversions on line 1.
 ##########################################
 splitExamplePdbFileLine1 = examplePdbFileLine1.split() # split the string by empty space
-xCoordinateAsString1 = splitExamplePdbFileLine1[6] # just like strings, you can access the elements of a list by their index
+xCoordinateAsString1 = splitExamplePdbFileLine1[6] # just like strings, you can access the elements of a list by index
 yCoordinateAsString1 = splitExamplePdbFileLine1[7]
 zCoordinateAsString1 = splitExamplePdbFileLine1[8]
 # Using the built-in Python function float() to convert each coordinate from a string type to a float type. 
@@ -168,17 +165,90 @@ print("The distance between the two atoms is:", distance, "Angstroms")
 # Assignment
 # 1) Identify the index of each start codon in the DNA sequence provided below. 
 # 2) Get the index of the first start codon.
-# 3) Identify the index of each stop codon.
-# 4) Identify the stop codon, and it's index that is in frame with the first start codon encountered in the DNA sequence.
-# 5) Count the number of G bases. 
-# 6) Identify each index that corresponds to an A base.  
-# 7) Identify the length of the DNA sequence. 
-# 8) Split the DNA sequence into a list using the start codon. 
+# 3) Identify the stop codon, and it's index that is in frame with the first start codon encountered in the DNA sequence.
+# 4) Count the number of G bases. 
+# 5) Identify each index that corresponds to an A base.  
+# 6) Identify the length of the DNA sequence. 
+# 7) Split the DNA sequence into a list using the start codon. 
 # Note: all of the answers to this assignment are directly or indirectly provided in the code above.
 #########################################################################################################################
 startCodon = "ATG"
 stopCodons = ["TAG", "TGA", "TAA"]
 dna = "GGACGTTTAAAAGGGAAAAAATGGAACCACCCGGGATAATGAAATTTTATGGGCCCCACCAGGACTAAGATAGCGTGAATGTAAATAAATAGCCC"
+
+# 1)
+i = 0
+while i < len(dna) - 2:
+	iCodon = dna[i:i+3]
+	# If the current codon is equal to (double == in Python), then tell me so. 
+	##########################################################################
+	if iCodon == startCodon:
+		print("Found start codon", iCodon, "at index", i) 
+	# Increment the index counter (i += 1 is shorthand for saying i = i + 1.
+	########################################################################
+	i += 1
+
+# 2)
+# Using the string method find()...
+###################################
+startCodonIndex = dna.find(startCodon)
+print("The index of the first start codon is:", startCodonIndex)
+
+# 3) 
+minStopCodon, minStopCodonIndex = "", 10000000 # variables for storing the answer
+for stopCodon in stopCodons:
+	i = 0
+	while i < len(dna) - 2:
+		iCodon = dna[i:i+3]
+		# If the current codon is equal to (double == in Python), then tell me so. 
+		##########################################################################
+		if iCodon == stopCodon:
+			stopCodonIndex = i
+			# Uses the modulo operation (%) to identify substring slices exactly divisible by 3.
+			####################################################################################
+			if ((stopCodonIndex + 3) - startCodonIndex) % 3 == 0:
+				# The condition was true, so a stop codon has been found. 
+				# Record the find by resetting minStopCodon and minStopCodonIndex
+				#################################################################
+				minStopCodon = iCodon
+				minStopCodonIndex = stopCodonIndex
+				print("In frame codon is:", iCodon, i)
+				break # Once you find the first instance of each codon type, you can quit the loop
+		# Increment the index counter.
+		##############################
+		i += 1
+print("The first in frame stop codon is:", minStopCodon, "at index", minStopCodonIndex)
+
+# 4) 
+# Using the string method count()...
+####################################
+numberOfGs = dna.count("G")
+print("The numbers of G bases in the DNA sequence is:", numberOfGs)
+
+# 5)
+i = 0 
+aIndices = []
+for base in dna:
+	# If the current base is equal to A...
+	######################################
+	if base == "A":
+		# Save the index in the list aIndices.
+		######################################
+		aIndices.append(i)
+	i += 1
+print("Indices of A bases in the DNA sequence:", aIndices)
+
+#6) 
+# Using the built-in function len()...
+######################################
+dnaLength = len(dna)
+print("The length of the DNA sequence is:", dnaLength)
+
+#7)
+# Using the string method split()...
+#################################### 
+splitDnaOnStartCodons = dna.split(startCodon)
+print("DNA sequence split by start codon:", splitDnaOnStartCodons)
 
 
 

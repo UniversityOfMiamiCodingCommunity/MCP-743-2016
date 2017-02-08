@@ -12,8 +12,8 @@
 ############################################################################################################
 
 #################################################################################
-# Strings
-# If you need help or need to explore something new regarding strings start here:
+# Numbers
+# If you need help or need to explore something new regarding numbers start here:
 # Introduction: https://docs.python.org/3/tutorial/introduction.html#strings
 # String Methods: https://docs.python.org/3/library/stdtypes.html#string-methods
 #################################################################################
@@ -179,6 +179,51 @@ print("The distance between the two atoms is:", distance, "Angstroms")
 startCodon = "ATG"
 stopCodons = ["TAG", "TGA", "TAA"]
 dna = "GGACGTTTAAAAGGGAAAAAATGGAACCACCCGGGATAATGAAATTTTATGGGCCCCACCAGGACTAAGATAGCGTGAATGTAAATAAATAGCCC"
+i=0
+while i<len(dna)-2:
+	icodon=dna[i:i+3]
+	if icodon==startCodon:
+		print("A start codon, "+startCodon+ ", was found at index: "+str(i))
+	i +=1
+############################################################################################
+firststartcodon=dna.find(startCodon)
+print("The index of the first start codon is: "+str(firststartcodon))
+############################################################################################
+stopCodonCount = 0
+for stopCodon in stopCodons:
+	j = 0
+	while j < len(dna) - 2:
+		jcodon = dna[j:j+3]
+		if jcodon == stopCodon:
+			print("A stop codon: "+jcodon+" was found at index:" +str(j)) 
+			stopCodonCount += 1
+		j += 1
+print("The total number of stop codons found in the DNA sequence is:", stopCodonCount)
+###########################################################################################
+for stopCodon in stopCodons:
+	k=firststartcodon
+	while k<len(dna)-2:
+		kcodon=dna[k:k+3]
+		if kcodon==stopCodon:
+			print("A stop codon, "+kcodon+",in frame with the start codon was found at index: "+str(k))
+		k +=3
+###########################################################################################
+Gbase=dna.count("G")
+print("The number of G bases in the DNA sequence provided is: "+str(Gbase))
+#############################################################################################
+l=0
+while l<len(dna):
+	base=dna[l]
+	if base=="A":
+		print("Base 'A' was found at: "+str(l))
+	l +=1
+###########################################################################################
+length=len(dna)
+print("The length of the DNA sequence provided is: "+str(length))
+#############################################################################################
+dnalist=dna.split("ATG")
+print("The DNA sequence was split into a list using the start codon, 'ATG': \n"+str(dnalist))
+#############################################################################################
 
 
 

@@ -19,7 +19,7 @@
 # In this case, the file is in the same directory as our script, so we can just use the file name. 
 # The second argument is the file mode: "r" for read mode, or "w" for write, or "a" for append.
 ##############################################################################################################################################################
-fileInput = open("class3-pdbExcerptShort.pdb", "r") #### (file name, mode)
+fileInput = open("class3-pdbExcerptShort.pdb", "r")
 
 # You can loop over the lines in a file, the same as you would loop over a list.
 ################################################################################
@@ -71,12 +71,10 @@ fileInput.close()
 ############################################################################################################
 from os import sep # you only need to import this once, but I will keep importing it so you don't get confused
 fileInput = open("." + sep + "class3-pdbExcerptLong" + sep + "class3-pdbExcerptLong.pdb", "r")
-atomFileLines = ""
 for line in fileInput:
 
-	if line[0:4] == "ATOM":
+	if "ATOM" in line:
 		print("Found an atom line:", line)
-		atomFileLines += line
 	elif "HEADER" in line:
 		print("Found a header line:", line)
 	elif "TITLE" in line:
@@ -87,14 +85,11 @@ for line in fileInput:
 		print("This is who get's credit", line) # Note: if you want to use an apostrophe in a string, you have to use double quotes on the outside of the string.
 fileInput.close()
 
-# Now write a new file that contains only the file lines corresponding to atoms.
-# To accomplish this, you use the built-in Python write() function. 
-# However, you first need to create a new file using the built-in Python open() function.
-##################################################################################################################
-fileOutput = open("." + sep + "class3-pdbExcerptLong" + sep + "class3-pdbExcerptLong-justAtoms.pdb", "w") # Note: instead of read "r" mode we should use write "w" mode
-for line in atomFileLines:
-	fileOutput.write(line)
-fileOutput.close()
+######################################
+#
+# NOW YOU ARE ALL SERIOUSLY DANGEROUS!
+#
+######################################
 
 
 
