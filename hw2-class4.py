@@ -8,7 +8,7 @@ fileInput = open("dataFiles" + sep + "sequence-p53.fasta", "r")
 dna = ""
 for line in fileInput:
 	dna += line[0:-1]
-#print(dna)
+print(dna)
 #print("\n")
 
 # 2)
@@ -40,16 +40,10 @@ while start_codon_count < len(dna):
 # Find all possible stop codons in parsed DNA sequence.
 stop_codons = ["TAG", "TGA", "TAA"]
 
-stop_codon_count = 0
-for stop_codon in stop_codons:
-	i = 0
-	while i < len(dna) -2:
-		iCodon = dna[i:i+3]
-		if iCodon == stop_codon:
-			#print("Found stop codon", iCodon, "at index", i)
-			stop_codon_count += 1
-		i += 1
-print("The total number of stop codons found in the DNA sequence is:", stop_codon_count)
+for stopCodon in stop_codons:
+	stopCodonCount = dna.count('TAG') + dna.count('TGA') + dna.count('TAA')
+#print("The total number of stop codons in this sequence: " + str(stopCodonCount))
+print("The total number of stop codons found in the DNA sequence is:", str(stopCodonCount))
 print("\n")
 
 stop_codon_count = 0
