@@ -8,110 +8,148 @@
 # Throughout these tutorials, you may have to add your own print statements to see the results of the code.
 ############################################################################################################
 
-# Dictionary
-# If you need help or need to explore something new regarding dictionary start here:
-# Dictionary Methods: https://docs.python.org/3/library/stdtypes.html#mapping-types-dict
-########################################################################################
+#########################################################
+# My equation for the Ideal Gas Law from classes 1 and 2.
+#########################################################
 
-# An example dictionary.
-########################
-exampleDict = {}
-exampleDict[1] = 1
-exampleDict["1"] = 2
-print("Dict #1", exampleDict)
+# Variable for pressure in units of Pascal (1 atm = 101325.0 Pascal).
+#####################################################################
+pressure = 101325.0 
 
-# Example of accidental overwrite: the most common accidental error.
-####################################################################
-exampleDict[1.0] = 3
-print("Dict #2", exampleDict)
+# Variable for number of moles of gas molecules.
+################################################
+moles = 1.0
 
-# A list can't be a key.
-########################
-# exampleDict = {}
-# exampleDict[1] = 1
-# exampleDict["1"] = 2
-# exampleDict[[1, 2, 3, 4]] = 3
-# print("Dict #3", exampleDict)
+# Ideal gas constant in units J/(K mol).
+########################################
+gasConstant = 8.314
 
-# A tuple can be a key.
-########################
-exampleDict[(1, 2, 3, 4)] = 4
-print("Dict #4", exampleDict)
+# Variable for temperature in units of Kelvin.
+##############################################
+temperature = 298.0
 
-# If you want to use a list as a dictionary key, convert it to a tuple you the built-in Python function tuple().
-################################################################################################################
-exampleList = [1, 2, 3, 4]
-exampleTuple = tuple(exampleList)
-exampleDict[exampleTuple] = 4
-print("Dict #5", exampleDict)
+# Solve for volume.
+###################
+v = (moles*gasConstant*temperature)/pressure
 
-# A dictionary can be a key. 
-############################
-# tryDictAsKey = {1:1, 2:2, 3:3, 4:4}
-# exampleDict[tryDictAsKey] = 4
-# print("Dict #6", exampleDict)
+# Print the results to the screen.
+##################################
+print("Volume:", v, "liters") 
 
-# The dictionary method keys() is arguable the most useful of dictionary methods. 
-# It returns a list, in random order, of the dictionaries keys.  
-#################################################################################
-exampleDictKeys = exampleDict.keys()
-print("Dict keys:", exampleDictKeys)
+#########################################################
+# Convert the equation to a Python function.
+#########################################################
 
-# The dictionary method values() is also very useful. 
-# It returns a list, in random order, of the dictionaries values. 
-#################################################################################
-exampleDictValues = exampleDict.values()
-print("Dict values:", exampleDictValues)
+def idealGasLaw(p, n, R, T): # define function
 
-# The dictionary method update() also allows an alternative way to add keys and values to a dictionary.
-#######################################################################################################
-exampleDict.update({"MCP-743": 5})
-exampleDictKeys = exampleDict.keys() # Reset the list of keys to reflect the addition of a new key, value pair.
+	# Solve for volume.
+	###################
+	v = (n*R*T)/p # do something
+	print("Volume result from function:", v, "liters") 
+	return v # return the result of the function
 
-# You access the values within a dictionary using its keys.
-# Here is an example of the most common usage. 
-###########################################################
-for exampleDictKey in exampleDictKeys:
-	print ("Dict value for key", exampleDictKey, "is", exampleDict[exampleDictKey])
+#########################################################
+# Use the function one time.
+#########################################################
+v = idealGasLaw(pressure, moles, gasConstant, temperature)
 
-# My example was a bit contrived because key values are usually the same type and/or form.
-# Here is an example using are PDB file excerpt. 
-# We will create a unique key for each atom in the PDB file, and then use this key to save each file line in a dictionary. 
-##########################################################################################################################
-fileInput = open("class3-pdbExcerptShort.pdb", "r")
-atomDictionary = {}
-for line in fileInput:
+#########################################################
+# Use the function mutliple times in a loop.
+#########################################################
 
-	# Make sure the file line corresponds to an atom.
-	#################################################
-	if line[0:4] == "ATOM":
+# Functions enable compact, portable, and reusable code.
+########################################################
+moles = range(1,11) # create a list of integers from 1 to 10
+vList = []
+for mole in moles:
+	v = idealGasLaw(pressure, mole, gasConstant, temperature) # Function usage within loop.
+	vList.append(v)
+i = 0
+while i < len(vList):
+	print("Moles: ", moles[i], " Liters: ", vList[i])
+	i += 1
 
-		lineAsList = line.split() # Split the line, which is a string, by spaces using the string split() method with no arguments.
-
-		# Using the file line in list format, populate select attributes of the atom.
-		#############################################################################
-		atomNumber = int(lineAsList[1])
-		atomName = lineAsList[2]
-		atomResidueName = lineAsList[3]
-		atomChain = lineAsList[4]
-		atomResidueNumber = int(lineAsList[5])
-
-	# Make a unique key to store the atom file line in a dictionary.
-	################################################################
-	uniqueKey = (atomNumber, atomName, atomResidueName, atomChain, atomResidueNumber)
-	atomDictionary[uniqueKey] = line
-
-# Use the dictionary keys() method to get the keys of the dictionary as a list.
-###############################################################################
-dictKeys = atomDictionary.keys()
-dictKeys.sort() # Sort the list of keys alpha-numerically using the keys sort() method.
-for dictKey in dictKeys:
-	print(dictKey)
-
-# Use the sorted keys of the dictionary, print the file lines.
 ##############################################################
-for dictKey in dictKeys:
-	print("key: ", dictKey, "value: ", atomDictionary[dictKey])
+# The next two points are critical to understanding functions. 
+##############################################################
+
+# Point 1) 
+# Number objects are passed "by value", i.e. "a new local copy of the object is created in the function".
+#########################################################################################################
+def byValue(intArg):
+	intArg += 1
+	return intArg
+
+a = 1
+print("Initial value of variable 'a':", a)
+print("Return value of byValue function:", byValue(a)) 
+print("Did variable 'a' change?", a) # No, because only the new copy of "a" in the function was altered.
+a = byValue(a)
+print("Did variable 'a' change now?", a) # Yes, because "a" has been reassigned the return value of the function byValue.
+
+# Point 2) 
+# List and dictionary objects are passes "by reference", i.e. "the actual object (it's address in memory) is passed".
+#####################################################################################################################
+def listByReference(listArg):
+	listArg.append(100)
+	return listArg
+
+aList = [1, 2, 3, 4]
+print("Initial value of the list:", aList)
+print("Return value of listByReference function:", listByReference(aList)) 
+print("Did the list change?", aList) # Yes, because the memory address for the actual list is what was passed to the function.
+
+# Dictonaries are also passed "by reference".
+#############################################
+def dictByReference(dictArg):
+	dictArg[1] = "NO!"
+	return dictArg
+
+aDict = {0: "YES", 2: "WE", 3: "CAN"}
+print("Initial value of the list:", aDict)
+print("Return value of dictByReference function:", dictByReference(aDict)) 
+print("Did the dictionary change?", aDict) # Yes, because the memory address for the actual dictionary is what was passed to the function.
+
+# Writing functions with optional arguments or functions that have arguments with default values. 
+#################################################################################################
+def functionWithOneOptionalArgument(arg, optionalArg=0):
+	if optionalArg:
+		answer = arg + optionalArg
+	else:
+		answer = arg
+	return answer
+
+a = 1
+value = functionWithOneOptionalArgument(a)
+print("Without an optional argument, the answer is:", value)
+a = 1
+b = 1
+value = functionWithOneOptionalArgument(a, optionalArg=b)
+print("With an optional argument, the answer is:", value)
+
+# A function that does not have a return statement, automatically returns the "None" object.
+############################################################################################
+def functionThatWithNoReturnValue(a, b):
+	answer = a + b
+
+a = 1
+b = 1
+print("Why I am I not getting the answer to a + b?", functionThatWithNoReturnValue(a, b))
+
+# To fix the above function, you need to add a return statement.
+################################################################
+def functionThatWithNoReturnValue(a, b):
+	answer = a + b
+	return answer
+
+a = 1
+b = 1
+print("Now I am getting the answer to a + b!", functionThatWithNoReturnValue(a, b))
+
+
+
+
+
 
 
 
