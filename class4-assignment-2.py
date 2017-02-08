@@ -51,13 +51,10 @@ fileOutput_1.close()
 #######################
 stopCodons = ["TAG", "TGA", "TAA"]
 fileOutput_2 = open("/Users/Chris/Documents/Chris/python/MCP-743/dataFiles/stopCodonIndices.txt", "w")
-for stopCodon in stopCodons:
-    stopCodonCount_1 = dna.count(stopCodon)
-    print(stopCodonCount_1)
     stopCodonCount = dna.count('TAG') + dna.count('TGA') + dna.count('TAA')
     fileOutput_2.write('The total number of stop codons is ' + str(stopCodonCount) + '\n')
    
-#Finds Stop Codon TAG
+#Finds Stop Codon TAG 
 index = 0
 while index < len(dna):
     index = dna.find('TAG', index)
