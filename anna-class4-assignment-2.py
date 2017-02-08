@@ -4,17 +4,16 @@
 #####################################################################################################################
 fasta = open('dataFiles/sequence-p53.fasta')
 
-list_of_lines = []
+list_of_lines = [] # define an empty list that I can append lines to
 
 for line in fasta:
-	list_of_lines.append(line.rstrip('\n'))
+	list_of_lines.append(line.rstrip('\n')) # remove hidden new line code from each line
+list_of_lines = list_of_lines[1:-1] # remove first item (header line) and last item (empty) in list
 
-list_of_lines = list_of_lines[1:-1]
-
-sequence = ''
+sequence = '' # define empty string to concatenate items from list_of_lines 
 
 for line in list_of_lines:
-	sequence += line
+	sequence += line # add each line to the sequence string
 
 print(sequence)
 
@@ -28,15 +27,15 @@ print(sequence)
 
 startCodon = 'ATG'
 
-file = open("startCodonIndices.txt", 'w')
+file = open("startCodonIndices.txt", 'w') # this creates a new file in write mode and opens it as 'file'
 
 index = 0
 count = 0
 while index < len(sequence):
-	index = sequence.find(startCodon, index)
+	index = sequence.find(startCodon, index) # find the start codons
 	if index == -1:
 		break
-	count += 1
+	count += 1 # increment the count by one
 	index += 1
 file.write('The total number of start codons is ')
 file.write(str(count))
@@ -47,7 +46,7 @@ while index < len(sequence):
 	index = sequence.find(startCodon, index)
 	if index == -1:
 		break
-	file.write('There was a start codon found at position ')
+	file.write('There was a start codon found at position ') # print info for each start codon found
 	file.write(str(index))
 	file.write('.\n')
 	index += 1
