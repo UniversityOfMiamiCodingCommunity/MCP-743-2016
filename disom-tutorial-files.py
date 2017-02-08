@@ -19,7 +19,11 @@
 # In this case, the file is in the same directory as our script, so we can just use the file name. 
 # The second argument is the file mode: "r" for read mode, or "w" for write, or "a" for append.
 ##############################################################################################################################################################
+<<<<<<< HEAD
 # fileInput = open("class3-pdbExcerptShort.pdb", "r")
+=======
+fileInput = open("class3-pdbExcerptShort.pdb", "r") #### (file name, mode)
+>>>>>>> master
 
 # # You can loop over the lines in a file, the same as you would loop over a list.
 # ################################################################################
