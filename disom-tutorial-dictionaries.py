@@ -78,3 +78,41 @@ for exampleDictKey in exampleDictKeys:
 # Here is an example using are PDB file excerpt. 
 # We will create a unique key for each atom in the PDB file, and then use this key to save each file line in a dictionary. 
 ##########################################################################################################################
+fileInput = open("class3-pdbExcerptShort.pdb", "r")
+atomDictionary = {}
+for line in fileInput:
+
+	# Make sure the file line corresponds to an atom.
+	#################################################
+	if line[0:4] == "ATOM":
+
+		lineAsList = line.split() # Split the line, which is a string, by spaces using the string split() method with no arguments.
+
+		# Using the file line in list format, populate select attributes of the atom.
+		#############################################################################
+		atomNumber = int(lineAsList[1])
+		atomName = lineAsList[2]
+		atomResidueName = lineAsList[3]
+		atomChain = lineAsList[4]
+		atomResidueNumber = int(lineAsList[5])
+
+	# Make a unique key to store the atom file line in a dictionary.
+	################################################################
+	uniqueKey = (atomNumber, atomName, atomResidueName, atomChain, atomResidueNumber)
+	atomDictionary[uniqueKey] = line
+
+# Use the dictionary keys() method to get the keys of the dictionary as a list.
+###############################################################################
+dictKeys = atomDictionary.keys()
+dictKeys.sort() # Sort the list of keys alpha-numerically using the keys sort() method.
+for dictKey in dictKeys:
+	print(dictKey)
+
+# Use the sorted keys of the dictionary, print the file lines.
+##############################################################
+for dictKey in dictKeys:
+	print("key: ", dictKey, "value: ", atomDictionary[dictKey])
+
+
+
+
