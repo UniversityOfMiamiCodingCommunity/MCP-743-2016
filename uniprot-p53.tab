@@ -1,0 +1,26 @@
+Entry	Entry name	Status	Protein names	Gene names	Organism	Length
+P04637	P53_HUMAN	reviewed	Cellular tumor antigen p53 (Antigen NY-CO-13) (Phosphoprotein p53) (Tumor suppressor p53)	TP53 P53	Homo sapiens (Human)	393
+P02340	P53_MOUSE	reviewed	Cellular tumor antigen p53 (Tumor suppressor p53)	Tp53 P53 Trp53	Mus musculus (Mouse)	387
+Q00987	MDM2_HUMAN	reviewed	E3 ubiquitin-protein ligase Mdm2 (EC 2.3.2.27) (Double minute 2 protein) (Hdm2) (Oncoprotein Mdm2) (RING-type E3 ubiquitin transferase Mdm2) (p53-binding protein Mdm2)	MDM2	Homo sapiens (Human)	491
+Q15648	MED1_HUMAN	reviewed	Mediator of RNA polymerase II transcription subunit 1 (Activator-recruited cofactor 205 kDa component) (ARC205) (Mediator complex subunit 1) (Peroxisome proliferator-activated receptor-binding protein) (PBP) (PPAR-binding protein) (Thyroid hormone receptor-associated protein complex 220 kDa component) (Trap220) (Thyroid receptor-interacting protein 2) (TR-interacting protein 2) (TRIP-2) (Vitamin D receptor-interacting protein complex component DRIP205) (p53 regulatory protein RB18A)	MED1 ARC205 CRSP1 CRSP200 DRIP205 DRIP230 PBP PPARBP PPARGBP RB18A TRAP220 TRIP2	Homo sapiens (Human)	1581
+O15350	P73_HUMAN	reviewed	Tumor protein p73 (p53-like transcription factor) (p53-related protein)	TP73 P73	Homo sapiens (Human)	636
+P23804	MDM2_MOUSE	reviewed	E3 ubiquitin-protein ligase Mdm2 (EC 2.3.2.27) (Double minute 2 protein) (Oncoprotein Mdm2) (RING-type E3 ubiquitin transferase Mdm2) (p53-binding protein Mdm2)	Mdm2	Mus musculus (Mouse)	489
+Q9NS56	TOPRS_HUMAN	reviewed	E3 ubiquitin-protein ligase Topors (EC 6.3.2.-) (SUMO1-protein E3 ligase Topors) (Topoisomerase I-binding RING finger protein) (Topoisomerase I-binding arginine/serine-rich protein) (Tumor suppressor p53-binding protein 3) (p53-binding protein 3) (p53BP3)	TOPORS LUN TP53BPL	Homo sapiens (Human)	1045
+Q13625	ASPP2_HUMAN	reviewed	Apoptosis-stimulating of p53 protein 2 (Bcl2-binding protein) (Bbp) (Renal carcinoma antigen NY-REN-51) (Tumor suppressor p53-binding protein 2) (53BP2) (p53-binding protein 2) (p53BP2)	TP53BP2 ASPP2 BBP	Homo sapiens (Human)	1128
+P10361	P53_RAT	reviewed	Cellular tumor antigen p53 (Tumor suppressor p53)	Tp53 P53	Rattus norvegicus (Rat)	391
+P79734	P53_DANRE	reviewed	Cellular tumor antigen p53 (Tumor suppressor p53)	tp53 drp53	Danio rerio (Zebrafish) (Brachydanio rerio)	373
+Q9TUB2	P53_PIG	reviewed	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53 P53	Sus scrofa (Pig)	386
+Q8IMZ4	Q8IMZ4_DROME	unreviewed	p53 protein long form variant 1 (p53, isoform B)	p53 CG33336 Dmel_CG33336	Drosophila melanogaster (Fruit fly)	495
+Q9N6D8	Q9N6D8_DROME	unreviewed	GH11591p (Transcription factor) (Transcription factor p53) (p53 tumor suppressor-like protein) (p53, isoform A) (p53, isoform C) (p53-like regulator of apoptosis and cell cycle)	p53 prac CG33336 Dmel_CG33336	Drosophila melanogaster (Fruit fly)	385
+P56424	P53_MACMU	reviewed	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53 P53	Macaca mulatta (Rhesus macaque)	393
+A0A0B4K7P1	A0A0B4K7P1_DROME	unreviewed	p53, isoform E	p53 CG33336 Dmel_CG33336	Drosophila melanogaster (Fruit fly)	334
+Q2XVY7	Q2XVY7_DROME	unreviewed	p53 protein long form variant 2	p53 CG33336	Drosophila melanogaster (Fruit fly)	495
+Q2XVY6	Q2XVY6_DROME	unreviewed	Truncated p53 splice variant isoform	p53 p53s CG33336	Drosophila melanogaster (Fruit fly)	123
+Q29537	P53_CANLF	reviewed	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53 P53	Canis lupus familiaris (Dog) (Canis familiaris)	381
+Q549C9	Q549C9_MOUSE	unreviewed	Cellular tumor antigen p53	Trp53 p53 mCG_20908	Mus musculus (Mouse)	390
+P79892	P53_HORSE	reviewed	Cellular tumor antigen p53 (Tumor suppressor p53) (Fragment)	TP53 P53	Equus caballus (Horse)	280
+O09185	P53_CRIGR	reviewed	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53 P53	Cricetulus griseus (Chinese hamster) (Cricetulus barabensis griseus)	393
+P61260	P53_MACFU	reviewed	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53 P53	Macaca fuscata fuscata (Japanese macaque)	393
+Q9TTA1	P53_TUPBE	reviewed	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53 P53	Tupaia belangeri (Common tree shrew) (Tupaia glis belangeri)	393
+P56423	P53_MACFA	reviewed	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53 P53	Macaca fascicularis (Crab-eating macaque) (Cynomolgus monkey)	393
+Q8SPZ3	P53_DELLE	reviewed	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53 P53	Delphinapterus leucas (Beluga whale)	387
