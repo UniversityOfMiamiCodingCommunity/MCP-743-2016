@@ -1,0 +1,7 @@
+file = open('dataFiles/sequence-p53.fasta', 'r')
+DNA = []
+for line in file:
+DNA.append(line.strip('\n'))
+DNA.pop(0)
+DNASequence = "".join(DNA)
+print(DNASequence)

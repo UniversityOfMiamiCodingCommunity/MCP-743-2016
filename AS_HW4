@@ -1,0 +1,5 @@
+start_codon = "AYGOGO"
+stop_codons = ['STOPME', 'STOPIT', 'STOPGO']s
+ # #1
+ res1 = weirdAssDna.find(start_codon)
+ print(res1)
