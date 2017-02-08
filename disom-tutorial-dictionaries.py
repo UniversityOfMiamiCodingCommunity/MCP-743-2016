@@ -16,8 +16,8 @@
 # An example dictionary.
 ########################
 exampleDict = {}
-exampleDict[1] = 1
-exampleDict["1"] = 2
+exampleDict[1] = 1 #key
+exampleDict["1"] = 2 #string
 print("Dict #1", exampleDict)
 
 # Example of accidental overwrite: the most common accidental error.
@@ -35,14 +35,14 @@ print("Dict #2", exampleDict)
 
 # A tuple can be a key.
 ########################
-exampleDict[(1, 2, 3, 4)] = 4
+exampleDict[(1, 2, 3, 4)] = 4 #key and value##
 print("Dict #4", exampleDict)
 
 # If you want to use a list as a dictionary key, convert it to a tuple you the built-in Python function tuple().
 ################################################################################################################
 exampleList = [1, 2, 3, 4]
-exampleTuple = tuple(exampleList)
-exampleDict[exampleTuple] = 4
+exampleTuple = tuple(exampleList) #convert list to tuple which can a key
+exampleDict[exampleTuple] = 4 
 print("Dict #5", exampleDict)
 
 # A dictionary can be a key. 
@@ -72,13 +72,13 @@ exampleDictKeys = exampleDict.keys() # Reset the list of keys to reflect the add
 # Here is an example of the most common usage. 
 ###########################################################
 for exampleDictKey in exampleDictKeys:
-	print ("Dict value for key", exampleDictKey, "is", exampleDict[exampleDictKey])
+	print ("Dict value for key", exampleDictKey, "is", exampleDict[exampleDictKey]) #name of dictionary[key]
 
 # My example was a bit contrived because key values are usually the same type and/or form.
 # Here is an example using are PDB file excerpt. 
 # We will create a unique key for each atom in the PDB file, and then use this key to save each file line in a dictionary. 
 ##########################################################################################################################
-fileInput = open("class3-pdbExcerptShort.pdb", "r")
+fileInput = open("class3-pdbExcerptShort.pdb", "r") ##r read mode
 atomDictionary = {}
 for line in fileInput:
 
@@ -98,13 +98,13 @@ for line in fileInput:
 
 	# Make a unique key to store the atom file line in a dictionary.
 	################################################################
-	uniqueKey = (atomNumber, atomName, atomResidueName, atomChain, atomResidueNumber)
+	uniqueKey = (atomNumber, atomName, atomResidueName, atomChain, atomResidueNumber) #unique
 	atomDictionary[uniqueKey] = line
 
 # Use the dictionary keys() method to get the keys of the dictionary as a list.
 ###############################################################################
 dictKeys = atomDictionary.keys()
-dictKeys.sort() # Sort the list of keys alpha-numerically using the keys sort() method.
+#dictKeys.sort() # Sort the list of keys alpha-numerically using the keys sort() method. #comment this line
 for dictKey in dictKeys:
 	print(dictKey)
 
