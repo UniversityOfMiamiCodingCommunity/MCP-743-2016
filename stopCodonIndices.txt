@@ -1,4 +1,4 @@
-The total number of stop codons is 231.
+The total number of stop codons is 797.
 There was a TAG stop codon found at position 70.
 There was a TAG stop codon found at position 94.
 There was a TAG stop codon found at position 283.

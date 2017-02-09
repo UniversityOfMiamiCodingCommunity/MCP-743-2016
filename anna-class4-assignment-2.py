@@ -62,9 +62,9 @@ stopCodons = ["TAG", "TGA", "TAA"]
 
 file2 = open("stopCodonIndices.txt", 'w')
 
+count = 0
 for stopCodon in stopCodons:
 	index = 0
-	count = 0
 	while index < len(sequence):
 		index = sequence.find(stopCodon, index)
 		if index == -1:
