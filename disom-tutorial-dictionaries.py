@@ -78,7 +78,7 @@ for exampleDictKey in exampleDictKeys:
 # Here is an example using are PDB file excerpt. 
 # We will create a unique key for each atom in the PDB file, and then use this key to save each file line in a dictionary. 
 ##########################################################################################################################
-fileInput = open("class3-pdbExcerptShort.pdb", "r")
+fileInput = open('class3-pdbExcerptShort.pdb', "r")
 atomDictionary = {}
 for line in fileInput:
 
@@ -103,7 +103,7 @@ for line in fileInput:
 
 # Use the dictionary keys() method to get the keys of the dictionary as a list.
 ###############################################################################
-dictKeys = atomDictionary.keys()
+dictKeys = list(atomDictionary.keys()) # in python3 the .keys() function returns an object, not a list
 dictKeys.sort() # Sort the list of keys alpha-numerically using the keys sort() method.
 for dictKey in dictKeys:
 	print(dictKey)
