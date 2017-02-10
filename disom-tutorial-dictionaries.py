@@ -22,7 +22,7 @@ print("Dict #1", exampleDict)
 
 # Example of accidental overwrite: the most common accidental error.
 ####################################################################
-exampleDict[1.0] = 3
+exampleDict[1] = 3
 print("Dict #2", exampleDict)
 
 # A list can't be a key.
@@ -105,8 +105,8 @@ for line in fileInput:
 ###############################################################################
 dictKeys = atomDictionary.keys()
 dictKeys.sort() # Sort the list of keys alpha-numerically using the keys sort() method.
-for dictKey in dictKeys:
-	print(dictKey)
+# for dictKey in dictKeys:
+# 	print(dictKey)
 
 # Use the sorted keys of the dictionary, print the file lines.
 ##############################################################
