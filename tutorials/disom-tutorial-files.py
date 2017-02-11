@@ -19,11 +19,15 @@
 # In this case, the file is in the same directory as our script, so we can just use the file name. 
 # The second argument is the file mode: "r" for read mode, or "w" for write, or "a" for append.
 ##############################################################################################################################################################
+<<<<<<< HEAD:disom-tutorial-files.py
 <<<<<<< HEAD
 # fileInput = open("class3-pdbExcerptShort.pdb", "r")
 =======
 fileInput = open("class3-pdbExcerptShort.pdb", "r") #### (file name, mode)
 >>>>>>> master
+=======
+fileInput = open("class3-pdbExcerpts/class3-pdbExcerptShort.pdb", "r") #### (file name, mode)
+>>>>>>> master:tutorials/disom-tutorial-files.py
 
 # # You can loop over the lines in a file, the same as you would loop over a list.
 # ################################################################################
@@ -37,6 +41,7 @@ fileInput = open("class3-pdbExcerptShort.pdb", "r") #### (file name, mode)
 # If a file is in a directory different from that of your Python script (i.e. this script), you have to include the relative path to the file in open()
 # For example, the class3-pdbExcerptLong.pdb file is in the sub-directory class3-pdbExcerptLong...
 #######################################################################################################################################################
+<<<<<<< HEAD:disom-tutorial-files.py
 # fileInput = open("class3-pdbExcerptLong/class3-pdbExcerptLong.pdb", "r")
 # for line in fileInput:
 # 	print(line)
@@ -48,6 +53,19 @@ fileInput = open("class3-pdbExcerptShort.pdb", "r") #### (file name, mode)
 # for line in fileInput:
 # 	print(line)
 # fileInput.close()
+=======
+fileInput = open("class3-pdbExcerpts/class3-pdbExcerptLong.pdb", "r")
+for line in fileInput:
+	print(line)
+fileInput.close()
+
+# This file path would work too.
+################################
+fileInput = open("./class3-pdbExcerpts/class3-pdbExcerptLong.pdb", "r") # "./" means "this directory", and "../" means "up one directory"
+for line in fileInput:
+	print(line)
+fileInput.close()
+>>>>>>> master:tutorials/disom-tutorial-files.py
 
 # # File path separators are different on Macs and PCs. 
 # # One was to deal with this is to import the Python variable sep, that corresponds to the proper file path separator on the current OS being used. 
@@ -56,11 +74,12 @@ fileInput = open("class3-pdbExcerptShort.pdb", "r") #### (file name, mode)
 # # This is how it is done, reworking the sample code above:
 # ##################################################################################################################################################
 from os import sep # we have imported sep and can now use it as a key word
-fileInput = open("." + sep + "class3-pdbExcerptLong" + sep + "class3-pdbExcerptLong.pdb", "r") # Note: the backslashes have been replaced by sep in a concatenated string. 
+fileInput = open("." + sep + "class3-pdbExcerpts" + sep + "class3-pdbExcerptLong.pdb", "r") # Note: the backslashes have been replaced by sep in a concatenated string. 
 for line in fileInput:
 	print("using sep", line)
 fileInput.close()
 
+<<<<<<< HEAD:disom-tutorial-files.py
 # # Now that we know how to get access to file contents, let me show you how you get the informatoin you want.
 # # Say I only wanted the file lines that corresponded to atoms. 
 # ############################################################################################################
@@ -89,6 +108,17 @@ fileInput.close()
 # 	elif "AUTHOR" in line:
 # 		print("This is who get's credit", line) # Note: if you want to use an apostrophe in a string, you have to use double quotes on the outside of the string.
 # fileInput.close()
+=======
+# Now that we know how to get access to file contents, let me show you how you get the informatoin you want.
+# Say I only wanted the file lines that corresponded to atoms. 
+############################################################################################################
+from os import sep # you only need to import this once, but I will keep importing it so you don't get confused
+fileInput = open("." + sep + "class3-pdbExcerpts" + sep + "class3-pdbExcerptLong.pdb", "r")
+for line in fileInput:
+	if line[0:4] == "ATOM":
+		print("Atom line:", line)
+fileInput.close()
+>>>>>>> master:tutorials/disom-tutorial-files.py
 
 # ######################################
 # #
@@ -99,7 +129,7 @@ fileInput.close()
 # Now let's do the same thing with if/else control flow statements
 ############################################################################################################
 from os import sep # you only need to import this once, but I will keep importing it so you don't get confused
-fileInput = open("." + sep + "class3-pdbExcerptLong" + sep + "class3-pdbExcerptLong.pdb", "r")
+fileInput = open("." + sep + "class3-pdbExcerpts" + sep + "class3-pdbExcerptLong.pdb", "r")
 atomFileLines = ""
 for line in fileInput:
 
@@ -120,7 +150,7 @@ fileInput.close()
 # To accomplish this, you use the built-in Python write() function. 
 # However, you first need to create a new file using the built-in Python open() function.
 ##################################################################################################################
-fileOutput = open("." + sep + "class3-pdbExcerptLong" + sep + "class3-pdbExcerptLong-justAtoms.pdb", "w") # Note: instead of read "r" mode we should use write "w" mode
+fileOutput = open("." + sep + "class3-pdbExcerpts" + sep + "class3-pdbExcerptLong-justAtoms.pdb", "w") # Note: instead of read "r" mode we should use write "w" mode
 for line in atomFileLines:
 	fileOutput.write(line)
 fileOutput.close()
