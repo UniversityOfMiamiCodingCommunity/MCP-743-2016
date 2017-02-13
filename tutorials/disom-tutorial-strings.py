@@ -162,6 +162,7 @@ z2 = float(zCoordinateAsString2)
 #######################################################################################################################
 from math import sqrt # This is how you import the sqrt function from the Python math library.
 distance = sqrt((x2-x1)**2 + (y2-y1)**2 + (z2-z1)**2) # This is the equation for the distance between two 3D-points.
+<<<<<<< HEAD:disom-tutorial-strings.py
 print("The distance between the two atoms is:", distance, "Angstroms")
 
 ########################################################################################################################
@@ -183,3 +184,6 @@ dna = "GGACGTTTAAAAGGGAAAAAATGGAACCACCCGGGATAATGAAATTTTATGGGCCCCACCAGGACTAAGATAG
 
 
 
+=======
+print("The distance between the two atoms is:", distance, "Angstroms")
+>>>>>>> master:tutorials/disom-tutorial-strings.py

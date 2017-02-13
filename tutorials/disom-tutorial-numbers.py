@@ -63,6 +63,7 @@ answer6 = a % b # now that we reassigned the variable b, the remainder is 0
 #############################################################
 # There are other, infrequently used operators for floats.
 # For a full list explore the links at the top of this page. 
+<<<<<<< HEAD:disom-tutorial-numbers.py
 #############################################################
 
 ####################################################################
@@ -136,3 +137,6 @@ m = (y2 - y1) / (w2 - w1)
 
 print(m)
 >>>>>>> origin/master
+=======
+#############################################################
+>>>>>>> master:tutorials/disom-tutorial-numbers.py
