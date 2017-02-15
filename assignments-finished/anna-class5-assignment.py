@@ -15,31 +15,31 @@ annaAnswerDict = {
 					7:"Who controls the present, controls the past.\nWho controls the present, controls the past.\n",
 					8:"Who controls the present, controls the past.\nWho controls the past, controls the future.\n",
 					9:"Who controls the present, controls the past.\nWho controls the past, controls the future.\n",
-					10:"i = 1",
-					11:"i = 1",
-					12:"i = -1",
-					13:"i = 9",
+					10:1,
+					11:1,
+					12:-1,
+					13:9,
 					14:"i += 1",
 					15:"i=0",
 					16:"while loop",
-					17:"earth = 9",
-					18:"i = 9",
-					19:"i = 18",
-					20:"i = 0",
-					21:"i = 4",
-					22:"i = 3",
-					23:"i = 3",
-					24:"i = 6",
-					25:"i = 6",
-					26:"i = 3",
-					27:"i = 9, j = 3",
-					28:"i = 9, j = 0",
-					29:"i = 18, j = 0",
-					30:"i = 9, j = 0",
-					31:"i = 9, j = 0",
-					32:"i = 8, j = 0",
-					33:"i = 9, j = 9, k = 81",
-					34:"i = 9, j = 9, k = 81, a = 27"
+					17:9,
+					18:9,
+					19:18,
+					20:0,
+					21:4,
+					22:3,
+					23:3,
+					24:6,
+					25:6,
+					26:3,
+					27:(9,3),
+					28:(9,0),
+					29:(18,0),
+					30:(9,0),
+					31:(9,0),
+					32:(8,0),
+					33:(9,9,81),
+					34:(9,9,81,27)
 					}
 annaAnswerDict2 = {}
 
@@ -364,7 +364,7 @@ for x in city:
 		j += 1
 	i += 1
 
-answer = 3,9
+answer = 9,3
 
 annaAnswerDict2[question] = answer
 question += 1
