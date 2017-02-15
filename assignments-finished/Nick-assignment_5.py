@@ -118,7 +118,7 @@ while i < len(city):
 answerDict['13'] = '8'
 answerDict['14'] = 'i += 1'
 answerDict['15'] = 'i = 0'
-answerDict['16'] = 'Boolean expression'
+answerDict['16'] = 'Condition'
 
 # 17) What is the value of earth after the while loop runs to completion?
 earth = 0
