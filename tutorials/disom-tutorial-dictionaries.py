@@ -96,10 +96,12 @@ for line in fileInput:
 		atomChain = lineAsList[4]
 		atomResidueNumber = int(lineAsList[5])
 
-	# Make a unique key to store the atom file line in a dictionary.
-	################################################################
-	uniqueKey = (atomNumber, atomName, atomResidueName, atomChain, atomResidueNumber)
-	atomDictionary[uniqueKey] = line
+		# Make a unique key to store the atom file line in a dictionary.
+		################################################################
+		uniqueKey = (atomNumber, atomName, atomResidueName, atomChain, atomResidueNumber)
+		atomDictionary[uniqueKey] = line
+
+# the command 'raise SystemExit' will stop the program right away	
 
 # Use the dictionary keys() method to get the keys of the dictionary as a list.
 ###############################################################################
