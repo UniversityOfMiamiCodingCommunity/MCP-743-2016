@@ -37,5 +37,5 @@ answerDict[32] = "j = 0, i = 9"
 answerDict[33] = "j = 10, i = 10, k = 100"
 answerDict[34] = "j = 10, i = 10, k = 100, a = 50"
 
-answerKeys = answerDict.keys()
-print(answerKeys)
+for key, value in sorted(answerDict.items()):
+    print(key, value)
