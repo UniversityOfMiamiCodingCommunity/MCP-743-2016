@@ -6,13 +6,13 @@
 # Dictionary of answers
 #################################################################################
 annaAnswerDict = {
-					1:"charlotte", 
+					1:"charlotte",
 					2:"char",
 					3:"charl",
 					4:"r",
 					5:"char",
 					6:"Who controls the past, controls the future.\nWho controls the present, controls the past.\n",
-					7:"Who controls the present, controls the past.\nWho controls the present, controls the past.\n", 
+					7:"Who controls the present, controls the past.\nWho controls the present, controls the past.\n",
 					8:"Who controls the present, controls the past.\nWho controls the past, controls the future.\n",
 					9:"Who controls the present, controls the past.\nWho controls the past, controls the future.\n",
 					10:"i = 1",
@@ -31,7 +31,7 @@ annaAnswerDict = {
 					23:"i = 3",
 					24:"i = 6",
 					25:"i = 6",
-					26:"i = 3", 
+					26:"i = 3",
 					27:"i = 9, j = 3",
 					28:"i = 9, j = 0",
 					29:"i = 18, j = 0",
@@ -42,7 +42,7 @@ annaAnswerDict = {
 					34:"i = 9, j = 9, k = 81, a = 27"
 					}
 
-####################################################################################################
+#################################################################################
 # These four variables are defined here, and are used throughout the assignment.
 #################################################################################
 city = "charlotte"
