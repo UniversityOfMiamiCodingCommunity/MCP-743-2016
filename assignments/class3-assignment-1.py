@@ -32,3 +32,49 @@ v = (n*R*T)/p
 # Print the results to the screen.
 ##################################
 print("Volume:", v, "liters") 
+
+##################################
+
+#Test Equation.
+###############
+n = 1
+m = 2
+p = 10
+x = p/(m*n)
+print(x)
+
+# Equation 1 - Circumfrence of a Sphere
+
+#Radius of the Circle (inches)
+r = 12
+
+#Pi
+pi = 3.14
+
+#Solve for Circumfrence C (inches)
+C = 2*(pi)*r
+
+#Print Results
+print("Circumfrence:", C, "inches")
+
+
+#Equation 2 - Quadratic Equation
+
+
+#
+a = 2
+
+#
+b = 2
+
+#
+c = 2
+
+#Solve for x (+)
+x = (-b + (b**2-4*a*c)**0.5)/2*a
+print(x)
+
+
+#Solve for x (-)
+x = (-b - (b**2-4*a*c)**0.5)/2*a
+print(x)
