@@ -18,3 +18,36 @@ weirdAssDna = " XUIOPDEHSUJQPQHDUMIEYDHNAPQLKGAYGOGODKSIGJIEHYSNOEKUJNPOQGTSFKSO
 # Note: you must use at least one "for" and "while" loop in your approach.
 # May the force be with you.
 #########################################################################################################################
+
+# 1) Identify the index of each start codon in the DNA sequence.
+i = 0
+while i < len(weirdAssDna)-5:
+	iCodon = weirdAssDna[i:i+6]
+	if iCodon == startCodon:
+		print("Start Codon Found at Index:", i)
+	i += 1
+
+# 2) Get the index of the first start codon.
+startCodonIndex = weirdAssDna.find(startCodon)
+print("First Start Codon Found at Index:", startCodonIndex)
+
+# 3) Identify the index of each stop codon in the DNA sequence. 
+for stopCodon in stopCodons:
+	i = 0
+	while i < len(weirdAssDna)-5:
+		iCodon = weirdAssDna[i:i+6]
+		if iCodon == stopCodon:
+			print("Stop Codon " + stopCodon + " Found at Index:", i)
+		i += 1
+
+# 4) Identify the stop codon, and it's index that is in frame with the first start codon encountered in the DNA sequence.
+InFrameStopCodon = []
+for stopCodon in stopCodons:
+	i = 0
+	while i < len(weirdAssDna)-5:
+		iCodon = weirdAssDna[i:i+6]
+		if iCodon == stopCodon:
+			if ((i+6)-startCodonIndex) % 6 == 0:
+				InFrameStopCodon.append(i)
+		i += 1
+print("First In-Frame Stop Codon Found at Index:", min(InFrameStopCodon))
