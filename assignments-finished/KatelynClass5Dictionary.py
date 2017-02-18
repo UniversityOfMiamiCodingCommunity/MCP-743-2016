@@ -1,36 +1,36 @@
-answerDict = {}
-answerDict[1] = "seattle"
-answerDict[2] = "sea"
-answerDict[3] = "seat"
-answerDict[4] = "a"
-answerDict[5] = "sea"
-answerDict[6] = "Who controls the past, controls the future. \nWho controls the present, controls the past."
-answerDict[7] = "Who controls the present, controls the past. \nWho controls the present, controls the past."
-answerDict[8] = "Who controls the present, controls the past. \nWho controls the past, controls the future."
-answerDict[9] = "Who controls the present, controls the past. \nWho controls the past, controls the future."
-answerDict[10] = "1"
-answerDict[11] = "1"
-answerDict[12] = "-1"
-answerDict[13] = "7"
-answerDict[14] = "i += 1"
-answerDict[15] = "i = 0"
-answerDict[16] = "Conditional Statement"
-answerDict[17] = "7"
-answerDict[18] = "7"
-answerDict[19] = "14"
-answerDict[20] = "0"
-answerDict[21] = "3"
-answerDict[22] = "3"
-answerDict[23] = "3"
-answerDict[24] = "4"
-answerDict[25] = "4"
-answerDict[26] = "3"
-answerDict[27] = "i=7, j=3"
-answerDict[28] = "i=7, j=0"
-answerDict[29] = "i=14, j=0"
-answerDict[30] = "i=7, j=0"
-answerDict[31] = "i=7, j=0"
-answerDict[32] = "i=1, j=0"
-answerDict[33] = "i=7, j=7, k=49"
-answerDict[34] = "i=7, j=7, k=49, a=21"
-print(answerDict)
+answerDict = {
+1: "seattle",
+2: "sea",
+3: "seat",
+4: "a",
+5: "sea",
+6: "Who controls the past, controls the future.\nWho controls the present, controls the past.",
+7: "Who controls the present, controls the past.\nWho controls the present, controls the past.",
+8: "Who controls the present, controls the past.\nWho controls the past, controls the future.",
+9: "Who controls the present, controls the past.\nWho controls the past, controls the future.",
+10: 1,
+11: 1,
+12: -1,
+13: 7,
+14: "i += 1",
+15: "i = 0",
+16: "conditional statement",
+17: 7,
+18: 7,
+19: 14,
+20: 0,
+21: 3,
+22: 3,
+23: 3,
+24: 4,
+25: 4,
+26: 3,
+27: (7, 3),
+28: (7, 0),
+29: (14, 0),
+30: (7, 0),
+31: (7, 0),
+32: (1, 0),
+33: (7, 7, 49),
+34: (7, 7, 49, 21),
+}
