@@ -1,38 +1,37 @@
-answerDict = {}
+answerDict = {
+1: 'columbus',
+2: 'colu',
+3: 'colu',
+4: 'u',
+5: 'colu',
+6: 'Who controls the past, controls the future. Who controls the present, controls the past.',
+7: 'Who controls the present, controls the past. Who controls the present, controls the past.',
+8: 'Who controls the present, controls the past. Who controls the past, controls the future.',
+9: 'Who controls the present, controls the past. Who controls the past, controls the future.',
+10: 0,
+11: 1,
+12: 1,
+13: 8,
+14: 'i += 1',
+15: 'i = 0',
+16: 'Condition',
+17: 8,
+18: 8,
+19: 16,
+20: 0,
+21: 4,
+22: 3,
+23: 3,
+24: 5,
+25: 5,
+26: 3,
+27: (8, 3),
+28: (8, 0),
+29: (16, 0),
+30: (8, 0),
+31: (8, 0),
+32: (1, 0),
+33: (8, 8, 64),
+34: (8, 8, 64, 24)}
 
-answerDict['1'] = 'columbus'
-answerDict['2'] = 'colu'
-answerDict['3'] = 'colu'
-answerDict['4'] = 'u'
-answerDict['5'] = 'colu'
-answerDict['6'] = 'Who controls the past, controls the future. Who controls the present, controls the past.'
-answerDict['7'] = 'Who controls the present, controls the past. Who controls the present, controls the past.'
-answerDict['8'] = 'Who controls the present, controls the past. Who controls the past, controls the future.'
-answerDict['9'] = 'Who controls the present, controls the past. Who controls the past, controls the future.'
-answerDict['10'] = '0'
-answerDict['11'] = '1'
-answerDict['12'] = '1'
-answerDict['13'] = '8'
-answerDict['14'] = 'i += 1'
-answerDict['15'] = 'i = 0'
-answerDict['16'] = 'Condition'
-answerDict['17'] = '8'
-answerDict['18'] = '8'
-answerDict['19'] = '16'
-answerDict['20'] = '0'
-answerDict['21'] = '4'
-answerDict['22'] = '3'
-answerDict['23'] = '3'
-answerDict['24'] = '5'
-answerDict['25'] = '5'
-answerDict['26'] = '3'
-answerDict['27'] = 'i = 8, j = 3'
-answerDict['28'] = 'i = 8, j = 0'
-answerDict['29'] = 'i = 16, j = 0'
-answerDict['30'] = 'i = 8, j = 0'
-answerDict['31'] = 'i = 8, j = 0'
-answerDict['32'] = 'i = 1, j = 0'
-answerDict['33'] = 'i = 8, j = 8, k = 64'
-answerDict['34'] = 'i = 8, j = 8, k = 64, a = 24'
-
-print(answerDict)
+#~ print(answerDict)
