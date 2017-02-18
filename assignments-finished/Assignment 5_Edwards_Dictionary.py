@@ -2,7 +2,45 @@
 
 
 
-Dict = { }
+answerDict = { }
+
+answerDict [1] = "miami"
+answerDict [2] = "mi"
+answerDict [3] = "mia"
+answerDict [4] = "i"
+answerDict [5] = "mi"
+answerDict [6] = "Who controls the past controls the future. Who controls the present, controls the past"
+answerDict [7] = "Who controls the present, controls the past. x2" 
+answerDict [8] = "Who controls the present, controls the past. Who controls the past, controls the future"
+answerDict [9] = "Same as 8"
+answerDict [10] = "i = 0"
+answerDict [11] = "i = 1"
+answerDict [12] = "i = 1"
+answerDict [13] = "i = 5"
+answerDict [14] = "i += 1"
+answerDict [15] = "i = 0"
+answerDict [16] = "i < 5, Conditional Statement"
+answerDict [17] = "earth = 5"
+answerDict [18] = "i = 5"
+answerDict [19] = "i = 10"
+answerDict [20] = "i = 0"
+answerDict [21] = "i = 2"
+answerDict [22] = "i = 3"
+answerDict [23] = "i = 3"
+answerDict [24] = "i = 2"
+answerDict [25] = "i = 2"
+answerDict [26] = "i = 3"
+answerDict [27] = "i = 5 , j = 3"
+answerDict [28] = "i = 5 , j = 0"
+answerDict [29] = "i = 10 , j = 0"
+answerDict [30] =  "i = 5 , j = 0"
+answerDict [31] = "i = 5 , j = 0" 
+answerDict [32] = "i= 5, j = 0" 
+answerDict [33] = "i = 5 , j = 5 , k = 25" 
+answerDict [34] = "i = 5, j = 5, k = 25 , a = 15"
+
+print(answerDict)
+
 city = "miami"
 cityAsList = list(city)
 vowels = "aeiou"
