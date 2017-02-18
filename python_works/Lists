@@ -1,0 +1,4 @@
+Izunia = ['Brother', 'Son', 'Father', 'Lover']
+print(Izunia [0])
+
+
