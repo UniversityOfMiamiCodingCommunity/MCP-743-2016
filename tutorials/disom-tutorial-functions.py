@@ -40,13 +40,13 @@ print("Volume:", v, "liters")
 # Convert the equation to a Python function.
 #########################################################
 
-def idealGasLaw(p, n, R, T): # define function
+def idealGasLaw(p, n, R, T): # define function # This is only way to define a function
 
 	# Solve for volume.
 	###################
 	v = (n*R*T)/p # do something
 	print("Volume result from function:", v, "liters") 
-	return v # return the result of the function
+	return v # return the result of the function #local scope
 
 #########################################################
 # Use the function one time.
@@ -107,7 +107,7 @@ def dictByReference(dictArg):
 
 aDict = {0: "YES", 2: "WE", 3: "CAN"}
 print("Initial value of the list:", aDict)
-print("Return value of dictByReference function:", dictByReference(aDict)) 
+print("Return value of dictByReference function:", dictByReference(aDict)) #Using a function
 print("Did the dictionary change?", aDict) # Yes, because the memory address for the actual dictionary is what was passed to the function.
 
 # Writing functions with optional arguments or functions that have arguments with default values. 

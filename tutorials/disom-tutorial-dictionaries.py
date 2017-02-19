@@ -16,7 +16,7 @@
 # An example dictionary.
 ########################
 exampleDict = {}
-exampleDict[1] = 1 #key
+exampleDict[1] = 1 #key and value
 exampleDict["1"] = 2 #string
 print("Dict #1", exampleDict)
 
@@ -41,7 +41,7 @@ print("Dict #4", exampleDict)
 # If you want to use a list as a dictionary key, convert it to a tuple you the built-in Python function tuple().
 ################################################################################################################
 exampleList = [1, 2, 3, 4]
-exampleTuple = tuple(exampleList) #convert list to tuple which can a key
+exampleTuple = tuple(exampleList) #the way to convert list to tuple which can be a key
 exampleDict[exampleTuple] = 4 
 print("Dict #5", exampleDict)
 
@@ -54,13 +54,13 @@ print("Dict #5", exampleDict)
 # The dictionary method keys() is arguable the most useful of dictionary methods. 
 # It returns a list, in random order, of the dictionaries keys.  
 #################################################################################
-exampleDictKeys = exampleDict.keys()
+exampleDictKeys = exampleDict.keys() #return to key function
 print("Dict keys:", exampleDictKeys)
 
 # The dictionary method values() is also very useful. 
 # It returns a list, in random order, of the dictionaries values. 
 #################################################################################
-exampleDictValues = exampleDict.values()
+exampleDictValues = exampleDict.values() #value function
 print("Dict values:", exampleDictValues)
 
 # The dictionary method update() also allows an alternative way to add keys and values to a dictionary.
@@ -78,16 +78,16 @@ for exampleDictKey in exampleDictKeys:
 # Here is an example using are PDB file excerpt. 
 # We will create a unique key for each atom in the PDB file, and then use this key to save each file line in a dictionary. 
 ##########################################################################################################################
-fileInput = open("class3-pdbExcerptShort.pdb", "r") ##r read mode
+fileInput = open("class3-pdbExcerptShort.pdb", "r") ##r read mode #three ways to open a file: read, write, and 
 atomDictionary = {}
-for line in fileInput:
+for line in fileInput: 
 
 	# Make sure the file line corresponds to an atom.
 	#################################################
-	if line[0:4] == "ATOM":
+	if line[0:4] == "ATOM": #slicing
 
 		lineAsList = line.split() # Split the line, which is a string, by spaces using the string split() method with no arguments.
-
+									#raise SystemExit
 		# Using the file line in list format, populate select attributes of the atom.
 		#############################################################################
 		atomNumber = int(lineAsList[1])
@@ -96,10 +96,10 @@ for line in fileInput:
 		atomChain = lineAsList[4]
 		atomResidueNumber = int(lineAsList[5])
 
-	# Make a unique key to store the atom file line in a dictionary.
-	################################################################
-	uniqueKey = (atomNumber, atomName, atomResidueName, atomChain, atomResidueNumber) #unique
-	atomDictionary[uniqueKey] = line
+		# Make a unique key to store the atom file line in a dictionary.
+		################################################################
+		uniqueKey = (atomNumber, atomName, atomResidueName, atomChain, atomResidueNumber) #unique
+		atomDictionary[uniqueKey] = line
 
 # Use the dictionary keys() method to get the keys of the dictionary as a list.
 ###############################################################################
@@ -111,7 +111,7 @@ for dictKey in dictKeys:
 # Use the sorted keys of the dictionary, print the file lines.
 ##############################################################
 for dictKey in dictKeys:
-	print("key: ", dictKey, "value: ", atomDictionary[dictKey])
+	print("key: ", dictKey, "value: ", atomDictionary[dictKey]) #print the original file line?
 
 
 

@@ -15,14 +15,14 @@
 
 # This is how you make a class for cars.
 ##################################################################################################################################
-class Car:
+class Car: #class is a much larger space than dictionary or list
 
 	def __init__(self):
 
-		# Class attributes that describe the object.
+		# Class attributes that describe the object. # indented within the class #the only place to use "self"
 		# Key vocabulary term: class attribute
 		############################################
-		self.year = None
+		self.year = None # None is a code in python meaning nothing
 		self.make = None
 		self.model = None
 		self.color = None
@@ -30,7 +30,7 @@ class Car:
 	# A class method, i.e. a function, that takes class attributes as arguments.
 	# Key vocabulary term: class method or class function.
 	############################################################################
-	def printAttributes(self):
+	def printAttributes(self):#it can see everything within the class indentation
 
 		if self.year:
 			print("Year built:", self.year)
@@ -74,20 +74,11 @@ class Stats:
 		# Class attributes that describe the object.
 		# Key vocabulary term: class attribute
 		############################################
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		
+		self.datalist = dataList
+		seff.mean = 0
+	
+	def mean(self)
+		i = 0 
+		sum = 0
+		for x in self.dataList
