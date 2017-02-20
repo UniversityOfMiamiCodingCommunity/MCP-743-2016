@@ -34,11 +34,11 @@ class Anemias():
 	def type(self):
 		"""is the anemia microcytic or macrocytic?"""
 		if  self.size < 80:
-			print ("this type of anemia is microcytic")
+			return "this type of anemia is microcytic"
 		elif self.size > 80:
-			print ("This type of anemia is macrocytic")
+			return "This type of anemia is macrocytic"
 		else:
-			print ("this type if anemia is normocytic")
+			return "this type if anemia is normocytic"
 
 	def erythropoesis(self):
 		"""is the anemia characterized by reduced/increased rbc production?"""
