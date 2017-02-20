@@ -125,7 +125,7 @@ while i < len(city):
 answerDict[13] = i
 answerDict[14] = 'Line 3'
 answerDict[15] = 'Line 1'
-answerDict[16] = 'This statement is the loop which will continue to run as long as i is less than the length of city'
+answerDict[16] = 'This statement is a coditional loop which will continue to run as long as i is less than the length of city'
 
 # 17) What is the value of earth after the while loop runs to completion?
 #################################################################################
@@ -206,7 +206,7 @@ for x in city:
     if x in vowels:
         j += 1
     i += 1
-answerDict[27] = 'i is', i, 'j is', j
+answerDict[27] = (i, j)
 
 # 28) What are the values of i and j after this code runs to completion?
 #################################################################################
@@ -216,7 +216,7 @@ for x in city:
     if x in vowels:
         j *= 2
     i += 1
-answerDict[28] = 'i is', i, 'j is', j
+answerDict[28] = (i, j)
 
 # 29) What are the values of i and j after this code runs to completion?
 #################################################################################
@@ -226,7 +226,7 @@ for x in city:
     if x not in vowels:
         j *= 1
     i += 2
-answerDict[29] = 'i is', i, 'j is', j
+answerDict[29] = (i, j)
 # 30) What are the values of i and j after this code runs to completion?
 #################################################################################
 i = 0
@@ -235,7 +235,7 @@ for x in city:
     if x == "e":
         j *= 1
     i += 1
-answerDict[30] = 'i is', i, 'j is', j
+answerDict[30] = (i, j)
 # 31) What are the values of i and j after this code runs to completion?
 #################################################################################
 i = 0
@@ -244,7 +244,7 @@ for x in city:
     if x != "e":
         j *= 1
     i += 1
-answerDict[31] = 'i is', i, 'j is', j
+answerDict[31] =(i, j)
 # 32) What are the values of i and j after this code runs to completion?
 #################################################################################
 i = 0
@@ -265,7 +265,7 @@ for x in city:
         k += 1
         j += 1
     i += 1
-answerDict[33] = ('i is', i, 'j is', j, 'k is', k)
+answerDict[33] = (i, j, k)
 # 34) What are the values of i, j, k, a after this code runs to completion?
 #################################################################################
 i = 0
@@ -280,5 +280,8 @@ for x in city:
         k += 1
         j += 1
     i += 1
-answerDict[34] = 'i is', i, 'j is', j, 'k is', k, 'a is', a
+answerDict[34] = (i, j, k, a)
 print(answerDict)
+fileOutput_1 = open("/Users/Chris/Documents/Chris/python/MCP-743/dataFiles/assignment5Dictionary.py", "w")
+fileOutput_1.write(str(answerDict))
+fileOutput_1.close()
