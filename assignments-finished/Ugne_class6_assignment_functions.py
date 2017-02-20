@@ -1,4 +1,6 @@
-# Example: momentum
+########################################################################
+# Example 1: momentum
+########################################################################
 # p = mv
 
 #variable for mass (in kg)
@@ -10,39 +12,30 @@ velocity = 50
 #variable for momentum (p)////solve for p
 p = mass*velocity
 
-print("The momentum is ", p , "kg*m/s")
+#print("The momentum is ", p , "kg*m/s")
 
 
 
 def momentum(m, v):
 	p = m * v
-	print("Momentum result: ", p, "kg*m/s")
+	print("Momentum result: ", p, "kg*m/s", " Mass: ", m, "kg")
 	return p
 
 ##Use function one time
-#p = momentum(mass, velocity)
+p = momentum(mass, velocity)
 
-##Use function in a loop
-masses = range(1,10)
-pList = []
+#Use function in a loop
+masses = range(1,11)
 for mass in masses:
 	p = momentum(mass, velocity)
-	pList.append(p)
-
-	# i = 0
-	# while i < len(pList):
-	# 	print("Mass: ", mass[i], " Momentum: ", pList[i])
-	# 	i +=1
+	#print("Mass: ", mass, " Momentum: ", p)
 
 
 
 
-
-
-
-
-
-#Example: force of gravity acting on two bodies
+###################################################################################
+#Example 2: force of gravity acting on two bodies
+####################################################################################
 # F = (G*m_1*m_2)/(r**2)
 
 #Gravitational constant in (N * m**2)/(Kg**2)
@@ -60,24 +53,19 @@ radius = 50
 #variable Force
 F = (Grav_const * mass_1 * mass_2)/(radius**2)
 
-print("The Force due to gravity is ", F, "N")
+#use function once
+#print("The Force due to gravity is ", F, "N")
 
 
 def forceOfGravity(G, m_1, m_2, r):
-	F = (Grav_const * mass_1 * mass_2)/(radius**2)
-	print("Gravitational force result: ", F, "N")
+	F = (G * m_1 * m_2)/(r**2)
+	print("Gravitational force result: ", F, "N", " for mass_1= ", mass)
 	return F
 
-###use function once
 F = forceOfGravity(Grav_const, mass_1, mass_2, radius)
 
 ####use function in a loop
-mass_1 = range(1,10)
-F_list = []
-for mass in mass_1:
-	F = forceOfGravity(Grav_const, mass_1, mass_2, radius)
-	F_list.append(F)
-
-	i = 0
-	while i < len(F_list):
-		print("Mass_1:", mass[i], " Force of Gravity: ", F_list[i])
+masses = range(1,10)
+for mass in masses:
+	F = forceOfGravity(Grav_const, mass, mass_2, radius)
+	#print("Mass_1: ", mass, "kg", "Mass_2: ", mass_2,"kg", " Force of Gravity: ", F)
