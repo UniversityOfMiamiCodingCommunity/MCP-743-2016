@@ -90,61 +90,61 @@ print("Did variable 'a' change now?", a) # Yes, because "a" has been reassigned 
 # Point 2) 
 # List and dictionary objects are passes "by reference", i.e. "the actual object (it's address in memory) is passed".
 #####################################################################################################################
-def listByReference(listArg):
-	listArg.append(100)
-	return listArg
+# def listByReference(listArg):
+# 	listArg.append(100)
+# 	return listArg
 
-aList = [1, 2, 3, 4]
-print("Initial value of the list:", aList)
-print("Return value of listByReference function:", listByReference(aList)) 
-print("Did the list change?", aList) # Yes, because the memory address for the actual list is what was passed to the function.
+# aList = [1, 2, 3, 4]
+# print("Initial value of the list:", aList)
+# print("Return value of listByReference function:", listByReference(aList)) 
+# print("Did the list change?", aList) # Yes, because the memory address for the actual list is what was passed to the function.
 
-# Dictonaries are also passed "by reference".
-#############################################
-def dictByReference(dictArg):
-	dictArg[1] = "NO!"
-	return dictArg
+# # Dictonaries are also passed "by reference".
+# #############################################
+# def dictByReference(dictArg):
+# 	dictArg[1] = "NO!"
+# 	return dictArg
 
-aDict = {0: "YES", 2: "WE", 3: "CAN"}
-print("Initial value of the list:", aDict)
-print("Return value of dictByReference function:", dictByReference(aDict)) 
-print("Did the dictionary change?", aDict) # Yes, because the memory address for the actual dictionary is what was passed to the function.
+# aDict = {0: "YES", 2: "WE", 3: "CAN"}
+# print("Initial value of the list:", aDict)
+# print("Return value of dictByReference function:", dictByReference(aDict)) 
+# print("Did the dictionary change?", aDict) # Yes, because the memory address for the actual dictionary is what was passed to the function.
 
-# Writing functions with optional arguments or functions that have arguments with default values. 
-#################################################################################################
-def functionWithOneOptionalArgument(arg, optionalArg=0):
-	if optionalArg:
-		answer = arg + optionalArg
-	else:
-		answer = arg
-	return answer
+# # Writing functions with optional arguments or functions that have arguments with default values. 
+# #################################################################################################
+# def functionWithOneOptionalArgument(arg, optionalArg=0):
+# 	if optionalArg:
+# 		answer = arg + optionalArg
+# 	else:
+# 		answer = arg
+# 	return answer
 
-a = 1
-value = functionWithOneOptionalArgument(a)
-print("Without an optional argument, the answer is:", value)
-a = 1
-b = 1
-value = functionWithOneOptionalArgument(a, optionalArg=b)
-print("With an optional argument, the answer is:", value)
+# a = 1
+# value = functionWithOneOptionalArgument(a)
+# print("Without an optional argument, the answer is:", value)
+# a = 1
+# b = 1
+# value = functionWithOneOptionalArgument(a, optionalArg=b)
+# print("With an optional argument, the answer is:", value)
 
-# A function that does not have a return statement, automatically returns the "None" object.
-############################################################################################
-def functionThatWithNoReturnValue(a, b):
-	answer = a + b
+# # A function that does not have a return statement, automatically returns the "None" object.
+# ############################################################################################
+# def functionThatWithNoReturnValue(a, b):
+# 	answer = a + b
 
-a = 1
-b = 1
-print("Why I am I not getting the answer to a + b?", functionThatWithNoReturnValue(a, b))
+# a = 1
+# b = 1
+# print("Why I am I not getting the answer to a + b?", functionThatWithNoReturnValue(a, b))
 
-# To fix the above function, you need to add a return statement.
-################################################################
-def functionThatWithNoReturnValue(a, b):
-	answer = a + b
-	return answer
+# # To fix the above function, you need to add a return statement.
+# ################################################################
+# def functionThatWithNoReturnValue(a, b):
+# 	answer = a + b
+# 	return answer
 
-a = 1
-b = 1
-print("Now I am getting the answer to a + b!", functionThatWithNoReturnValue(a, b))
+# a = 1
+# b = 1
+# print("Now I am getting the answer to a + b!", functionThatWithNoReturnValue(a, b))
 
 
 
