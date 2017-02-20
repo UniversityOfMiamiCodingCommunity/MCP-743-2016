@@ -27,6 +27,8 @@ while i < len(weirdAssDna)-5:
 		print("Start Codon Found at Index:", i)
 	i += 1
 
+raise SystemExit
+
 # 2) Get the index of the first start codon.
 startCodonIndex = weirdAssDna.find(startCodon)
 print("First Start Codon Found at Index:", startCodonIndex)
