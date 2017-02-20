@@ -63,31 +63,3 @@ dansOtherCar.make = "Lamborghini"
 dansOtherCar.model = "Centenario"
 dansOtherCar.color = "Black"
 dansOtherCar.printAttributes()
-
-
-# This is how you make a class for statistics.
-##################################################################################################################################
-class Stats:
-
-	def __init__(self, dataList):
-
-		# Class attributes that describe the object.
-		# Key vocabulary term: class attribute
-		############################################
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
