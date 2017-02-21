@@ -76,6 +76,17 @@ class Stats:
 		############################################
 
 
+		self.datalist = dataList
+		self.mean = 0.
+		self.sd = 0.
+
+	def mean(self):
+		i = 0.
+		sum = 0.
+		for x in self.dataList:
+			sum += x
+			i += 1.0
+		self.mean = sum/1
 
 
 
