@@ -22,3 +22,18 @@ volumeInitial = (concentrationFinal*volumeFinal)/concentrationInitial
 # Print the results to the screen.
 ##################################
 print("Volume of stock solution:", volumeInitial, "mL") 
+
+
+######################################################################################################################################
+######################################################################################################################################
+######################################################################################################################################
+# Pythagorean Theorem
+
+#The length of the first side (a)
+a = 3
+
+#The length of the second side (b)
+b = 4
+
+c = (a**2+b**2)**(1/2)
+print("The length of the third side is", c, "meters")
