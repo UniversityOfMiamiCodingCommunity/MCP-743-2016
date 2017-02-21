@@ -1,4 +1,4 @@
-#Nadia Assignment 6
+#NadiaAssignment 6
 import math
 math.pi
 # A = l * w
