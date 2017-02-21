@@ -34,31 +34,33 @@ class Anemias():
 	def type(self):
 		"""is the anemia microcytic or macrocytic?"""
 		if  self.MCV < 80:
-			return ("this type of anemia is microcytic")
+			return ("This type of anemia is microcytic")
 		elif self.MCV > 100:
 			return ("This type of anemia is macrocytic")
 		else:
-<<<<<<< HEAD
-			return ("this type if anemia is normocytic")
-=======
-			print ("this type if anemia is normocytic")
+			return ("This type if anemia is normocytic")
 
->>>>>>> origin/Derek
+
 	def erythropoesis(self):
 		"""is the anemia characterized by reduced/increased rbc production?"""
 		if self.retic_count > 1.5:
-			return ("This anemuia has increased erythropoesis")
+			return ("This anemia has increased erythropoesis")
 		elif self.retic_count < 0.5:
 			return ("This anemia has decreased erythropoesis")
 		else:
 			return ("This anemia appears to have normal eryhthropoesis")
 
 patient1_anemia= Anemias(85, 1.0)
-<<<<<<< HEAD
+patient2_anemia= Anemias(70, 2.0)
+patient3_anemia= Anemias(100, 0.3)
 
 print (patient1_anemia.type()) 
 print (patient1_anemia.erythropoesis())
  
-=======
-print (patient1_anemia.type())
->>>>>>> origin/Derek
+print (patient2_anemia.type()) 
+print (patient2_anemia.erythropoesis())
+
+print (patient3_anemia.type()) 
+print (patient3_anemia.erythropoesis())
+
+
