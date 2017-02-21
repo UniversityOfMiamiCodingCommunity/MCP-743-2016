@@ -21,7 +21,7 @@ annaAnswerDict = {
 					13:9,
 					14:"i += 1",
 					15:"i=0",
-					16:"while loop",
+					16:"conditional statement",
 					17:9,
 					18:9,
 					19:18,
@@ -228,7 +228,7 @@ answer = "i=0"
 annaAnswerDict2[question] = answer
 question += 1
 
-answer = "while loop"
+answer = "conditional statement"
 
 annaAnswerDict2[question] = answer
 question += 1
