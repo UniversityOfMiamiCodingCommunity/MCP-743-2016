@@ -1,4 +1,4 @@
-# Assignment 6 Classes
+# Nadia Assignment 6 Classes 
 class Element: 
 	def __init__(self):
 		self.symbol = None 
