@@ -1,6 +1,5 @@
-# smallMolecules is a class to store some basic information about a small molecule of interest. Within the class is a function that determines whether or not
-# the small molcule's attributes meet Lipinski's rule.
-#############################################################################################################################################################
+# smallMolecules is a class to store some basic information about a small molecule of interest. Within the class is a function that determines whether or not the small molecule's attributes meet Lipinski's rule.
+###################################################################################################################################################################################################################
 
 class smallMolecules():
 	"""General description of small molecules"""
