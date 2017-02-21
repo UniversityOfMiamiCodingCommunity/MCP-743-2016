@@ -2,33 +2,23 @@
 # Assignment
 # Code two scientific equations of your choosing in Python.
 # Make sure the equations are fully commented. See my example below.
-####################################################################
 
-# Example: Ideal Gas Law
-# Note: usually the numbers in scientifc equations are floats, so code them as such.
-# For example, below I have 1.0 mole, not 1 mole. 
-####################################################################################
-
-# Variable for pressure in units of Pascal (1 atm = 101325.0 Pascal).
+# Variable for concentration in milligrams per mL
 #####################################################################
-p = 101325.0 
+concentrationInitial = 50 
 
-# Variable for number of moles of gas molecules.
-################################################
-n = 1.0
-
-# Ideal gas constant in units J/(K mol).
+# Variable for concentration in milligrams per mL
 ########################################
-R = 8.314
+concentrationFinal = 0.200
 
-# Variable for temperature in units of Kelvin.
+# Variable for final volume in mL
 ##############################################
-T = 298.0
+volumeFinal = 250
 
 # Solve for volume.
 ###################
-v = (n*R*T)/p
+volumeInitial = (concentrationFinal*volumeFinal)/concentrationInitial
 
 # Print the results to the screen.
 ##################################
-print("Volume:", v, "liters") 
+print("Volume of stock solution:", volumeInitial, "mL") 
