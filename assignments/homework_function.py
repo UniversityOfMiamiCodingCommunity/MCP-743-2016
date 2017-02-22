@@ -38,7 +38,7 @@ class Anemias():
 		elif self.MCV > 100:
 			return ("This type of anemia is macrocytic")
 		else:
-			return ("This type if anemia is normocytic ")
+			return ("This type of anemia is normocytic ")
 
 
 	def erythropoesis(self):
