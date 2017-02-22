@@ -38,3 +38,6 @@ answerDict = {
 33: (9, 9, 81),
 34: (9, 9, 81, 27),
 }
+
+for key, value in sorted(answerDict.items()):
+    print(key, value)
