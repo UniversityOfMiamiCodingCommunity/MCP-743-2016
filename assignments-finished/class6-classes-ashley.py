@@ -1,6 +1,6 @@
 # Class for SNPs.
 #################
-class SNP:
+class SNP(object):
 
 	def __init__(self,rsid,gene,function,MAF):
 
@@ -15,16 +15,21 @@ class SNP:
 	# Key vocabulary term: class method or class function.
 	############################################################################
 		
-	def major_allele_freq(self)
+	def major_allele_freq(self):
 		major_freq = 1 - self.MAF
-		print self.rsid + "is in " + self.gene.title() + "and has a minor allele frequency of " self.MAF "and a major allele frequency of " + major_freq
+		print self.rsid + " is in " + self.gene + " and has a minor allele frequency of " + str(self.MAF) + " and a major allele frequency of " + str(major_freq)
 
-SNP1 = SNP()
-# Populate the attributes of the class 
-SNP1.rsid = 
-SNP1.gene = 
-SNP1.function = 
-SNP1.MAF = 
+SNP1 = SNP('rs3007421','PLEKHG5','intronic',0.12)
 SNP1.major_allele_freq()
+
+SNP2 = SNP('rs9282641','CD86','UTR5',0.08)
+SNP2.major_allele_freq()
+
+SNP3 = SNP('rs3453643','TYK2','exonic',0.05)
+SNP3.major_allele_freq()
+
+
+
+
 
 
