@@ -18,6 +18,10 @@ class CancerTumor:
             print("Location of tumor:", self.location)
         if self.type:
             print("Type of tumor:", self.type)
+        if self.type == 'Metastatic':
+            print('Prognosis DANGER')
+        if self.type == 'Benign':
+            print('Send for surgery')
 
 # Create an instance of a Patient
 #################################
@@ -47,7 +51,9 @@ Patient_3 = CancerTumor()
 
 Patient_3.name = "Carcinoma"
 Patient_3.location = "Skin Epthelial"
-Patient_3.type = "Non-metastatic"
+Patient_3.type = "Benign"
 Patient_3.Attributes()
+
+
 
 
