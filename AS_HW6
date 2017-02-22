@@ -1,0 +1,7 @@
+def quadsolver(a, b, c) :
+	if b**2 - 4 * a *c < 0
+	print("Error, equation had imaginary roots")
+	if b**2 - 4 * a *c >= 0
+	x1 = (- b + sqrt(b**2 - 4 * a *c)) / (2 * a)
+	x2 = (- b - sqrt(b**2 - 4 * a *c)) / (2 * a)
+	print("The roots of the quadratic are ",x1,"and ",x2,".")
