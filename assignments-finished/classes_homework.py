@@ -4,14 +4,26 @@
 class smallMolecules():
 	"""General description of small molecules"""
 	
-	def __init__(self, name, MW, HBD, HBA, logP):
+	def __init__(self):
 		"""Initialize attributes for the small molecule"""
-		self.name = name
-		self.MW = MW
-		self.HBD = HBD
-		self.HBA = HBA
-		self.logP = logP
-			
+		self.name = None
+		self.MW = None
+		self.HBD = None
+		self.HBA = None
+		self.logP = None
+
+	def attributes(self):
+		if self.name:
+			print('Name: ', self.name.title())
+		if self.MW:
+			print('Molecular Weight: ', self.MW)
+		if self.HBD:
+			print('Number of hydrogen bond donors: ', self.HBD)
+		if self.HBA:
+			print('Number of hydrogen bond acceptors: ', self.HBA)
+		if self.logP:
+			print('Octanol-water partition coefficient: ', self.logP)
+
 	def lipinski(self):
 		
 		# MW less than 300
@@ -39,13 +51,39 @@ class smallMolecules():
 			print(self.name.title() + " " + "has an octanol-water partition coefficient that DOES NOT meet Lipinski's rule: " + str(self.logP))
 
 			
-smallMolecule_1 = smallMolecules('morphine', 285.14, 2, 2, 0.8)
+# Instance number one
+#####################
+smallMolecule_1 = smallMolecules()
+smallMolecule_1.name = 'morphine'
+smallMolecule_1.MW = 285.14
+smallMolecule_1.HBD = 2
+smallMolecule_1.HBA = 2
+smallMolecule_1.logP = 0.8
+
 smallMolecule_1.lipinski()
+smallMolecule_1.attributes()
 
-smallMolecule_2 = smallMolecules('acetaminophen', 151.06, 2, 2, 1.08)
+# Instance number two
+#####################
+smallMolecule_2 = smallMolecules()
+smallMolecule_2.name = 'acetaminophen'
+smallMolecule_2.MW = 151.06
+smallMolecule_2.HBD = 2
+smallMolecule_2.HBA = 2
+smallMolecule_2.logP = 1.08
+
 smallMolecule_2.lipinski()
+smallMolecule_2.attributes()
 
-smallMolecule_3 = smallMolecules('nicotine', 162.12, 0, 2, 1.49)
+# Instance number three
+#######################
+smallMolecule_3 = smallMolecules()
+smallMolecule_3.name = 'nicotine'
+smallMolecule_3.MW = 162.12
+smallMolecule_3.HBD = 0
+smallMolecule_3.HBA = 2
+smallMolecule_3.logP = 1.49
+
 smallMolecule_3.lipinski()
-
+smallMolecule_3.attributes()
 
