@@ -26,7 +26,7 @@ heat_transfer(10,2,15)
 #2 Create a class 
 
 class Anemias():
-	"""Classification of different anemias"""
+	"""Classification of different anemias based on Mean Corpuscular Volume and Reticulocyte Count"""
 	def __init__(self, MCV, retic_count):
 		self.MCV= MCV
 		self.retic_count= retic_count
@@ -52,7 +52,7 @@ class Anemias():
 
 patient1_anemia= Anemias(85, 1.0)
 patient2_anemia= Anemias(70, 2.0)
-patient3_anemia= Anemias(100, 0.3)
+patient3_anemia= Anemias(120, 0.3)
 
 print (patient1_anemia.type() + " " + patient1_anemia.erythropoesis())
  
