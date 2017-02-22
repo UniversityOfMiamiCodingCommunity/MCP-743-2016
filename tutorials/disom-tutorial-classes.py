@@ -74,6 +74,7 @@ class Stats:
 		# Class attributes that describe the object.
 		# Key vocabulary term: class attribute
 		############################################
+<<<<<<< HEAD
 		
 		self.datalist = dataList
 		seff.mean = 0
@@ -82,3 +83,23 @@ class Stats:
 		i = 0 
 		sum = 0
 		for x in self.dataList
+=======
+		pass
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> refs/remotes/origin/master
