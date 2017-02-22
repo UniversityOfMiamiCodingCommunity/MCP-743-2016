@@ -74,6 +74,7 @@ class Stats:
 		# Class attributes that describe the object.
 		# Key vocabulary term: class attribute
 		############################################
+		pass
 
 
 		self.datalist = dataList
