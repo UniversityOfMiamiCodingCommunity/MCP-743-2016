@@ -1,19 +1,36 @@
-answers = ["milwaukee","milw","milwa","w","milw",
-	"Who controls the past, controls the future./n Who controls the present, controls the past.",
-	"Who controls the present, controls the past./n Who controls the present, controls the past.",
-	"Who controls the past, controls the future./n Who controls the past, controls the future.",
-	"Who controls the past, controls the future./n Who controls the past, controls the future.",
-	"i = 1", "i = 1", "i = -1", "i = 9", "i += 1", "i = 0", "conditional statement", "earth = 9",
-	"i = 9", "i = 18", "i = 0", "i = 4", "i = 5", "i = 5", "i = 4", "i = 4", "i = 5", "j = 5, i = 9",
-	"j = 0, i = 9", "j = 0, i = 18", "j = 0, i = 9", "j = 0, i = 0", "j = 0, i = 7", "i = 9, j = 9, k = 81",
-	"k = 81, j = 9, i = 9, a = 45"]
-
-
-
-keys = range(1,len(answers))
-answerDict = {}
-i = 1
-for x in answers:
-	answerDict[i] = answers[i-1]
-	i += 1
-print("answerDict", answerDict)
+answers = {
+1: "milwaukee",
+2: "milw",
+3: "milwa",
+4: "w",
+5: "milw",
+6: "Who controls the past, controls the future./n Who controls the present, controls the past.",
+7: "Who controls the present, controls the past./n Who controls the present, controls the past.",
+8: "Who controls the past, controls the future./n Who controls the past, controls the future.",
+9: "Who controls the past, controls the future./n Who controls the past, controls the future.",
+10: 1,
+11: 1,
+12: -1,
+13: 9,
+14: "i += 1", 
+15: "i = 0", 
+16: "conditional statement", 
+17: 9,
+18: 9, 
+19: 18, 
+20: 0, 
+21: 4,
+22: 5,
+23: 5, 
+24: 4, 
+25: 4, 
+26: 5, 
+27: (9, 5),
+28: (9, 0),
+29: (18, 0), 
+30: (9, 0), 
+31: (0, 0), 
+32: (7, 0), 
+33: (9, 9, 81),
+34: (9, 9, 81, 45),
+}
