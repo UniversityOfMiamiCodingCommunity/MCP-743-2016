@@ -26,8 +26,9 @@ Patient_1 = CancerTumor()
 Patient_1.name = "Castration Resistant"
 Patient_1.location = "Prostate"
 Patient_1.type = "Metastatic"
-
 Patient_1.Attributes()
+
+print('\n')
 
 # Create an instance of a Second Patient
 #########################################
@@ -36,8 +37,9 @@ Patient_2 = CancerTumor()
 Patient_2.name = "Triple Negative"
 Patient_2.location = "Breast"
 Patient_2.type = "Metastatic"
-
 Patient_2.Attributes()
+
+print('\n')
 
 #Create an instance for a Third patient
 #######################################
@@ -46,5 +48,6 @@ Patient_3 = CancerTumor()
 Patient_3.name = "Carcinoma"
 Patient_3.location = "Skin Epthelial"
 Patient_3.type = "Non-metastatic"
-
 Patient_3.Attributes()
+
+
