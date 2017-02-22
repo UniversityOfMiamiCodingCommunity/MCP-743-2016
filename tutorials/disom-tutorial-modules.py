@@ -39,7 +39,7 @@ for file in directoryContents:
 	###############################################
 	print("Found file in the parent directory of this directory:", file)
 
-# listdir("./class3-pdbExcerpts") returns a list of files in the directory "class3-pdbExcerpts".
+# listdir("./class3-pdbExcerpts") returns a list of files in the directory "class3-pdbExcerpts". #. means current directory
 ################################################################################################
 print("\n")
 directoryContents = listdir("./class3-pdbExcerpts")
