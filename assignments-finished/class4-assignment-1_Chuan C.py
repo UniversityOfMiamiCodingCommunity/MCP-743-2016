@@ -60,6 +60,4 @@ for stopCodon in stopCodons:
 			stopCodonCount += 1
 		j += 6
 
-########################################################
-#Made me look for "Answers" twice. What a tricky planet#
-########################################################
+
