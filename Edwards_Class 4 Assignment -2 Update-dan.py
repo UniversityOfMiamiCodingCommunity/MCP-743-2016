@@ -23,7 +23,7 @@
 
 
 #1
-fileInput = open("dataFiles\sequence-p53.fasta", "r")
+fileInput = open("..\dataFiles\sequence-p53.fasta", "r")
 dna = ""
 for line in fileInput:
 	if line[0]== ">":
@@ -86,11 +86,10 @@ for stopCodon in stopCodons:
 	while i < len(dna) - 2:
 		iCodon = dna[i:i+3]
 		if iCodon == stopCodon:
-			startcodonCount += 1
+			stopcodonCount += 1
 			print("Found stop codon", iCodon, "at index", i)
 			StopCodonFile.write('Stop Codon at ' + str(i) + '.\n') 
 		i += 1
 		
 StopCodonFile.close()
 
-#says there is zero. 

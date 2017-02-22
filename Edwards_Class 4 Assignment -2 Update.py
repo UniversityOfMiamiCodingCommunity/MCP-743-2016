@@ -23,55 +23,54 @@
 
 
 #1
-fileInput = open("dataFiles\sequence-p53.fasta", "r")
+fileInput = open("..\dataFiles\sequence-p53.fasta", "r")
 dna = ""
 for line in fileInput:
 	if line[0]== ">":
 		continue
 	dna += line[0:-1]
-print(dna)
-print(len(dna))
+# print(dna)
+# print(len(dna))
 
 
 #2
 
-startcodon = "ATG"
-
+startCodons = ["ATG"]
 i = 0
 startcodonCount = 0
-for startCodon in startcodon:
+for startCodon in startCodons:
 	while i < len(dna) - 2:
 		iCodon = dna[i:i+3]
-		if iCodon == startcodon:
+		if iCodon == startCodon:
 			startcodonCount += 1
 		i += 1
 print("The total number of start codons found in the DNA sequence is:", str(startcodonCount))
 StartCodonFile = open("JSE_startCodonIndices.txt", 'w')
 StartCodonFile.write('The total number of start codons is ' + str(startcodonCount) + '.\n')
 
-startcodon = "ATG"
 i =0
 startcodonCount = 0
-for startCodon in startcodon:
+for startCodon in startCodons:
 	while i < len(dna) - 2:
 		iCodon = dna[i:i+3]
-		if iCodon == startcodon:
+		if iCodon == startCodon:
 			startcodonCount += 1
-			print("Found start codon", iCodon, "at index", i) 
+			#print("Found start codon", iCodon, "at index", i) 
+			StartCodonFile.write('Start ATG Codon at ' + str(i) + '.\n')
 		i += 1
-		StartCodonFile.write('Start ATG Codon at ' + str(i) + '.\n')
-		
-		
+
+StartCodonFile.close()
+
 #3
 
-stopcodon = ['TAG', 'TGA', 'TAA']
+stopCodons = ['TAG', 'TGA', 'TAA']
 
 i = 0
 stopcodonCount = 0
-for stopCodon in stopcodon:
+for stopCodon in stopCodons:
 	while i < len(dna) - 2:
 		iCodon = dna[i:i+3]
-		if iCodon == stopcodon:
+		if iCodon == stopCodon:
 			stopcodonCount += 1
 		i += 1
 print("The total number of stop codons found in the DNA sequence is:", str(stopcodonCount))
@@ -79,19 +78,18 @@ StopCodonFile = open("JSE_stopCodonIndices.txt", 'w')
 StopCodonFile.write('The total number of stop codons is ' + str(stopcodonCount) + '.\n')
 
 
-stopcodon = ['TAG', 'TGA', 'TAA']
+stopCodons = ['TAG', 'TGA', 'TAA']
 
 i =0
 stopcodonCount = 0
-for stopCodon in stopcodon:
+for stopCodon in stopCodons:
 	while i < len(dna) - 2:
 		iCodon = dna[i:i+3]
-		if iCodon == stopcodon:
-			startcodonCount += 1
-			print("Found stop codon", iCodon, "at index", i) 
+		if iCodon == stopCodon:
+			stopcodonCount += 1
+			print("Found stop codon", iCodon, "at index", i)
+			StopCodonFile.write('Stop Codon at ' + str(i) + '.\n') 
 		i += 1
-		StopCodonFile.write('Stop Codon at ' + str(i) + '.\n')
 		
 StopCodonFile.close()
 
-#says there is zero. 

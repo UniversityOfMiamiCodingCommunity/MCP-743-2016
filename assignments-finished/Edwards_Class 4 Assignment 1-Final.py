@@ -19,71 +19,79 @@ weirdAssDna = " XUIOPDEHSUJQPQHDUMIEYDHNAPQLKGAYGOGODKSIGJIEHYSNOEKUJNPOQGTSFKSO
 # May the force be with you.
 #########################################################################################################################
 
-startcodon = "AYGOGO"
+#Final Version :) ~Jazzy
 
 
 
-#1) and 2) Index of each start codon
+# 1 and  2) Index of each start codon
 
+startCodons = ["AYGOGO"]
 
-startcodonCount = 0
+startCodonCount = 0
 i = 0
-for startCodon in startcodon:
+for startCodon in startCodons:
 	while i < len(weirdAssDna) - 5:
 		iCodon = weirdAssDna[i:i+6]
-		if iCodon == startcodon:
+		if iCodon == startCodon:
 			print("Found start codon", iCodon, "at index", i) 
-			startcodonCount += 1
+			startCodonCount += 1
 		i += 1
-print("The total number of start codons found in the DNA sequence is:", startcodonCount)
+print("The total number of start codons found in the DNA sequence is:", startCodonCount)
 
-#1 startcodon at index 31
+#startcodon at index 31
  
-start = weirdAssDna.find(startcodon)
 
 
-#3) Stop codons
 
-stopcodon1 = 'STOPME' 
-stopcodon2 = 'STOPIT'
-stopcodon3 = 'STOPGO'
 
-stopcodonCount = 0
-i = 0
-for stopCodon in stopcodon1:
+#3) Stop codons and indencies
+
+stopCodons = ["STOPGO", "STOPIT", "STOPME"]
+
+stopCodonCount = 0
+for stopCodon in stopCodons:
+	i = 0
 	while i < len(weirdAssDna) - 5:
 		iCodon = weirdAssDna[i:i+6]
-		if iCodon == stopcodon1:
+		if iCodon == stopCodon:
 			print("Found stop codon", iCodon, "at index", i) 
-			stopcodonCount += 1
+			stopCodonCount += 1
 		i += 1
-print("The total number of stop codons found in the DNA sequence is:", stopcodonCount)
+print("The total number of start codons found in the DNA sequence is:", stopCodonCount)
 
-stopcodonCount = 0
-i = 0
-for stopCodon in stopcodon2:
-	while i < len(weirdAssDna) - 5:
-		iCodon = weirdAssDna[i:i+6]
-		if iCodon == stopcodon2:
-			print("Found stop codon", iCodon, "at index", i) 
-			stopcodonCount += 1
-		i += 1
-print("The total number of stop codons found in the DNA sequence is:", stopcodonCount)
-
-stopcodonCount = 0
-i = 0
-for stopCodon in stopcodon3:
-	while i < len(weirdAssDna) - 5:
-		iCodon = weirdAssDna[i:i+6]
-		if iCodon == stopcodon3:
-			print("Found stop codon", iCodon, "at index", i) 
-			stopcodonCount += 1
-		i += 1
-print("The total number of stop codons found in the DNA sequence is:", stopcodonCount)
-
-# "STOPGO" at 85, "STOPME" at 127 and 'STOPIT" at 139
+# STOPGO at 85, STOPIT at 139, STOPME at 127
 
 
 
-#4 in frame?
+
+
+
+#4 in frame
+
+startCodon = "AYGOGO"
+stopCodons = ["STOPGO", "STOPIT", "STOPME"]
+
+#Found index of 1st start codon
+
+startCodonIndex = weirdAssDna.find(startCodon)
+print(startCodonIndex)
+
+#Find indencies of all stop codons
+
+i = startCodonIndex
+firststopCodonIndex = 0
+firststopCodon = ""
+while i < len(weirdAssDna) - 5:
+	iCodon = weirdAssDna[i: i + 6]
+	if iCodon in stopCodons:
+		print(iCodon, i)
+		firststopCodon = iCodon
+		firststopCodonIndex = i
+		break
+	i += 1
+print("The stop codon in frame with start codon is", firststopCodon, "at index", firststopCodonIndex)
+
+#STOPGO at 85
+
+
 

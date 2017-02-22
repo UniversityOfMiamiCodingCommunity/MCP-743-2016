@@ -28,7 +28,7 @@ F = G * (M/r)
 print("Force; ", F, "Newtons")
 
 
-def Gravitation ( M, r, G): 
+def Gravitation(M, r, G): 
 	F = G * (M/r) 
 	print("Force result from function", F, "Newtons") 
 	return F 
@@ -62,7 +62,7 @@ KE = 0.5 * (M *V)
 
 print("Kinetic Energy;", KE, "Joules")
 
-def Energy (V, M,): 
+def Energy(V, M): 
 	KE = 0.5 * (M * V)
 	print("Energy result from function:", KE, "Joules") 
 	return KE
