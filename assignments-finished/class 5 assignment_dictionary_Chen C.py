@@ -1,36 +1,38 @@
-answer1 = "houston"
-answer2 = "hou"
-answer3 = "hous"
-answer4 = "u"
-answer5 = "hou"
-answer6 = "Who controls the past, controls the future. Who controls the present, controls the past."
-answer7 = "Who controls the present, controls the past. Who controls the present, controls the past."
-answer8 = "Who controls the present, controls the past. Who controls the past, controls the future."
-answer9 = "Who controls the present, controls the past. Who controls the past, controls the future."
-answer10 = "0"
-answer11 = "1"
-answer12 = "1"
-answer13 = "7"
-answer14 = "i+=1"
-answer15 = "i=0"
-answer16 = "a conditional statement"
-answer17 = "7"
-answer18 = "7"
-answer19 = "14"
-answer20 = "0"
-answer21 = "3"
-answer22 = "3"
-answer23 = "3"
-answer24 = "4"
-answer25 = "4"
-answer26 = "3"
-answer27 = "7 and 3"
-answer28 = "7 and 0"
-answer29 = "14 and 0"
-answer30 = "7 and 0"
-answer31 = "7 and 0"
-answer32 = "7 and 0"
-answer33 = "7, 7 and 49"
-answer34 = "7, 7, 49 and 21"
-answerDict = {1:answer1, 2:answer2, 3:answer3, 4:answer4, 5:answer5, 6:answer6, 7:answer7, 8:answer8, 9:answer9, 10:answer10, 11:answer11, 12:answer12, 13:answer13, 14:answer14, 15:answer15, 16:answer16, 17:answer17, 18:answer18, 19:answer19, 20:answer20, 21:answer21, 22:answer22, 23:answer23, 24:answer24, 25:answer25, 26:answer26, 27:answer27, 28:answer28, 29:answer29, 30:answer30, 31:answer31, 32:answer32, 33:answer33, 34:answer34,}
+answerDict = {
+1: "houston",
+2: "hou",
+3: "hous",
+4: "u",
+5: "hou",
+6: "Who controls the past, controls the future.\nWho controls the present, controls the past.",
+7: "Who controls the present, controls the past.\nWho controls the present, controls the past.",
+8: "Who controls the present, controls the past.\nWho controls the past, controls the future.",
+9: "Who controls the present, controls the past.\nWho controls the past, controls the future.",
+10: 0,
+11: 1,
+12: 1,
+13: 7,
+14: "i += 1",
+15: "i = 0",
+16: "a conditional statement",
+17: 7,
+18: 7,
+19: 14,
+20: 0,
+21: 3,
+22: 3,
+23: 3,
+24: 4,
+25: 4,
+26: 3,
+27: (7, 3),
+28: (7, 0),
+29: (14, 0),
+30: (7, 0),
+31: (7, 0),
+32: (7, 0),
+33: (7, 7, 49),
+34: (7, 7, 49, 21),
+}
+
 print(answerDict)
