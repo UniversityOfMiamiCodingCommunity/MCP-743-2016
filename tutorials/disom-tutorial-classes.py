@@ -65,26 +65,26 @@ dansOtherCar.color = "Black"
 dansOtherCar.printAttributes()
 
 
-# This is how you make a class for statistics.
-##################################################################################################################################
-class Stats:
+## This is how you make a class for statistics.
+###################################################################################################################################
+#class Stats:
 
-	def __init__(self, dataList):
+	#def __init__(self, dataList):
 
-		# Class attributes that describe the object.
-		# Key vocabulary term: class attribute
-		############################################
-<<<<<<< HEAD
+		## Class attributes that describe the object.
+		## Key vocabulary term: class attribute
+		#############################################
+#<<<<<<< HEAD
 		
-		self.datalist = dataList
-		seff.mean = 0
+		#self.datalist = dataList
+		#seff.mean = 0
 	
-	def mean(self)
-		i = 0 
-		sum = 0
-		for x in self.dataList
-=======
-		pass
+	#def mean(self)
+		#i = 0 
+		#sum = 0
+		#for x in self.dataList
+#=======
+		#pass
 
 
 
@@ -102,4 +102,4 @@ class Stats:
 
 
 
->>>>>>> refs/remotes/origin/master
+#>>>>>>> refs/remotes/origin/master
