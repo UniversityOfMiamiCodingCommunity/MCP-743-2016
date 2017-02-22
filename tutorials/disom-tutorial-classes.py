@@ -55,6 +55,7 @@ dansCar.model = "Civic"
 dansCar.color = "Silver"
 dansCar.printAttributes()
 
+
 # Create an instance of a Car class for my other car...
 #######################################################
 dansOtherCar = Car()
@@ -67,27 +68,11 @@ dansOtherCar.printAttributes()
 
 # This is how you make a class for statistics.
 ##################################################################################################################################
-class Stats:
+# class Stats:
 
-	def __init__(self, dataList):
+# 	def __init__(self, dataList):
 
 		# Class attributes that describe the object.
 		# Key vocabulary term: class attribute
 		############################################
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

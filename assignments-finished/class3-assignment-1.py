@@ -58,7 +58,20 @@ C = 2*(pi)*r
 print("Circumfrence:", C, "inches")
 
 
-#Equation 2 - Quadratic Equation
+# Equation 2 - Converting degrees Celcius to degrees Farenheit
+##############################################################
+
+# Degrees Celcius
+C = 37
+
+#Solve for Farenheit (F) in degrees
+F = C * (9/5) + 32
+
+#Print Results
+print(F, "degrees Farenheit")
+
+
+#Equation 3 - Quadratic Equation
 
 
 #
@@ -78,3 +91,24 @@ print(x)
 #Solve for x (-)
 x = (-b - (b**2-4*a*c)**0.5)/2*a
 print(x)
+
+
+#Turning Test Equation into a function
+######################################
+
+n = 1
+m = 2
+p = 10
+x = p/(m*n)
+
+def TestEquation(n, m, p):
+	x = p/(m*n)
+	print(x)
+	return x
+
+x = TestEquation(1, 2, 10)
+
+
+
+
+
