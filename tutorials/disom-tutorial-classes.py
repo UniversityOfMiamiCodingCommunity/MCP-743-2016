@@ -42,8 +42,8 @@ class Car:
 			print("Color of car", self.color)
 
 
-# This is how you use the Cars class in your code. 
-##################################################
+# # This is how you use the Cars class in your code. 
+# ##################################################
 
 # Create an instance (i.e. a copy) of a Car class.
 ##################################################
@@ -55,26 +55,26 @@ dansCar.model = "Civic"
 dansCar.color = "Silver"
 dansCar.printAttributes()
 
-# Create an instance of a Car class for my other car...
-#######################################################
-dansOtherCar = Car()
-dansOtherCar.year = 2017
-dansOtherCar.make = "Lamborghini"
-dansOtherCar.model = "Centenario"
-dansOtherCar.color = "Black"
-dansOtherCar.printAttributes()
+# # Create an instance of a Car class for my other car...
+# #######################################################
+# dansOtherCar = Car()
+# dansOtherCar.year = 2017
+# dansOtherCar.make = "Lamborghini"
+# dansOtherCar.model = "Centenario"
+# dansOtherCar.color = "Black"
+# dansOtherCar.printAttributes()
 
 
-# This is how you make a class for statistics.
-##################################################################################################################################
-class Stats:
+# # This is how you make a class for statistics.
+# ##################################################################################################################################
+# class Stats:
 
-	def __init__(self, dataList):
+# 	def __init__(self, dataList):
 
-		# Class attributes that describe the object.
-		# Key vocabulary term: class attribute
-		############################################
-		pass
+# 		# Class attributes that describe the object.
+# 		# Key vocabulary term: class attribute
+# 		############################################
+# 		pass
 
 
 
