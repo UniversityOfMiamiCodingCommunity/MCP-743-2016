@@ -1,10 +1,12 @@
-patientOneSequences = open("Class6_parsingAssignment_patient1readsOfInsert", "r")
+patientOneSequences = open("Class6_parsingAssignment_patient1readsOfInsert.fasta", "r")
 
-nefPlasmidList = []
+arbitrary = []
 
 i = 0
-for line in file:
+for line in patientOneSequences:
+	print(line)
 	skip = line[0:1]
 	if skip == '>':
-		nefPlasmidList.append(line)
+		arbitrary.append(line)
 		i += 1
+print(i)
