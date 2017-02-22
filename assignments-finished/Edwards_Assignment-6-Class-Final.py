@@ -25,14 +25,14 @@ def NForce(M2, a):
 	F = M2 * a
 	print("NForce is ", F, "Newtons")
 	return F
-Neptune = VForce(M2, a)
+Neptune = NForce(M2, a)
 print(Neptune)
 
-def VForce(M3, a):
+def MForce(M3, a):
 	F = M3 * a
 	print("MForce is ", F, "Newtons")
 	return F
-Mars = VForce(M3, a)
+Mars = MForce(M3, a)
 print(Mars)
 
 
@@ -79,7 +79,7 @@ SolarSystem = Planets()
 #~ # Populate the attributes of the class 
 SolarSystem.position = "2nd"
 SolarSystem.name = "Venus"
-SolarSystem.mythology = "Vesper Lucifer, and Aphrodite- Star, Light, and Beauty"
+SolarSystem.mythology = "Vesper, Lucifer, and Aphrodite- Star, Light, and Beauty"
 SolarSystem.color = "Yellow-Orange"
 SolarSystem.function = Venus
 SolarSystem.printAttributes()
