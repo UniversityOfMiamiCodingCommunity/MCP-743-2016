@@ -53,6 +53,7 @@ print(Mars)
 #~ PlanetMassdict [2] = 2.04 * (10**56) #Neptune
 #~ PlanetMassdict [3] = 1.27 * (10**54) #Mars
 
+#doesn't always have to = NONE for inititation 
 
 class Planets:
 

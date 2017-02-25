@@ -11,7 +11,8 @@
 # Important Python code from Modules and Packages
 # If you need help or need to explore something new regarding modules start here:
 # Introduction: https://docs.python.org/3/tutorial/modules.html
-# Standary library modules (Chapter 6 to 36): https://docs.python.org/3/library/
+# Standary library modules (Chapter 6 to 36): https://docs.python.org/3/library/******************foler of files with python code
+###   16.1 O.S. 
 ##################################################################################
 
 # Example of importing methods (i.e. functions) from the "os" module.
