@@ -1,0 +1,15 @@
+Stop Codon at index 172.
+Stop Codon at index 499.
+Stop Codon at index 568.
+Stop Codon at index 598.
+Stop Codon at index 1000.
+Stop Codon at index 1024.
+Stop Codon at index 1139.
+Stop Codon at index 253.
+Stop Codon at index 538.
+Stop Codon at index 1063.
+Stop Codon at index 1099.
+Stop Codon at index 334.
+Stop Codon at index 403.
+Stop Codon at index 1152.
+The total number of stop codons is 14.

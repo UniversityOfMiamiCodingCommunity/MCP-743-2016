@@ -1,0 +1,14 @@
+Start ATG Codon at 0.
+Start ATG Codon at 33.
+Start ATG Codon at 357.
+Start ATG Codon at 474.
+Start ATG Codon at 696.
+Start ATG Codon at 740.
+Start ATG Codon at 780.
+Start ATG Codon at 833.
+Start ATG Codon at 870.
+Start ATG Codon at 959.
+Start ATG Codon at 1058.
+Start ATG Codon at 1062.
+Start ATG Codon at 1065.
+The total number of start codons is 13.

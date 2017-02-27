@@ -1,0 +1,2 @@
+The stop codon in frame with start codon is TAG.
+at index 179.

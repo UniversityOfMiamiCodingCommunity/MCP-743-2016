@@ -1,0 +1,4 @@
+Start ATG Codon at 0.
+Start ATG Codon at 38.
+Start ATG Codon at 87.
+The total number of start codons is 3.

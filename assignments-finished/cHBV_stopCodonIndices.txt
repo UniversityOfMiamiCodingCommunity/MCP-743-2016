@@ -1,0 +1,2 @@
+Stop Codon at index 22.
+The total number of stop codons is 1.

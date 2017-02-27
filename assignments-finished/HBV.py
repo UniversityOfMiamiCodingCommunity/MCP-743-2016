@@ -36,6 +36,54 @@ for startCodon in startCodons:
 		if iCodon == startCodon:
 			startcodonCount += 1
 			StartCodonFile.write('Start ATG Codon at ' + str(i) + '.\n')
+			print("Found start codon", iCodon, "at index", i)
 		i += 1
 print("The total number of start codons found in the DNA sequence is:", str(startcodonCount))
 StartCodonFile.write('The total number of start codons is ' + str(startcodonCount) + '.\n')
+
+StartCodonFile.close()
+
+
+
+stopCodons = ['TAG', 'TGA', 'TAA']
+StopCodonFile = open("HBV_stopCodonIndices.txt", 'w')
+stopcodonCount = 0
+for stopCodon in stopCodons:
+	i = 0
+	while i < len(HBV) - 2:
+		iCodon = HBV[i:i+3]
+		if iCodon == stopCodon:
+			stopcodonCount += 1
+			print("Found stop codon", iCodon, "at index", i)
+			StopCodonFile.write("Stop Codon at index " + str(i) + '.\n')
+		i += 1
+print("The total number of stop codons found in the DNA sequence is:", str(stopcodonCount))
+StopCodonFile.write('The total number of stop codons is ' + str(stopcodonCount) + '.\n')
+
+#In Frame
+
+startCodon = "ATG"
+stopCodons = ["TAG", "TGA", "TAA"]
+
+#Found index of 1st start codon
+
+startCodonIndex = HBV.find(startCodon)
+print(startCodonIndex)
+
+#Find indencies of all stop codons
+
+i = startCodonIndex
+firststopCodonIndex = 0
+firststopCodon = ""
+InFrameFile = open("HBV_InframeIndices.txt", 'w')
+while i < len(HBV) - 2:
+	iCodon = HBV[i:i+3]
+	if iCodon in stopCodons:
+		print(iCodon, i)
+		firststopCodon = iCodon
+		firststopCodonIndex = i
+		break
+	i += 1
+print("The stop codon in frame with start codon is", firststopCodon, "at index", firststopCodonIndex)
+InFrameFile.write("The stop codon in frame with start codon is "  + str(firststopCodon) + '.\n')
+InFrameFile.write("at index " + str(firststopCodonIndex) + '.\n')
