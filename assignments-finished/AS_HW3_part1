@@ -1,0 +1,7 @@
+a = 1
+b = 1
+c = -4
+x1 = (-b + (b**2 - 4*a*c)**0.5) / (2 * a)
+x2 = (-b - (b**2 - 4*a*c)**0.5) / (2 * a)
+print("The first root of the quadratic is ",x1)
+print("The second root of the quadratic is ",x2)
