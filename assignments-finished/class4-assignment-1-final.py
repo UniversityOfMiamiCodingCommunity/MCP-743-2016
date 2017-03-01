@@ -13,25 +13,29 @@ weirdAssDna = "XUIOPDEHSUJQPQHDUMIEYDHNAPQLKGAYGOGODKSIGJIEHYSNOEKUJNPOQGTSFKSOJ
 
 # 1) Identify the index of each start codon in the DNA sequence. 
 
+print("Question #1:")
 startCodon = "AYGOGO"
 stopCodon = ["STOPME", "STOPIT", "STOPGO"]
-
 i = 0
 while i < len(weirdAssDna) - 5:
 	iCodon = weirdAssDna[i:i+6]
 	if iCodon == startCodon:
 		print("Found start codon", iCodon, "at index", i)
 	i += 1
+print("\n")
 
 # 2) Get the index of the first start codon.
 
+print("Question #2:")
 startCodon = "AYGOGO"
-print(weirdAssDna.find(startCodon))
+firstStart = weirdAssDna.find(startCodon)
+print('The first start codon is found at index', firstStart)
+print('\n')
 
 # 3) Identify the index of each stop codon in the DNA sequence. 
 
+print("Question #3:")
 stopCodons = ["STOPME", "STOPIT", "STOPGO"]
-
 stopCodonCount = 0
 for stopCodon in stopCodons:
 	i = 0
@@ -41,27 +45,25 @@ for stopCodon in stopCodons:
 			print("Found stop codon", iCodon, "at index", i)
 			stopCodonCount += 0
 		i += 1
+print('\n')
 
 # 4) Identify the stop codon, and it's index that is in frame with the first start codon encountered in the DNA sequence.
 
+print("Question #4:")
 startCodonIndex = weirdAssDna.find(startCodon)
-
-minStopCodon, minStopCodonIndex = "", 10000000 
+stopCodonList = []
 for stopCodon in stopCodons:
 	i = 0
 	while i < len(weirdAssDna) - 5:
 		mCodon = weirdAssDna[i:i+6]
 		if mCodon == stopCodon:
 			stopCodonIndex = i
-			print(stopCodonIndex)
 			if ((stopCodonIndex + 6) - startCodonIndex) % 6 == 0:
-				if stopCodonIndex < minStopCodon:
-					minStopCodon = mCodon
-					minStopCodonIndex = stopCodonIndex
-					print("In frame Stop Codon is:", mCodon, i)
+				stopCodonList.append(stopCodonIndex)
+				# print('A stop codon in frame with the first start codon was found at index', i)
 		i += 1
 
-
+print("The first in-frame stop codon is", weirdAssDna[min(stopCodonList) : min(stopCodonList) + 6], "and occurs at index", min(stopCodonList))
 
 
 # Note: you must use at least one "for" and "while" loop in your approach.
