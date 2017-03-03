@@ -3,17 +3,17 @@
 # Code two scientific equations of your choosing in Python.
 # Make sure the equations are fully commented. See my example below.
 
-# Variable for concentration in milligrams per mL
+# Variable for concentration in units per mL
 #####################################################################
-concentrationInitial = 50 
+concentrationInitial = 2100000 
 
-# Variable for concentration in milligrams per mL
+# Variable for concentration in units per mL
 ########################################
-concentrationFinal = 0.200
+concentrationFinal = 50
 
 # Variable for final volume in mL
 ##############################################
-volumeFinal = 250
+volumeFinal = 500
 
 # Solve for volume.
 ###################
