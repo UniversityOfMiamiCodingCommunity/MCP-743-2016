@@ -35,7 +35,7 @@ class Cells:
 		if self.receptor:
 			print("HBV Receptor: ", self.receptor) #want it to report back "yes" or "no"
 	
-	
+	# overall 
 
 #~ Hepatocyte = Cell ()
 #~ # Populate the attributes of the class 
