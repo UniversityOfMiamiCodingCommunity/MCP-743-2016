@@ -1,0 +1,7 @@
+Cell Line	Transformed	Immortalized	Innate Immunity	HBV Receptor
+HepRG	No	Yes	Fully Functional	Yes
+HG2 NTCP	Yes	Yes	Moderately Functional	Yes
+PHH	No	No	Fully Functional	Yes
+Huh7	Yes	Yes	Slightly Functional	No
+HG2	Yes	Yes	Moderately Functional	No
+Stem	No	No	Fully Functional	Yes
