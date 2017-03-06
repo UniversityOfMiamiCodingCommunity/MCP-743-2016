@@ -9,20 +9,41 @@ for line in fileInput:
 	species_name = []
 	if line[0:3] == ">sp":   			#####lines starting with "">sp" have sequence info
 		seq_info.append(line)
-		print(seq_info)
+		#print(seq_info)
+
 
 		# os = re.search('OS=(.+?)', line)  #### LINES NOT SPLIT ON TABS, not all OS values followed by GN=
 		# if os:
 		# 	species_name.append(os)
 		# print(species_name)
+
+
 	else:								##### all other lines will be sequences
 		aligned_sequences.append(line)
 		#print(aligned_sequences)
 
-# for sequence in aligned_sequences:
-# 	if line[0] ==:
-# 		#i+1
+	# for aligned_sequence in aligned_sequences:
+	# 	print(aligned_sequence)
+	# 	print(len(line))      			###############each seq length is 4103
 
 
+
+
+i = 0    #counts identity hits
+for sequence in aligned_sequences:
+	for amino_acid in sequence:
+		if amino_acid == '-':
+			pass
+		else:
+			i += 1
+	seq = str(sequence)
+	gap_strip = seq.replace('-', '')
+	percent = 100*(i/len(sequence))
+	print(str(percent) + "%")
+	i =0
+		
+
+
+##make a dictionary that lists species, sequence match (key=OS, val=seq)
 
 fileInput.close()
