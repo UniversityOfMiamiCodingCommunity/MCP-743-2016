@@ -8,7 +8,6 @@ startCodon = "ATG"
 stopCodons = ["TGA", "TAG", "TAA"]
 fastadeFacto = []
 cleanestInput = []
-stopCodonList = []
 nearFullLengthDictionary = {}
 startCodonDict = {}
 stopCodonDict = {}
@@ -104,7 +103,7 @@ while i < len(forDictionary):
 
 
 i = 0
-while i <= len(forDictionary):
+while i < len(forDictionary):
 	key = forDictionary[i][0]
 	mockList = []
 	for basepair in forDictionary[i][1]:
@@ -123,25 +122,27 @@ while i <= len(forDictionary):
 		# print('test2')
 ######################################
 ######################################
+	stopCodonList = []
 	for stopCodon in stopCodons:
 		x = 0
 		j = 0
-		while j <= len(mockString) and x <= len(startCodonList):
+		while x < len(startCodonList) - 1:
 			startCodonIndex = startCodonList[x]
 			startFormula = int(startCodonIndex) + j
 			iCodon = mockString[startFormula:startFormula + 3]
 			# print ('test3')
 			if iCodon == stopCodon:
-				if ((startFormula + 3) - startCodonList[x]) % 3 == 0:
-					fileoutput.write(str(key) + '\n' + 'Start Codon (ATG): ' + str(startCodonIndex) + ' ' + 'Stop Codon (' + str(stopCodon) + '): ' + str(startFormula) + '\n' + '\n')
-					x += 1
-					j = 0
-				else:
-					j += 3
+				dataTransfer = startCodonIndex, (startCodonIndex+j)
+				stopCodonList.append(dataTransfer)
+				x += 1
+				j = 0
+			elif j > len(mockString):
+				break
 			else:
-				j += 3	
-			print (x, startCodonIndex, j, iCodon)
-		x = 0
+				j += 3
+			print(x, j)
+	x = 0
+	fileoutput.write(str(key) + '\n' + str(stopCodonList) + '\n' + '\n' + '\n')
 	i += 1
 
 
