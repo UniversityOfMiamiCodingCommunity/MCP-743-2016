@@ -126,7 +126,7 @@ while i < len(forDictionary):
 	for stopCodon in stopCodons:
 		x = 0
 		j = 0
-		while x < len(startCodonList) - 1:
+		while x < len(startCodonList):
 			startCodonIndex = startCodonList[x]
 			startFormula = int(startCodonIndex) + j
 			iCodon = mockString[startFormula:startFormula + 3]
@@ -140,9 +140,20 @@ while i < len(forDictionary):
 				break
 			else:
 				j += 3
-			print(x, j)
+			# print(x, j)
 	x = 0
-	fileoutput.write(str(key) + '\n' + str(stopCodonList) + '\n' + '\n' + '\n')
+	# print(stopCodonList)
+	# fileoutput.write(str(key) + '\n' + str(stopCodonList) + '\n' + '\n' + '\n')
+######################################
+######################################
+	k = 0
+	aCodonList = []
+	while k < len(stopCodonList):
+		aCodon = mockString[stopCodonList[k][0]:(stopCodonList[k][1]+3)]
+		aCodonList.append(aCodon)
+		# fileoutput.write(str(key) + '\n' + str(aCodon) + '\n' + '\n' + '\n')
+		k += 1
+	print(aCodonList)
 	i += 1
 
 
