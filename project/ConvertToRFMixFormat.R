@@ -9,22 +9,22 @@ rm(list=ls())
 chr=commandArgs()[7]
 chr=substr(chr, 2, nchar(chr))
 
-admix = read.table(paste("/projects/scratch/ms/beecham/beagle_sept2016/Output/phased.ADMIX_CHR", chr, ".bgl.gz.phased.gz",sep=""), header=T, stringsAsFactors=F)
+admix = read.table("phased.ADMIX_CHR22.bgl.gz.phased", header=T, stringsAsFactors=F)
 admix = admix[, -c(1:2)]
 admixT = t(admix)
 numadmix = nrow(admixT)
 
-eur = read.table(paste("/projects/scratch/ms/beecham/beagle_sept2016/RFMIX_REF/Beagle_ID/EUR_CHR", chr, ".bgl.gz",sep=""), header=T, stringsAsFactors=F)
+eur = read.table("EUR_CHR22.bgl", header=T, stringsAsFactors=F)
 eur = eur[, -c(1:2)]
 eurT = t(eur)
 numeur = nrow(eurT)
 
-afr = read.table(paste("/projects/scratch/ms/beecham/beagle_sept2016/RFMIX_REF/Beagle_ID/AFR_CHR", chr, ".bgl.gz",sep=""), header=T, stringsAsFactors=F)
+afr = read.table("AFR_CHR22.bgl", header=T, stringsAsFactors=F)
 afr = afr[, -c(1:2)]
 afrT = t(afr)
 numafr = nrow(afrT)
 
-asia = read.table(paste("/projects/scratch/ms/beecham/beagle_sept2016/Output/phased.HGDP_CHR", chr, ".bgl.gz.phased.gz",sep=""), header=T, stringsAsFactors=F)
+asia = read.table("phased.HGDP_CHR22.bgl.gz.phased", header=T, stringsAsFactors=F)
 asia = asia[, -c(1:2)]
 asiaT = t(asia)
 numasia = nrow(asiaT)
