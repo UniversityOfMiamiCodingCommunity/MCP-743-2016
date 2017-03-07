@@ -12,10 +12,10 @@ for line in fileInput:
 		#print(seq_info)
 
 
-		# os = re.search('OS=(.+?)', line)  #### LINES NOT SPLIT ON TABS, not all OS values followed by GN=
-		# if os:
-		# 	species_name.append(os)
-		# print(species_name)
+		os = re.search('OS=(.+?) ', line)  #### LINES NOT SPLIT ON TABS, not all OS values followed by GN=
+		if os:
+			species_name.append(os)
+		print(species_name)
 
 
 	else:								##### all other lines will be sequences
@@ -36,10 +36,8 @@ for sequence in aligned_sequences:
 			pass
 		else:
 			i += 1
-	seq = str(sequence)
-	gap_strip = seq.replace('-', '')
 	percent = 100*(i/len(sequence))
-	print(str(percent) + "%")
+	print("Sequence similarity: " + str(percent) + "%")
 	i =0
 		
 
