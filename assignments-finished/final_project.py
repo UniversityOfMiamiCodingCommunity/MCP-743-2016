@@ -14,18 +14,15 @@ fileInput_3 = open("../" + sep + "dataFiles" + sep + "drugbank_vocabulary.txt", 
 # fileInput_1 contains all receptors in DrugBank and the family type.
 #######################################################################################
 
-drugTargets = []
 gpcrHGNCids = {}
 
 for line in fileInput_1:
 	lineSplit_1 = line.split('\t')
 	
-	drugTargets.append(lineSplit_1[11])
-	
 	if lineSplit_1[0] == "gpcr":
-		gpcrHGNCids[lineSplit_1[11]] = (lineSplit_1[9])
+		gpcrHGNCids[lineSplit_1[9]] = (lineSplit_1[11])
 
-#~ print(drugTargets)
+
 #~ print(gpcrHGNCids)
 #~ raise SystemExit
 
@@ -45,8 +42,14 @@ for line in fileInput_2:
 	
 	pharmLibraryByHGNCid[lineSplit_2[10].strip('HGNC:')] = [lineSplit_2[12]]
 
-pharmHGNCids = [s.strip('HGNC:') for s in roughHGNC]
+pharmHGNCids = []
+for s in roughHGNC:
+	if s:
+		pharmHGNCids.append(s.strip('HGNC:'))
+		
+#~ pharmHGNCids = [s.strip('HGNC:') for s in roughHGNC]
 
+#~ print(roughHGNC)
 #~ print(pharmHGNCids)
 #~ print(pharmLibraryByHGNCid)
 #~ raise SystemExit
@@ -70,21 +73,21 @@ for line in fileInput_3:
 ########################################################################################################################
 
 
-def findDruggedTargets(targets):
-	for target in targets:
-		if target in gpcrHGNCids:
-			HGNCid = gpcrHGNCids[target]
-			if HGNCid in pharmLibraryByHGNCid:
-				#~ print("\nFound GPCR with approved drug(s): " + target)
+def findDruggedTargets(gpcrHGNCids, pharmLibraryByHGNCid):
+	for targetID in gpcrHGNCids:
+		#~ print(targetID)
 
-				for drugID in pharmLibraryByHGNCid[HGNCid]:
-					#~ print(drugID)
-					if drugID in drugBankCommonNames:
-						print(drugBankCommonNames[drugID])
+		if targetID in pharmLibraryByHGNCid:
+			drugString = ""
+			
+			for drug in pharmLibraryByHGNCid[targetID][0].split(';'):
+				drug = drug.strip()
+				drugString += drugBankCommonNames[drug] + ' '
+				
+			print(targetID, gpcrHGNCids[targetID], drugString)
 
-#~ print(gpcrGeneByName['adenosine A1 receptor'])
-findDruggedTargets(drugTargets)
-#~ print(gpcrGenes)
+findDruggedTargets(gpcrHGNCids, pharmLibraryByHGNCid)
+
 
 
 
