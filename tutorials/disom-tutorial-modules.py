@@ -30,6 +30,8 @@ for file in directoryContents:
 	###############################################
 	print("Found file in this directory:", file)
 
+raise SystemExit
+
 # listdir("..") returns a list of files in the parent directory of the current directory.
 #########################################################################################
 print("\n")
