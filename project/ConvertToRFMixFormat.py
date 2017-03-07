@@ -8,7 +8,7 @@ eur = open("EUR_CHR22.bgl", "r")
 afr = open("AFR_CHR22.bgl", "r")
 nam = open("phased.HGDP_CHR22.bgl.gz.phased", "r")
 
-## Create function to create matrix from data
+## MAKE FUNCTION TO CREATE MATRIX FROM INPUT FILES ##
 
 def createMatrix(data):
 	matrix = []
@@ -30,46 +30,73 @@ def createMatrix(data):
 			#break
 	return matrix
 
-## Use matrix function on each data set
+## USE MATRIX FUNCTION ON EACH INPUT FILE ##
 
 admixMatrix = createMatrix(admix)
 eurMatrix = createMatrix(eur)
 afrMatrix = createMatrix(afr)
 namMatrix = createMatrix(nam)
 
-for a in afrMatrix:
-	print a
+#for a in eurMatrix:
+	#print a
 
-## Convert each matrix to a data frame
+## CONVERT EACH MATRIX TO A DATA FRAME ##
 
 admixDataFrame = pd.DataFrame(admixMatrix)
 eurDataFrame = pd.DataFrame(eurMatrix)
 afrDataFrame = pd.DataFrame(afrMatrix)
 namDataFrame = pd.DataFrame(namMatrix)
 
-## Compute length of each data frame
+#print admixDataFrame
+
+## COMPUTE LENGTH OF EACH DATA FRAME ##
 
 admixNum = len(admixDataFrame)
+#print admixNum
 eurNum = len(eurDataFrame)
+#print eurNum
 afrNum = len(afrDataFrame)
+#print afrNum
 namNum = len(namDataFrame)
+#print namNum
 
-## Create function to binarize data frames
+## ROW BIND ALL DATA FRAMES ##
+
+frames = [admixDataFrame,eurDataFrame,afrDataFrame,namDataFrame]
+allDataFrame = pd.concat(frames)
+
+#print allDataFrame
+
+## CREATE FUNCTION TO BINARIZE DATA FRAMES ##
 
 def binarize(snp): # define function
 
 	result = pd.factorize(snp)[0]
 	return result
 
-## Row bind data frames
+## BINARIZE THE COMBINED DATA FRAME ##
 
-#allDataFrame = pd.concat(admixDataFrame,eurDataFrame,afrDataFrame,namDataFrame)
+all01 = allDataFrame.apply(binarize,axis=0)
 
-#all01 = dataframe.apply(binarize,axis=0)
+#print all01
 
-#for a in all01:
-	#print all01
+## WRITE 'ALLELES' FILE FOR RFMIX INPUT ##
 
+all01.to_csv("ALLELES.txt",sep=' ',header=False,index=False)
+
+## WRITE 'CLASSES' FILE FOR RFMIX INPUT ##
+
+admixClass = [0]*admixNum
+eurClass = [1]*eurNum
+afrClass = [2]*afrNum
+namClass = [3]*namNum
+
+allClass = admixClass + eurClass + afrClass + namClass
+
+thefile = open('CLASSES.txt','w')
+for item in allClass:
+	thefile.write("%s\n" % item)
+	
 	
 
 
