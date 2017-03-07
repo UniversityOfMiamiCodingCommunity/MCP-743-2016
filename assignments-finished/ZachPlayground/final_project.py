@@ -1,7 +1,6 @@
 #################################################
 #################Defining Variables:#############
 #################################################
-import os
 file = open("9kb.over.reads.fasta", "r")
 fileoutput = open('modified_project.txt', 'w')
 startCodon = "ATG"
@@ -39,69 +38,108 @@ for ele in cleanerInput:
 #################Dictionary######################
 #################################################
 forDictionary = tuple(cleanestInput)
-# print(forDictionary)
 i = 0
 while i < len(forDictionary):
 	nearFullLengthDictionary[forDictionary[0 + i][0]] = forDictionary[0 + i][1]
 	i += 1
 #################################################
-#################Open Reading Frames#############
+#################Translate Function##############
 #################################################
-# for key, value in nearFullLengthDictionary.items():
-# 	j = 0
-# 	startCodonList = []
-# 	while j < len(value) - 2:
-# 		iCodon = value[j:j+3]
-# 		if iCodon == startCodon:
-# 			startCodonList.append(j)
-# 			hereWeGo = tuple(startCodonList)
-# 			startCodonDict[key] = hereWeGo
-# 		j += 1
-
-# print(forDictionary[0][1].find(startCodon))
-
-# stopCodonList = []
-# for element in forDictionary:
-# 	i = 0
-# 	z = 0
-# 	theBeginning = int(element[1][z].find(startCodon))
-# 	for stopCodon in stopCodons:
-# 		y = 0
-# 		while y < len(element) - 2:
-# 			mCodon = element[1][y:y+3]
-# 			if mCodon == stopCodon:
-# 				stopCodonIndex = y
-# 				if ((stopCodonIndex + 3) - theBeginning) % 3 == 0:
-# 					stopCodonList.append(stopCodonIndex)
-# 					# print('A stop codon in frame with the first start codon was found at index', i)
-# 			y += 1
-# 		i += 1
-# 		z += theBeginning
-
-# stopCodonCount = 0
-# stopCodonList = []
-# for stopCodon in stopCodons:
-# 	z = 0
-# 	for element in forDictionary[z][1]:
-# 		i = 0
-# 		j = 0
-# 		while i < len(element) - 2:
-# 			name = element[0]
-# 			iCodon = forDictionary[j][1][i:i+3]
-# 			if iCodon == stopCodon:
-# 				stopCodonList.extend((i, iCodon))
-# 				# if ((i + 3) - 20) % 3 == 0: ###How do I make this number represent a variable list of items (start codon indices)
-#  			# 		stopCodonList.append(i)
-# 			i += 1
-# 		j += 1
-# 	z += 1
-
-# i = 0
-# sequence = forDictionary[i][1]
-# while i < len(sequence)
-# 	i += 1
-
-
+def translate (key, seq):
+	Isoleucine = ['I', 'ATT', 'ATC', 'ATA']
+	Leucine = ['L', 'CTT', 'CTC', 'CTA', 'CTG', 'TTA', 'TTG']
+	Valine = ['V', 'GTT', 'GTC', 'GTA', 'GTG']
+	Phenylalanine = ['F', 'TTT', 'TTC']
+	Methionine = ['M', 'ATG']
+	Cysteine = ['C', 'TGT', 'TGC']
+	Alanine = ['A', 'GCT', 'GCC', 'GCA', 'GCG']
+	Glycine = ['G', 'GGT', 'GGC', 'GGA', 'GGG']
+	Proline = ['P', 'CCT', 'CCC', 'CCA', 'CCG']
+	Threonine = ['T', 'ACT', 'ACC', 'ACA', 'ACG']
+	Serine = ['S', 'TCT', 'TCC', 'TCA', 'TCG', 'AGT', 'AGC']
+	Tyrosine = ['Y', 'TAT', 'TAC']
+	Tryptophan = ['W', 'TGG']
+	Glutamine = ['Q', 'CAA', 'CAG']
+	Asparagine = ['N', 'AAT', 'AAC']
+	Histidine = ['H', 'CAT', 'CAC']
+	GlutamicAcid = ['E', 'GAA', 'GAG']
+	AsparticAcid = ['D', 'GAT', 'GAC']
+	Lysine = ['K', 'AAA', 'AAG']
+	Arginine = ['R', 'CGT', 'CGC', 'CGA', 'CGG', 'AGA', 'AGG']
+	StopCodons = ['*', 'TAA', 'TAG', 'TGA']
+	translatedSequence = []
+	i = 0
+	while i < len(seq) - 2:
+		iCodon = seq[i:i+3]
+		if iCodon in Isoleucine:
+			translatedSequence.append("I")
+			i += 3
+		if iCodon in Leucine:
+			translatedSequence.append("L")	
+			i += 3		
+		if iCodon in Valine:
+			translatedSequence.append("V")	
+			i += 3		
+		if iCodon in Phenylalanine:
+			translatedSequence.append("F")
+			i += 3
+		if iCodon in Methionine:
+			translatedSequence.append("M")
+			i += 3
+		if iCodon in Cysteine:
+			translatedSequence.append("C")
+			i += 3
+		if iCodon in Alanine:
+			translatedSequence.append("A")
+			i += 3
+		if iCodon in Glycine:
+			translatedSequence.append("G")
+			i += 3
+		if iCodon in Proline:
+			translatedSequence.append("P")
+			i += 3
+		if iCodon in Threonine:
+			translatedSequence.append("T")
+			i += 3
+		if iCodon in Serine:
+			translatedSequence.append("S")
+			i += 3
+		if iCodon in Tyrosine:
+			translatedSequence.append("Y")
+			i += 3
+		if iCodon in Tryptophan:
+			translatedSequence.append("W")
+			i += 3
+		if iCodon in Glutamine:
+			translatedSequence.append("Q")
+			i += 3
+		if iCodon in Asparagine:
+			translatedSequence.append("N")
+			i += 3			
+		if iCodon in Histidine:
+			translatedSequence.append("H")
+			i += 3
+		if iCodon in GlutamicAcid:
+			translatedSequence.append("E")
+			i += 3
+		if iCodon in AsparticAcid:
+			translatedSequence.append("D")
+			i += 3
+		if iCodon in Lysine:
+			translatedSequence.append("K")
+			i += 3
+		if iCodon in Arginine:
+			translatedSequence.append("R")
+			i += 3
+		if iCodon in StopCodons:
+			translatedSequence.append("*")
+			break
+	fileDone = "".join(translatedSequence)
+	fileNew = open('translated.txt', 'a')
+	fileNew.write(str(key) + '\n' + str(fileDone) + '\n' + '\n')
+#################################################
+#################Transcribe######################
+#################################################
 i = 0
 while i < len(forDictionary):
 	key = forDictionary[i][0]
@@ -110,8 +148,8 @@ while i < len(forDictionary):
 		mockList.extend(basepair)
 	mockString = "".join(mockList)
 	# print('test1')
-######################################	
-######################################
+	######################################	
+	######################################
 	z = 0
 	startCodonList = []
 	while z < len(mockString) - 2:
@@ -120,106 +158,39 @@ while i < len(forDictionary):
 			startCodonList.append(z)
 		z += 1
 		# print('test2')
-######################################
-######################################
+	######################################
+	######################################
 	stopCodonList = []
-	for stopCodon in stopCodons:
-		x = 0
-		j = 0
-		while x < len(startCodonList):
-			startCodonIndex = startCodonList[x]
-			startFormula = int(startCodonIndex) + j
-			iCodon = mockString[startFormula:startFormula + 3]
-			# print ('test3')
-			if iCodon == stopCodon:
-				dataTransfer = startCodonIndex, (startCodonIndex+j)
-				stopCodonList.append(dataTransfer)
-				x += 1
-				j = 0
-			elif j > len(mockString):
-				break
-			else:
-				j += 3
-			# print(x, j)
+	x = 0
+	j = 0
+	while x < len(startCodonList):
+		startCodonIndex = startCodonList[x]
+		startFormula = int(startCodonIndex) + j
+		iCodon = mockString[startFormula:startFormula + 3]
+		# print ('test3')
+		if iCodon in stopCodons:
+			dataTransfer = startCodonIndex, (startCodonIndex+j)
+			stopCodonList.append(dataTransfer)
+			x += 1
+			j = 0
+		elif j > len(mockString):
+			break
+		else:
+			j += 3
+		# print(x, j)
 	x = 0
 	# print(stopCodonList)
 	# fileoutput.write(str(key) + '\n' + str(stopCodonList) + '\n' + '\n' + '\n')
-######################################
-######################################
+	######################################
+	######################################
 	k = 0
 	aCodonList = []
 	while k < len(stopCodonList):
 		aCodon = mockString[stopCodonList[k][0]:(stopCodonList[k][1]+3)]
 		aCodonList.append(aCodon)
-		# fileoutput.write(str(key) + '\n' + str(aCodon) + '\n' + '\n' + '\n')
+		fileoutput.write(str(key) + '\n' + str(aCodon) + '\n' + '\n' + '\n')
 		k += 1
-	print(aCodonList)
+	# print(aCodonList)
+	for ele in aCodonList:
+		translate(key, ele)
 	i += 1
-
-
-
-# print(nearFullLengthDictionary["m160813_184806_42269_c101085362550000001823239303091727_s1_p0/1424/ccs"])
-
-
-# fileoutput.write(str(key) + '\n' + 'Start Codon (ATG):' + ':' + str(startCodonList[y]) + ' ' + 'Stop Codon' + str(stopCodon) + ':' + str(j) + '\n' + '\n')
-
-
-
-# print(stopCodonDict)
-
-# print(forDictionary[0][i])
-
-# for key, value in nearFullLengthDictionary.items():
-# 	for stopCodon in stopCodons:
-# 		i = 0
-# 		j = 0
-# 		while i < len(value) - 2:
-# 			mCodon = value[int(startCodonList[j])+1:i+3]
-# 			if mCodon == stopCodon:
-# 				stopCodonIndex = int(i)
-# 				if ((stopCodonIndex + 3) - startCodonList[i]) % 3 == 0:
-# 					stopCodonList.append(stopCodonIndex)
-# 					a += 1
-# 					break
-# 			i += 1
-# 		print(stopCodonList)
-
-# # for key, value in sorted(startCodonDict.items()):
-# #     print(key, value)
-
-# # stopCodonList = []
-# for stopCodon in stopCodons:
-# 	i = 0
-# 	for key, value in nearFullLengthDictionary.items():
-# 		while i < len(value) - 2:
-# 			iCodon = value[i:i+3]
-# 			if iCodon == stopCodon:
-# 				stopCodonIndex = i
-# 				if ((i + 3) - 20) % 3 == 0:
-# 					stopCodonList.append(i)
-# 				# print("There is a stop codon that is in frame with the first start codon at index", i)
-# 		i += 1
-
-
-# i = 0
-# for key, value in nearFullLengthDictionary.items():
-# 	print("Sequence #:", key)
-# 	j = 0
-# 	while j < len(value):
-# 		iCodon = value[j:j+3]
-# 		if iCodon == startCodon:
-# 			print(j)
-# 		j += 1
-# 	print('\n')
-# 	i +=1
-
-# for key, value in nearFullLengthDictionary.items():
-# 	j = 0
-# 	startCodonList = []
-# 	while j < len(value) - 2:
-# 		iCodon = value[j:j+3]
-# 		if iCodon == startCodon:
-# 			startCodonList.append(j)
-# 			hereWeGo = tuple(startCodonList)
-# 			startCodonDict[key] = hereWeGo
-# 		j += 1
