@@ -26,12 +26,12 @@ print("The length of Sts5 protein sequence is:",len(Sts5Protein))
 ############################################################################################
 ## Load a module using the import statement: module dealing with regular expression (re)
 #import re
-# Define the pattern I would like to search for
-pattern = "H.(R|K|H)..(S|T)"
+## Define the pattern I would like to search for
+pattern = "H.[RKH]..[ST]"
 ## Use the regular search function
 #re.search (pattern, Sts5Protein)
 #St5Protein = sequence[name]
-#if re.search(r"H.(R|K|H)..(S|T)", Sts5Protein):
+#if re.search(r"H.[RKH]..[ST]", Sts5Protein):
 	#print("The Orb6 phosphorylation consensus in Sts5 protein is found")
 
 patternCount = 0
