@@ -27,14 +27,17 @@ cleanInput = "".join(fastadeFacto)
 cleanerInput = cleanInput.split('>')
 garbage = cleanerInput.pop(0)
 
+# print(cleanerInput)
+
+
 i = 0
 for ele in cleanerInput:
 	marker = '\n'
 	if ele.find(marker):
-		ele.split('\n')
 		cleanestInput.append(ele.split('\n'))
 	i+=1
-#################################################
+
+################################################
 #################Dictionary######################
 #################################################
 forDictionary = tuple(cleanestInput)
