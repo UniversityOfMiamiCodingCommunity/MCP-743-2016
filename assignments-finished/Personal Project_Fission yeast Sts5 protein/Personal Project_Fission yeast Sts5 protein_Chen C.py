@@ -24,15 +24,16 @@ print("The length of Sts5 protein sequence is:",len(Sts5Protein))
 # a) the first line reports the total number of the putative Orb6 phosphorylation consensus. 
 # b) the additional lines report a single Orb6 phosphorylation site index
 ############################################################################################
-## Load a module using the import statement: module dealing with regular expression (re)
-#import re
-## Define the pattern I would like to search for
+# Load a module using the import statement: module dealing with regular expression (re)
+import re
+# Define the pattern I would like to search for
 pattern = "H.[RKH]..[ST]"
-## Use the regular search function
-#re.search (pattern, Sts5Protein)
-#St5Protein = sequence[name]
-#if re.search(r"H.[RKH]..[ST]", Sts5Protein):
-	#print("The Orb6 phosphorylation consensus in Sts5 protein is found")
+# pattern = "HGHRRS"
+# Use the regular search function
+re.search (pattern, Sts5Protein)
+St5Protein = sequence[name]
+if re.search(r"H.[RKH]..[ST]", Sts5Protein):
+	print("The Orb6 phosphorylation consensus in Sts5 protein is found")
 
 patternCount = 0
 i = 0
@@ -44,6 +45,7 @@ while i < len(Sts5Protein) - 5:
 	if iPattern == pattern:
 		Orb6Consensus.write("Found Orb6 consensus "+ iPattern+ " at index "+str(i+6)+"\n") 
 	i += 1
+print(patternCount)
 Orb6Consensus.close()
 
 
