@@ -86,13 +86,10 @@ def findDruggedTargets(gpcrHGNCids, pharmLibraryByHGNCid):
 				
 			print(targetID, gpcrHGNCids[targetID], drugString)
 
+		#~ with open("../" + sep + "dataFiles" + sep + "approved_drugs_for_gpcrs.txt", "a") as fileOutput:
+			#~ print("HGNC ID: " + targetID, "\nReceptor Name: " + gpcrHGNCids[targetID], "\nApproved drugs: " + drugString + "\n", file = fileOutput)
+
 findDruggedTargets(gpcrHGNCids, pharmLibraryByHGNCid)
-
-
-
-
-
-
 
 
 

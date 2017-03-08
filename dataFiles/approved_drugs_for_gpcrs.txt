@@ -1,0 +1,1600 @@
+HGNC ID: 12695 
+Receptor Name: vasoactive intestinal peptide receptor 2 
+Approved drugs: Oxytocin Carbetocin 
+
+HGNC ID: 5286 
+Receptor Name: 5-hydroxytryptamine receptor 1A 
+Approved drugs: Methysergide Zolmitriptan Chlorpromazine Buspirone Trazodone Sumatriptan Alprenolol Naratriptan Doxepin Nefazodone Penbutolol Acepromazine Alverine Pipotiazine Thioproperazine Flibanserin Cariprazine Cinitapride Vortioxetine Brexpiprazole 
+
+HGNC ID: 5287 
+Receptor Name: 5-hydroxytryptamine receptor 1B 
+Approved drugs: Eletriptan Zolmitriptan Dihydroergotamine Sumatriptan Ergotamine Naratriptan Rizatriptan Frovatriptan Vortioxetine 
+
+HGNC ID: 5289 
+Receptor Name: 5-hydroxytryptamine receptor 1D 
+Approved drugs: Eletriptan Zolmitriptan Dihydroergotamine Sumatriptan Ergotamine Naratriptan Rizatriptan Frovatriptan 
+
+HGNC ID: 5291 
+Receptor Name: 5-hydroxytryptamine receptor 1E 
+Approved drugs: Eletriptan Zolmitriptan Dihydroergotamine Sumatriptan Ergotamine Naratriptan Rizatriptan Frovatriptan 
+
+HGNC ID: 5292 
+Receptor Name: 5-hydroxytryptamine receptor 1F 
+Approved drugs: Eletriptan Zolmitriptan Sumatriptan Naratriptan Rizatriptan 
+
+HGNC ID: 5293 
+Receptor Name: 5-hydroxytryptamine receptor 2A 
+Approved drugs: Ziprasidone Methysergide Amitriptyline Olanzapine Clozapine Mirtazapine Loxapine Cyproheptadine Chlorpromazine Nortriptyline Lisuride Cisapride Trazodone Thioridazine Ergotamine Risperidone Minaprine Flupentixol Cyclobenzaprine Mesoridazine Doxepin Nefazodone Desipramine Quetiapine Aripiprazole Chlorprothixene Clomipramine Paliperidone Acepromazine Pipotiazine Thioproperazine Thiothixene Flibanserin Iloperidone Cariprazine Sertindole Asenapine Cinitapride Lurasidone Butriptyline Brexpiprazole 
+
+HGNC ID: 5294 
+Receptor Name: 5-hydroxytryptamine receptor 2B 
+Approved drugs: Methysergide Triflupromazine Minaprine Doxepin Chlorprothixene Clomipramine Cariprazine 
+
+HGNC ID: 5295 
+Receptor Name: 5-hydroxytryptamine receptor 2C 
+Approved drugs: Methysergide Cyproheptadine Lisuride Trazodone Minaprine Doxepin Nefazodone Chlorprothixene Clomipramine Paliperidone Sertindole Agomelatine Captodiame 
+
+HGNC ID: 5299 
+Receptor Name: 5-hydroxytryptamine receptor 4 
+Approved drugs: Cisapride Prucalopride 
+
+HGNC ID: 5300 
+Receptor Name: 5-hydroxytryptamine receptor 5A 
+Approved drugs: Cisapride Prucalopride 
+
+HGNC ID: 16291 
+Receptor Name: "5-hydroxytryptamine receptor 5B, pseudogene" 
+Approved drugs: Cisapride Prucalopride 
+
+HGNC ID: 5301 
+Receptor Name: 5-hydroxytryptamine receptor 6 
+Approved drugs: Sertindole 
+
+HGNC ID: 5302 
+Receptor Name: 5-hydroxytryptamine receptor 7 
+Approved drugs: Methysergide Amisulpride Vortioxetine 
+
+HGNC ID: 1950 
+Receptor Name: cholinergic receptor muscarinic 1 
+Approved drugs: Cevimeline Succinylcholine Oxyphenonium Benzatropine Ipratropium bromide Metixene Buclizine Trihexyphenidyl Oxyphencyclimine Procyclidine Ethopropazine Carbachol Hyoscyamine Methylscopolamine bromide Triflupromazine Anisotropine Methylbromide Atropine Pirenzepine Homatropine Methylbromide Scopolamine Clidinium Propantheline Cryptenamine Dicyclomine Biperiden Cycrimine Cyclopentolate Glycopyrronium Tolterodine Oxybutynin Pilocarpine Doxepin Flavoxate Diphenidol Metoclopramide Mepenzolate Aclidinium 
+
+HGNC ID: 1951 
+Receptor Name: cholinergic receptor muscarinic 2 
+Approved drugs: Ipratropium bromide Oxyphencyclimine Procyclidine Carbachol Hyoscyamine Methylscopolamine bromide Gallamine Triethiodide Triflupromazine Anisotropine Methylbromide Atropine Homatropine Methylbromide Rocuronium Cryptenamine Bethanechol Tolterodine Oxybutynin Pilocarpine Doxepin Flavoxate Diphenidol Dimetindene Aclidinium Umeclidinium 
+
+HGNC ID: 1952 
+Receptor Name: cholinergic receptor muscarinic 3 
+Approved drugs: Cevimeline Ipratropium bromide Oxyphencyclimine Procyclidine Darifenacin Anisotropine Methylbromide Atropine Homatropine Methylbromide Diphemanil Methylsulfate Cryptenamine Tolterodine Oxybutynin Pilocarpine Doxepin Diphenidol Tiotropium Solifenacin Isopropamide Mepenzolate Fesoterodine Methacholine Aclidinium Umeclidinium 
+
+HGNC ID: 1953 
+Receptor Name: cholinergic receptor muscarinic 4 
+Approved drugs: Metixene Procyclidine Atropine Homatropine Methylbromide Cryptenamine Tropicamide Tolterodine Doxepin Aclidinium 
+
+HGNC ID: 1954 
+Receptor Name: cholinergic receptor muscarinic 5 
+Approved drugs: Metixene Atropine Homatropine Methylbromide Cryptenamine Tolterodine Doxepin Aclidinium 
+
+HGNC ID: 262 
+Receptor Name: adenosine A1 receptor 
+Approved drugs: Caffeine Theophylline Adenosine Dyphylline Pentoxifylline Aminophylline Oxtriphylline Theobromine 
+
+HGNC ID: 263 
+Receptor Name: adenosine A2a receptor 
+Approved drugs: Caffeine Theophylline Adenosine Dyphylline Pentoxifylline Oxtriphylline Theobromine Regadenoson 
+
+HGNC ID: 264 
+Receptor Name: adenosine A2b receptor 
+Approved drugs: Theophylline Adenosine Enprofylline 
+
+HGNC ID: 268 
+Receptor Name: adenosine A3 receptor 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 13838 
+Receptor Name: adhesion G protein-coupled receptor A1 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 17849 
+Receptor Name: adhesion G protein-coupled receptor A2 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 13839 
+Receptor Name: adhesion G protein-coupled receptor A3 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 943 
+Receptor Name: adhesion G protein-coupled receptor B1 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 944 
+Receptor Name: adhesion G protein-coupled receptor B2 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 945 
+Receptor Name: adhesion G protein-coupled receptor B3 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 1850 
+Receptor Name: cadherin EGF LAG seven-pass G-type receptor 1 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 3231 
+Receptor Name: cadherin EGF LAG seven-pass G-type receptor 2 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 3230 
+Receptor Name: cadherin EGF LAG seven-pass G-type receptor 3 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 19893 
+Receptor Name: adhesion G protein-coupled receptor D1 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 18651 
+Receptor Name: adhesion G protein-coupled receptor D2 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 3336 
+Receptor Name: adhesion G protein-coupled receptor E1 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 3337 
+Receptor Name: adhesion G protein-coupled receptor E2 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 23647 
+Receptor Name: adhesion G protein-coupled receptor E3 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 19240 
+Receptor Name: "adhesion G protein-coupled receptor E4, pseudogene" 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 1711 
+Receptor Name: adhesion G protein-coupled receptor E5 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 18990 
+Receptor Name: adhesion G protein-coupled receptor F1 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 18991 
+Receptor Name: adhesion G protein-coupled receptor F2 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 18989 
+Receptor Name: adhesion G protein-coupled receptor F3 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 19011 
+Receptor Name: adhesion G protein-coupled receptor F4 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 19030 
+Receptor Name: adhesion G protein-coupled receptor F5 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 4512 
+Receptor Name: adhesion G protein-coupled receptor G1 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 4516 
+Receptor Name: adhesion G protein-coupled receptor G2 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 13728 
+Receptor Name: adhesion G protein-coupled receptor G3 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 18992 
+Receptor Name: adhesion G protein-coupled receptor G4 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 19010 
+Receptor Name: adhesion G protein-coupled receptor G5 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 13841 
+Receptor Name: adhesion G protein-coupled receptor G6 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 19241 
+Receptor Name: adhesion G protein-coupled receptor G7 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 20973 
+Receptor Name: adhesion G protein-coupled receptor L1 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 18582 
+Receptor Name: adhesion G protein-coupled receptor L2 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 20974 
+Receptor Name: adhesion G protein-coupled receptor L3 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 20822 
+Receptor Name: adhesion G protein-coupled receptor L4 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 17416 
+Receptor Name: adhesion G protein-coupled receptor V1 
+Approved drugs: Adenosine Aminophylline 
+
+HGNC ID: 277 
+Receptor Name: adrenoceptor alpha 1A 
+Approved drugs: Mephentermine 
+
+HGNC ID: 278 
+Receptor Name: adrenoceptor alpha 1B 
+Approved drugs: Mephentermine 
+
+HGNC ID: 280 
+Receptor Name: adrenoceptor alpha 1D 
+Approved drugs: Mephentermine 
+
+HGNC ID: 281 
+Receptor Name: adrenoceptor alpha 2A 
+Approved drugs: Mephentermine 
+
+HGNC ID: 282 
+Receptor Name: adrenoceptor alpha 2B 
+Approved drugs: Mephentermine 
+
+HGNC ID: 283 
+Receptor Name: adrenoceptor alpha 2C 
+Approved drugs: Mephentermine 
+
+HGNC ID: 285 
+Receptor Name: adrenoceptor beta 1 
+Approved drugs: Esmolol Betaxolol Isoetarine Metoprolol Atenolol Norepinephrine Timolol Sotalol Carteolol Propranolol Labetalol Bisoprolol Epinephrine Dobutamine Alprenolol Pindolol Isoprenaline Arbutamine Amiodarone Carvedilol Acebutolol Nadolol Levobunolol Metipranolol Bevantolol Practolol Penbutolol Ephedra Oxprenolol Celiprolol Nebivolol Droxidopa Bopindolol Bupranolol 
+
+HGNC ID: 286 
+Receptor Name: adrenoceptor beta 2 
+Approved drugs: Norepinephrine Timolol Dipivefrin Sotalol Carteolol Labetalol Epinephrine Orciprenaline Alprenolol Ritodrine Terbutaline Salmeterol Formoterol Salbutamol Isoprenaline Levobunolol Metipranolol Arformoterol Fenoterol Pirbuterol Penbutolol Ephedra Procaterol Clenbuterol Bambuterol Celiprolol Indacaterol Droxidopa Olodaterol Vilanterol 
+
+HGNC ID: 288 
+Receptor Name: adrenoceptor beta 3 
+Approved drugs: Norepinephrine Isoprenaline Ephedra Droxidopa Mirabegron 
+
+HGNC ID: 336 
+Receptor Name: angiotensin II receptor type 1 
+Approved drugs: Valsartan Olmesartan Losartan Candesartan Eprosartan Telmisartan Irbesartan Tasosartan Azilsartan medoxomil 
+
+HGNC ID: 338 
+Receptor Name: angiotensin II receptor type 2 
+Approved drugs: Valsartan Olmesartan Losartan Candesartan Eprosartan Telmisartan Irbesartan Tasosartan Azilsartan medoxomil 
+
+HGNC ID: 339 
+Receptor Name: apelin receptor 
+Approved drugs: Valsartan Olmesartan Losartan Candesartan Eprosartan Telmisartan Irbesartan Tasosartan Azilsartan medoxomil 
+
+HGNC ID: 19680 
+Receptor Name: G protein-coupled bile acid receptor 1 
+Approved drugs: Valsartan Olmesartan Losartan Candesartan Eprosartan Telmisartan Irbesartan Tasosartan Azilsartan medoxomil 
+
+HGNC ID: 7843 
+Receptor Name: neuromedin B receptor 
+Approved drugs: Valsartan Olmesartan Losartan Candesartan Eprosartan Telmisartan Irbesartan Tasosartan Azilsartan medoxomil 
+
+HGNC ID: 4609 
+Receptor Name: gastrin releasing peptide receptor 
+Approved drugs: Valsartan Olmesartan Losartan Candesartan Eprosartan Telmisartan Irbesartan Tasosartan Azilsartan medoxomil 
+
+HGNC ID: 1113 
+Receptor Name: bombesin receptor subtype 3 
+Approved drugs: Valsartan Olmesartan Losartan Candesartan Eprosartan Telmisartan Irbesartan Tasosartan Azilsartan medoxomil 
+
+HGNC ID: 1029 
+Receptor Name: bradykinin receptor B1 
+Approved drugs: Valsartan Olmesartan Losartan Candesartan Eprosartan Telmisartan Irbesartan Tasosartan Azilsartan medoxomil 
+
+HGNC ID: 1030 
+Receptor Name: bradykinin receptor B2 
+Approved drugs: Icatibant 
+
+HGNC ID: 1440 
+Receptor Name: calcitonin receptor 
+Approved drugs: Pramlintide 
+
+HGNC ID:  
+Receptor Name:  
+Approved drugs: Amphetamine 
+
+HGNC ID: 16709 
+Receptor Name: calcitonin receptor like receptor 
+Approved drugs: Amphetamine 
+
+HGNC ID: 1514 
+Receptor Name: calcium sensing receptor 
+Approved drugs: Cinacalcet 
+
+HGNC ID: 18510 
+Receptor Name: G protein-coupled receptor class C group 6 member A 
+Approved drugs: Cinacalcet 
+
+HGNC ID: 2159 
+Receptor Name: cannabinoid receptor 1 
+Approved drugs: Dronabinol Nabilone Rimonabant 
+
+HGNC ID: 2160 
+Receptor Name: cannabinoid receptor 2 
+Approved drugs: Nabilone 
+
+HGNC ID: 2121 
+Receptor Name: chemerin chemokine-like receptor 1 
+Approved drugs: Nabilone 
+
+HGNC ID: 1602 
+Receptor Name: C-C motif chemokine receptor 1 
+Approved drugs: Nabilone 
+
+HGNC ID: 1603 
+Receptor Name: C-C motif chemokine receptor 2 
+Approved drugs: Nabilone 
+
+HGNC ID: 1604 
+Receptor Name: C-C motif chemokine receptor 3 
+Approved drugs: Nabilone 
+
+HGNC ID: 1605 
+Receptor Name: C-C motif chemokine receptor 4 
+Approved drugs: Nabilone 
+
+HGNC ID: 1606 
+Receptor Name: C-C motif chemokine receptor 5 (gene/pseudogene) 
+Approved drugs: Maraviroc 
+
+HGNC ID: 1607 
+Receptor Name: C-C motif chemokine receptor 6 
+Approved drugs: Maraviroc 
+
+HGNC ID: 1608 
+Receptor Name: C-C motif chemokine receptor 7 
+Approved drugs: Maraviroc 
+
+HGNC ID: 1609 
+Receptor Name: C-C motif chemokine receptor 8 
+Approved drugs: Maraviroc 
+
+HGNC ID: 1610 
+Receptor Name: C-C motif chemokine receptor 9 
+Approved drugs: Maraviroc 
+
+HGNC ID: 4474 
+Receptor Name: C-C motif chemokine receptor 10 
+Approved drugs: Maraviroc 
+
+HGNC ID: 6026 
+Receptor Name: C-X-C motif chemokine receptor 1 
+Approved drugs: Maraviroc 
+
+HGNC ID: 6027 
+Receptor Name: C-X-C motif chemokine receptor 2 
+Approved drugs: Maraviroc 
+
+HGNC ID: 4540 
+Receptor Name: C-X-C motif chemokine receptor 3 
+Approved drugs: Maraviroc 
+
+HGNC ID: 2561 
+Receptor Name: C-X-C motif chemokine receptor 4 
+Approved drugs: Plerixafor 
+
+HGNC ID: 1060 
+Receptor Name: C-X-C motif chemokine receptor 5 
+Approved drugs: Plerixafor 
+
+HGNC ID: 16647 
+Receptor Name: C-X-C motif chemokine receptor 6 
+Approved drugs: Plerixafor 
+
+HGNC ID: 2558 
+Receptor Name: C-X3-C motif chemokine receptor 1 
+Approved drugs: Plerixafor 
+
+HGNC ID: 1625 
+Receptor Name: X-C motif chemokine receptor 1 
+Approved drugs: Plerixafor 
+
+HGNC ID: 4035 
+Receptor Name: atypical chemokine receptor 1 (Duffy blood group) 
+Approved drugs: Plerixafor 
+
+HGNC ID: 1565 
+Receptor Name: atypical chemokine receptor 2 
+Approved drugs: Plerixafor 
+
+HGNC ID: 23692 
+Receptor Name: atypical chemokine receptor 3 
+Approved drugs: Plerixafor 
+
+HGNC ID: 1611 
+Receptor Name: atypical chemokine receptor 4 
+Approved drugs: Plerixafor 
+
+HGNC ID: 1612 
+Receptor Name: C-C motif chemokine receptor like 2 
+Approved drugs: Plerixafor 
+
+HGNC ID: 1570 
+Receptor Name: cholecystokinin A receptor 
+Approved drugs: Ceruletide 
+
+HGNC ID: 1571 
+Receptor Name: cholecystokinin B receptor 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4463 
+Receptor Name: G protein-coupled receptor 1 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4484 
+Receptor Name: G protein-coupled receptor 3 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4497 
+Receptor Name: G protein-coupled receptor 4 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4500 
+Receptor Name: G protein-coupled receptor 42 (gene/pseudogene) 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4515 
+Receptor Name: G protein-coupled receptor 6 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4466 
+Receptor Name: G protein-coupled receptor 12 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4469 
+Receptor Name: G protein-coupled receptor 15 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4471 
+Receptor Name: G protein-coupled receptor 17 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4472 
+Receptor Name: G protein-coupled receptor 18 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4473 
+Receptor Name: G protein-coupled receptor 19 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4475 
+Receptor Name: G protein-coupled receptor 20 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4476 
+Receptor Name: G protein-coupled receptor 21 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4477 
+Receptor Name: G protein-coupled receptor 22 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4480 
+Receptor Name: G protein-coupled receptor 25 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4481 
+Receptor Name: G protein-coupled receptor 26 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4482 
+Receptor Name: G protein-coupled receptor 27 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4486 
+Receptor Name: G protein-coupled receptor 31 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4487 
+Receptor Name: G protein-coupled receptor 32 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4489 
+Receptor Name: G protein-coupled receptor 33 (gene/pseudogene) 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4490 
+Receptor Name: G protein-coupled receptor 34 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4492 
+Receptor Name: G protein-coupled receptor 35 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4494 
+Receptor Name: G protein-coupled receptor 37 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 14923 
+Receptor Name: G protein-coupled receptor 37 like 1 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4496 
+Receptor Name: G protein-coupled receptor 39 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4503 
+Receptor Name: G protein-coupled receptor 45 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4506 
+Receptor Name: G protein-coupled receptor 50 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4508 
+Receptor Name: G protein-coupled receptor 52 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4511 
+Receptor Name: G protein-coupled receptor 55 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 13300 
+Receptor Name: G protein-coupled receptor 61 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 13301 
+Receptor Name: G protein-coupled receptor 62 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 13302 
+Receptor Name: G protein-coupled receptor 63 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4517 
+Receptor Name: G protein-coupled receptor 65 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4519 
+Receptor Name: G protein-coupled receptor 68 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4526 
+Receptor Name: G protein-coupled receptor 75 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4528 
+Receptor Name: G protein-coupled receptor 78 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4529 
+Receptor Name: "G protein-coupled receptor 79, pseudogene" 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4533 
+Receptor Name: G protein-coupled receptor 82 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4523 
+Receptor Name: G protein-coupled receptor 83 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4535 
+Receptor Name: G protein-coupled receptor 84 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4536 
+Receptor Name: G protein-coupled receptor 85 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4538 
+Receptor Name: G protein-coupled receptor 87 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4539 
+Receptor Name: G protein-coupled receptor 88 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 14963 
+Receptor Name: G protein-coupled receptor 101 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 19060 
+Receptor Name: G protein-coupled receptor 119 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 17482 
+Receptor Name: G protein-coupled receptor 132 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 19991 
+Receptor Name: G protein-coupled receptor 135 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 19995 
+Receptor Name: G protein-coupled receptor 139 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 19997 
+Receptor Name: G protein-coupled receptor 141 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 20088 
+Receptor Name: G protein-coupled receptor 142 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 21718 
+Receptor Name: G protein-coupled receptor 146 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 23623 
+Receptor Name: G protein-coupled receptor 148 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 23627 
+Receptor Name: G protein-coupled receptor 149 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 23628 
+Receptor Name: G protein-coupled receptor 150 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 23624 
+Receptor Name: G protein-coupled receptor 151 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 23622 
+Receptor Name: G protein-coupled receptor 152 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 23618 
+Receptor Name: G protein-coupled receptor 153 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 23693 
+Receptor Name: G protein-coupled receptor 160 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 23694 
+Receptor Name: G protein-coupled receptor 161 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 16693 
+Receptor Name: G protein-coupled receptor 162 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 30057 
+Receptor Name: G protein-coupled receptor 171 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 18186 
+Receptor Name: G protein-coupled receptor 173 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 30245 
+Receptor Name: G protein-coupled receptor 174 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 32370 
+Receptor Name: G protein-coupled receptor 176 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 13708 
+Receptor Name: G protein-coupled receptor 182 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 3128 
+Receptor Name: G protein-coupled receptor 183 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 13299 
+Receptor Name: leucine rich repeat containing G protein-coupled receptor 4 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4504 
+Receptor Name: leucine rich repeat containing G protein-coupled receptor 5 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 19719 
+Receptor Name: leucine rich repeat containing G protein-coupled receptor 6 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 6899 
+Receptor Name: "MAS1 proto-oncogene, G protein-coupled receptor" 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 13961 
+Receptor Name: "MAS1 proto-oncogene like, G protein-coupled receptor" 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 29626 
+Receptor Name: MAS related GPR family member D 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 30694 
+Receptor Name: MAS related GPR family member E 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 24828 
+Receptor Name: MAS related GPR family member F 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 24829 
+Receptor Name: MAS related GPR family member G 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 17962 
+Receptor Name: MAS related GPR family member X1 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 17983 
+Receptor Name: MAS related GPR family member X2 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 17980 
+Receptor Name: MAS related GPR family member X3 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 17617 
+Receptor Name: MAS related GPR family member X4 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 14007 
+Receptor Name: opsin 3 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 14449 
+Receptor Name: opsin 4 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 19992 
+Receptor Name: opsin 5 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 15524 
+Receptor Name: purinergic receptor P2Y8 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 19906 
+Receptor Name: purinergic receptor P2Y10 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4514 
+Receptor Name: trace amine associated receptor 2 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4513 
+Receptor Name: trace amine associated receptor 3 (gene/pseudogene) 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 31924 
+Receptor Name: "trace amine associated receptor 4, pseudogene" 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 30236 
+Receptor Name: trace amine associated receptor 5 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 20978 
+Receptor Name: trace amine associated receptor 6 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 14964 
+Receptor Name: trace amine associated receptor 8 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 20977 
+Receptor Name: trace amine associated receptor 9 (gene/pseudogene) 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 20844 
+Receptor Name: G protein-coupled receptor 156 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 23689 
+Receptor Name: G protein-coupled receptor 158 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 31371 
+Receptor Name: G protein-coupled receptor 179 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 9836 
+Receptor Name: G protein-coupled receptor class C group 5 member A 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 13308 
+Receptor Name: G protein-coupled receptor class C group 5 member B 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 13309 
+Receptor Name: G protein-coupled receptor class C group 5 member C 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 13310 
+Receptor Name: G protein-coupled receptor class C group 5 member D 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4038 
+Receptor Name: frizzled class receptor 1 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4040 
+Receptor Name: frizzled class receptor 2 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4041 
+Receptor Name: frizzled class receptor 3 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4042 
+Receptor Name: frizzled class receptor 4 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4043 
+Receptor Name: frizzled class receptor 5 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4044 
+Receptor Name: frizzled class receptor 6 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4045 
+Receptor Name: frizzled class receptor 7 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4046 
+Receptor Name: frizzled class receptor 8 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4047 
+Receptor Name: frizzled class receptor 9 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 4039 
+Receptor Name: frizzled class receptor 10 
+Approved drugs: Pentagastrin 
+
+HGNC ID: 11119 
+Receptor Name: "smoothened, frizzled class receptor" 
+Approved drugs: Vismodegib 
+
+HGNC ID: 1319 
+Receptor Name: complement C3a receptor 1 
+Approved drugs: Vismodegib 
+
+HGNC ID: 1338 
+Receptor Name: complement C5a receptor 1 
+Approved drugs: Vismodegib 
+
+HGNC ID: 4527 
+Receptor Name: complement component 5a receptor 2 
+Approved drugs: Vismodegib 
+
+HGNC ID: 2357 
+Receptor Name: corticotropin releasing hormone receptor 1 
+Approved drugs: Vismodegib 
+
+HGNC ID: 2358 
+Receptor Name: corticotropin releasing hormone receptor 2 
+Approved drugs: Vismodegib 
+
+HGNC ID: 3020 
+Receptor Name: dopamine receptor D1 
+Approved drugs: Methylergometrine Chlorpromazine Triflupromazine Fluphenazine Thioridazine Fenoldopam Perphenazine Flupentixol Dopamine Acetophenazine Levodopa Chlorprothixene Propericiazine Acepromazine Pipotiazine Thiothixene Zuclopenthixol 
+
+HGNC ID: 3023 
+Receptor Name: dopamine receptor D2 
+Approved drugs: Ziprasidone Cabergoline Ropinirole Olanzapine Clozapine Sulpiride Loxapine Remoxipride Pramipexole Promazine Prochlorperazine Droperidol Chlorpromazine Buspirone Haloperidol Triflupromazine Lisuride Fluphenazine Thioridazine Apomorphine Risperidone Trifluoperazine Perphenazine Flupentixol Amantadine Mesoridazine Dopamine Acetophenazine Pimozide Domperidone Pergolide Bromocriptine Quetiapine Metoclopramide Levodopa Aripiprazole Chlorprothixene Paliperidone Methotrimeprazine Alizapride Acepromazine Molindone Pipotiazine Thioproperazine Thiothixene Zuclopenthixol Fluspirilene Iloperidone Rotigotine Cariprazine Sertindole Asenapine Amisulpride Lurasidone Bromopride Brexpiprazole 
+
+HGNC ID: 3024 
+Receptor Name: dopamine receptor D3 
+Approved drugs: Ropinirole Pramipexole Lisuride Apomorphine Dopamine Pimozide Domperidone Pergolide Bromocriptine Levodopa Chlorprothixene Paliperidone Rotigotine Cariprazine Captodiame 
+
+HGNC ID: 3025 
+Receptor Name: dopamine receptor D4 
+Approved drugs: Pramipexole Lisuride Apomorphine Dopamine Levodopa Paliperidone Flibanserin Rotigotine 
+
+HGNC ID: 3026 
+Receptor Name: dopamine receptor D5 
+Approved drugs: Fenoldopam Dopamine Levodopa Zuclopenthixol 
+
+HGNC ID: 3179 
+Receptor Name: endothelin receptor type A 
+Approved drugs: Bosentan Sitaxentan Ambrisentan Macitentan 
+
+HGNC ID: 3180 
+Receptor Name: endothelin receptor type B 
+Approved drugs: Bosentan Macitentan 
+
+HGNC ID: 3826 
+Receptor Name: formyl peptide receptor 1 
+Approved drugs: Bosentan Macitentan 
+
+HGNC ID: 3827 
+Receptor Name: formyl peptide receptor 2 
+Approved drugs: Bosentan Macitentan 
+
+HGNC ID: 3828 
+Receptor Name: formyl peptide receptor 3 
+Approved drugs: Bosentan Macitentan 
+
+HGNC ID: 4498 
+Receptor Name: free fatty acid receptor 1 
+Approved drugs: Icosapent 
+
+HGNC ID: 4501 
+Receptor Name: free fatty acid receptor 2 
+Approved drugs: Icosapent 
+
+HGNC ID: 4499 
+Receptor Name: free fatty acid receptor 3 
+Approved drugs: Icosapent 
+
+HGNC ID: 19061 
+Receptor Name: free fatty acid receptor 4 
+Approved drugs: Icosapent 
+
+HGNC ID: 4070 
+Receptor Name: gamma-aminobutyric acid type B receptor subunit 1 
+Approved drugs: Baclofen Progabide Vigabatrin 
+
+HGNC ID: 4507 
+Receptor Name: gamma-aminobutyric acid type B receptor subunit 2 
+Approved drugs: Baclofen 
+
+HGNC ID: 4132 
+Receptor Name: galanin receptor 1 
+Approved drugs: Baclofen 
+
+HGNC ID: 4133 
+Receptor Name: galanin receptor 2 
+Approved drugs: Baclofen 
+
+HGNC ID: 4134 
+Receptor Name: galanin receptor 3 
+Approved drugs: Baclofen 
+
+HGNC ID: 4267 
+Receptor Name: growth hormone secretagogue receptor 
+Approved drugs: Baclofen 
+
+HGNC ID: 4266 
+Receptor Name: growth hormone releasing hormone receptor 
+Approved drugs: Sermorelin Tesamorelin 
+
+HGNC ID: 4271 
+Receptor Name: gastric inhibitory polypeptide receptor 
+Approved drugs: Sermorelin Tesamorelin 
+
+HGNC ID: 4324 
+Receptor Name: glucagon like peptide 1 receptor 
+Approved drugs: Exenatide Liraglutide Albiglutide Dulaglutide 
+
+HGNC ID: 4325 
+Receptor Name: glucagon like peptide 2 receptor 
+Approved drugs: Teduglutide 
+
+HGNC ID: 4192 
+Receptor Name: glucagon receptor 
+Approved drugs: Glucagon recombinant 
+
+HGNC ID: 10608 
+Receptor Name: secretin receptor 
+Approved drugs: Secretin 
+
+HGNC ID: 3969 
+Receptor Name: follicle stimulating hormone receptor 
+Approved drugs: Menotropins Follitropin beta Urofollitropin Chorionic Gonadotropin (Recombinant) Suramin 
+
+HGNC ID: 6585 
+Receptor Name: luteinizing hormone/choriogonadotropin receptor 
+Approved drugs: Goserelin Menotropins Lutropin alfa Chorionic Gonadotropin (Recombinant) Buserelin Chorionic Gonadotropin (Human) 
+
+HGNC ID: 12373 
+Receptor Name: thyroid stimulating hormone receptor 
+Approved drugs: Thyrotropin Alfa 
+
+HGNC ID: 4421 
+Receptor Name: gonadotropin releasing hormone receptor 
+Approved drugs: Leuprolide Goserelin Cetrorelix Abarelix Gonadorelin Nafarelin Danazol Degarelix Buserelin Ganirelix Histrelin Triptorelin 
+
+HGNC ID: 16341 
+Receptor Name: gonadotropin releasing hormone receptor 2 (pseudogene) 
+Approved drugs: Gonadorelin Nafarelin Danazol 
+
+HGNC ID: 4485 
+Receptor Name: G protein-coupled estrogen receptor 1 
+Approved drugs: Gonadorelin Nafarelin Danazol 
+
+HGNC ID: 5182 
+Receptor Name: histamine receptor H1 
+Approved drugs: Clemastine Cetirizine Buclizine Doxylamine Dexbrompheniramine Triprolidine Cyproheptadine Loratadine Chlorpromazine Hydroxyzine Cinnarizine Astemizole Histamine Phosphate Azatadine Meclizine Carbinoxamine Epinastine Olopatadine Propiomazine Tripelennamine Brompheniramine Methdilazine Ketotifen Fexofenadine Desloratadine Azelastine Dimenhydrinate Promethazine Mequitazine Diphenhydramine Emedastine Levocabastine Chlorphenamine Doxepin Diphenylpyraline Orphenadrine Cyclizine Bromodiphenhydramine Alimemazine Aceprometazine Phenindamine Pheniramine Clofedanol Bepotastine Cariprazine Levocetirizine Mepyramine Betahistine Antazoline Chloropyramine Dimetindene Isothipendyl Chlorcyclizine Butriptyline Acrivastine Bilastine 
+
+HGNC ID: 5183 
+Receptor Name: histamine receptor H2 
+Approved drugs: Betazole Cimetidine Nizatidine Histamine Phosphate Epinastine Ranitidine Famotidine Methantheline Doxepin Roxatidine acetate 
+
+HGNC ID: 5184 
+Receptor Name: histamine receptor H3 
+Approved drugs: Histamine Phosphate Betahistine 
+
+HGNC ID: 17383 
+Receptor Name: histamine receptor H4 
+Approved drugs: Histamine Phosphate Betahistine 
+
+HGNC ID: 4532 
+Receptor Name: hydroxycarboxylic acid receptor 1 
+Approved drugs: Histamine Phosphate Betahistine 
+
+HGNC ID: 24827 
+Receptor Name: hydroxycarboxylic acid receptor 2 
+Approved drugs: Niacin 
+
+HGNC ID: 16824 
+Receptor Name: hydroxycarboxylic acid receptor 3 
+Approved drugs: Niacin 
+
+HGNC ID: 4510 
+Receptor Name: KISS1 receptor 
+Approved drugs: Niacin 
+
+HGNC ID: 6713 
+Receptor Name: leukotriene B4 receptor 
+Approved drugs: Niacin 
+
+HGNC ID: 19260 
+Receptor Name: leukotriene B4 receptor 2 
+Approved drugs: Niacin 
+
+HGNC ID: 17451 
+Receptor Name: cysteinyl leukotriene receptor 1 
+Approved drugs: Montelukast Zafirlukast Cinalukast Nedocromil Pranlukast 
+
+HGNC ID: 18274 
+Receptor Name: cysteinyl leukotriene receptor 2 
+Approved drugs: Nedocromil 
+
+HGNC ID: 24884 
+Receptor Name: oxoeicosanoid receptor 1 
+Approved drugs: Nedocromil 
+
+HGNC ID: 3166 
+Receptor Name: lysophosphatidic acid receptor 1 
+Approved drugs: Nedocromil 
+
+HGNC ID: 3168 
+Receptor Name: lysophosphatidic acid receptor 2 
+Approved drugs: Nedocromil 
+
+HGNC ID: 14298 
+Receptor Name: lysophosphatidic acid receptor 3 
+Approved drugs: Nedocromil 
+
+HGNC ID: 4478 
+Receptor Name: lysophosphatidic acid receptor 4 
+Approved drugs: Nedocromil 
+
+HGNC ID: 13307 
+Receptor Name: lysophosphatidic acid receptor 5 
+Approved drugs: Nedocromil 
+
+HGNC ID: 15520 
+Receptor Name: lysophosphatidic acid receptor 6 
+Approved drugs: Nedocromil 
+
+HGNC ID: 3165 
+Receptor Name: sphingosine-1-phosphate receptor 1 
+Approved drugs: Asfotase Alfa 
+
+HGNC ID: 3169 
+Receptor Name: sphingosine-1-phosphate receptor 2 
+Approved drugs: Asfotase Alfa 
+
+HGNC ID: 3167 
+Receptor Name: sphingosine-1-phosphate receptor 3 
+Approved drugs: Asfotase Alfa 
+
+HGNC ID: 3170 
+Receptor Name: sphingosine-1-phosphate receptor 4 
+Approved drugs: Asfotase Alfa 
+
+HGNC ID: 14299 
+Receptor Name: sphingosine-1-phosphate receptor 5 
+Approved drugs: Fingolimod 
+
+HGNC ID: 4479 
+Receptor Name: melanin concentrating hormone receptor 1 
+Approved drugs: Fingolimod 
+
+HGNC ID: 20867 
+Receptor Name: melanin concentrating hormone receptor 2 
+Approved drugs: Fingolimod 
+
+HGNC ID: 6929 
+Receptor Name: melanocortin 1 receptor 
+Approved drugs: Fingolimod 
+
+HGNC ID: 6930 
+Receptor Name: melanocortin 2 receptor 
+Approved drugs: Tetracosactide Corticotropin 
+
+HGNC ID: 6931 
+Receptor Name: melanocortin 3 receptor 
+Approved drugs: Tetracosactide Corticotropin 
+
+HGNC ID: 6932 
+Receptor Name: melanocortin 4 receptor 
+Approved drugs: Tetracosactide Corticotropin 
+
+HGNC ID: 6933 
+Receptor Name: melanocortin 5 receptor 
+Approved drugs: Tetracosactide Corticotropin 
+
+HGNC ID: 7463 
+Receptor Name: melatonin receptor 1A 
+Approved drugs: Ramelteon Melatonin Agomelatine Tasimelteon 
+
+HGNC ID: 7464 
+Receptor Name: melatonin receptor 1B 
+Approved drugs: Ramelteon Melatonin Agomelatine Tasimelteon 
+
+HGNC ID: 4593 
+Receptor Name: glutamate metabotropic receptor 1 
+Approved drugs: Ramelteon Melatonin Agomelatine Tasimelteon 
+
+HGNC ID: 4594 
+Receptor Name: glutamate metabotropic receptor 2 
+Approved drugs: Ramelteon Melatonin Agomelatine Tasimelteon 
+
+HGNC ID: 4595 
+Receptor Name: glutamate metabotropic receptor 3 
+Approved drugs: Ramelteon Melatonin Agomelatine Tasimelteon 
+
+HGNC ID: 4596 
+Receptor Name: glutamate metabotropic receptor 4 
+Approved drugs: Ramelteon Melatonin Agomelatine Tasimelteon 
+
+HGNC ID: 4597 
+Receptor Name: glutamate metabotropic receptor 5 
+Approved drugs: Acamprosate 
+
+HGNC ID: 4598 
+Receptor Name: glutamate metabotropic receptor 6 
+Approved drugs: Acamprosate 
+
+HGNC ID: 4599 
+Receptor Name: glutamate metabotropic receptor 7 
+Approved drugs: Acamprosate 
+
+HGNC ID: 4600 
+Receptor Name: glutamate metabotropic receptor 8 
+Approved drugs: Acamprosate 
+
+HGNC ID: 4495 
+Receptor Name: motilin receptor 
+Approved drugs: Acamprosate 
+
+HGNC ID: 4518 
+Receptor Name: neuromedin U receptor 1 
+Approved drugs: Acamprosate 
+
+HGNC ID: 16454 
+Receptor Name: neuromedin U receptor 2 
+Approved drugs: Acamprosate 
+
+HGNC ID: 17425 
+Receptor Name: neuropeptide FF receptor 1 
+Approved drugs: Acamprosate 
+
+HGNC ID: 4525 
+Receptor Name: neuropeptide FF receptor 2 
+Approved drugs: Acamprosate 
+
+HGNC ID: 23631 
+Receptor Name: neuropeptide S receptor 1 
+Approved drugs: Acamprosate 
+
+HGNC ID: 4522 
+Receptor Name: neuropeptides B and W receptor 1 
+Approved drugs: Acamprosate 
+
+HGNC ID: 4530 
+Receptor Name: neuropeptides B and W receptor 2 
+Approved drugs: Acamprosate 
+
+HGNC ID: 7956 
+Receptor Name: neuropeptide Y receptor Y1 
+Approved drugs: Acamprosate 
+
+HGNC ID: 7957 
+Receptor Name: neuropeptide Y receptor Y2 
+Approved drugs: Acamprosate 
+
+HGNC ID: 9329 
+Receptor Name: neuropeptide Y receptor Y4 
+Approved drugs: Acamprosate 
+
+HGNC ID: 7958 
+Receptor Name: neuropeptide Y receptor Y5 
+Approved drugs: Acamprosate 
+
+HGNC ID: 7959 
+Receptor Name: neuropeptide Y receptor Y6 (pseudogene) 
+Approved drugs: Acamprosate 
+
+HGNC ID: 8039 
+Receptor Name: neurotensin receptor 1 
+Approved drugs: Acamprosate 
+
+HGNC ID: 8040 
+Receptor Name: neurotensin receptor 2 
+Approved drugs: Levocabastine 
+
+HGNC ID: 8153 
+Receptor Name: opioid receptor delta 1 
+Approved drugs: Morphine Codeine Hydromorphone Methadone Oxycodone Butorphanol Dextropropoxyphene Naltrexone Fentanyl Loperamide Nalbuphine Hydrocodone Naloxone Ketobemidone Eluxadoline 
+
+HGNC ID: 8154 
+Receptor Name: opioid receptor kappa 1 
+Approved drugs: Morphine Codeine Hydromorphone Pethidine Oxycodone Butorphanol Dextropropoxyphene Pentazocine Naltrexone Loperamide Nalbuphine Buprenorphine Naloxone Dezocine Ketobemidone Eluxadoline 
+
+HGNC ID: 8156 
+Receptor Name: opioid receptor mu 1 
+Approved drugs: Tramadol Morphine Codeine Hydromorphone Methadone Oxycodone Levallorphan Butorphanol Dextropropoxyphene Pentazocine Naltrexone Sufentanil Alfentanil Fentanyl Loperamide Nalbuphine Levorphanol Remifentanil Anileridine Buprenorphine Hydrocodone Diphenoxylate Naloxone Oxymorphone Dezocine Levomethadyl Acetate Methadyl Acetate Heroin Ethylmorphine Tapentadol Alvimopan Ketobemidone Methylnaltrexone Naloxegol Eluxadoline 
+
+HGNC ID: 8155 
+Receptor Name: opioid related nociceptin receptor 1 
+Approved drugs: Tramadol Morphine Codeine Hydromorphone Methadone Oxycodone Levallorphan Butorphanol Dextropropoxyphene Pentazocine Naltrexone Sufentanil Alfentanil Fentanyl Loperamide Nalbuphine Levorphanol Remifentanil Anileridine Buprenorphine Hydrocodone Diphenoxylate Naloxone Oxymorphone Dezocine Levomethadyl Acetate Methadyl Acetate Heroin Ethylmorphine Tapentadol Alvimopan Ketobemidone Methylnaltrexone Naloxegol Eluxadoline 
+
+HGNC ID: 4848 
+Receptor Name: hypocretin receptor 1 
+Approved drugs: Suvorexant 
+
+HGNC ID: 4849 
+Receptor Name: hypocretin receptor 2 
+Approved drugs: Suvorexant 
+
+HGNC ID: 17830 
+Receptor Name: G protein-coupled receptor 107 
+Approved drugs: Suvorexant 
+
+HGNC ID: 24300 
+Receptor Name: G protein-coupled receptor 137 
+Approved drugs: Suvorexant 
+
+HGNC ID: 15194 
+Receptor Name: olfactory receptor family 51 subfamily E member 1 
+Approved drugs: Suvorexant 
+
+HGNC ID: 30413 
+Receptor Name: transmembrane protein adipocyte associated 1 
+Approved drugs: Suvorexant 
+
+HGNC ID: 20145 
+Receptor Name: G protein-coupled receptor 143 
+Approved drugs: Suvorexant 
+
+HGNC ID: 23687 
+Receptor Name: G protein-coupled receptor 157 
+Approved drugs: Suvorexant 
+
+HGNC ID: 4531 
+Receptor Name: oxoglutarate receptor 1 
+Approved drugs: Suvorexant 
+
+HGNC ID: 8539 
+Receptor Name: purinergic receptor P2Y1 
+Approved drugs: Suvorexant 
+
+HGNC ID: 8541 
+Receptor Name: purinergic receptor P2Y2 
+Approved drugs: Suramin 
+
+HGNC ID: 8542 
+Receptor Name: pyrimidinergic receptor P2Y4 
+Approved drugs: Suramin 
+
+HGNC ID: 8543 
+Receptor Name: pyrimidinergic receptor P2Y6 
+Approved drugs: Suramin 
+
+HGNC ID: 8540 
+Receptor Name: purinergic receptor P2Y11 
+Approved drugs: Suramin 
+
+HGNC ID: 18124 
+Receptor Name: purinergic receptor P2Y12 
+Approved drugs: Ticlopidine Treprostinil Clopidogrel Epoprostenol Prasugrel Cangrelor Ticagrelor 
+
+HGNC ID: 4537 
+Receptor Name: purinergic receptor P2Y13 
+Approved drugs: Ticlopidine Treprostinil Clopidogrel Epoprostenol Prasugrel Cangrelor Ticagrelor 
+
+HGNC ID: 16442 
+Receptor Name: purinergic receptor P2Y14 
+Approved drugs: Ticlopidine Treprostinil Clopidogrel Epoprostenol Prasugrel Cangrelor Ticagrelor 
+
+HGNC ID: 9608 
+Receptor Name: parathyroid hormone 1 receptor 
+Approved drugs: Ticlopidine Treprostinil Clopidogrel Epoprostenol Prasugrel Cangrelor Ticagrelor 
+
+HGNC ID: 9609 
+Receptor Name: parathyroid hormone 2 receptor 
+Approved drugs: Parathyroid hormone 
+
+HGNC ID: 9582 
+Receptor Name: platelet activating factor receptor 
+Approved drugs: Parathyroid hormone 
+
+HGNC ID: 4524 
+Receptor Name: prokineticin receptor 1 
+Approved drugs: Parathyroid hormone 
+
+HGNC ID: 15836 
+Receptor Name: prokineticin receptor 2 
+Approved drugs: Parathyroid hormone 
+
+HGNC ID: 4464 
+Receptor Name: prolactin releasing hormone receptor 
+Approved drugs: Parathyroid hormone 
+
+HGNC ID: 9591 
+Receptor Name: prostaglandin D2 receptor 
+Approved drugs: Parathyroid hormone 
+
+HGNC ID: 4502 
+Receptor Name: prostaglandin D2 receptor 2 
+Approved drugs: Parathyroid hormone 
+
+HGNC ID: 9593 
+Receptor Name: prostaglandin E receptor 1 
+Approved drugs: Carboprost Tromethamine Alprostadil Bimatoprost Dinoprostone Iloprost 
+
+HGNC ID: 9594 
+Receptor Name: prostaglandin E receptor 2 
+Approved drugs: Alprostadil Dinoprostone Misoprostol 
+
+HGNC ID: 9595 
+Receptor Name: prostaglandin E receptor 3 
+Approved drugs: Bimatoprost Dinoprostone Misoprostol 
+
+HGNC ID: 9596 
+Receptor Name: prostaglandin E receptor 4 
+Approved drugs: Dinoprostone 
+
+HGNC ID: 9600 
+Receptor Name: prostaglandin F receptor 
+Approved drugs: Travoprost Latanoprost Bimatoprost Dinoprost Tromethamine Tafluprost 
+
+HGNC ID: 9602 
+Receptor Name: prostaglandin I2 (prostacyclin) receptor (IP) 
+Approved drugs: Treprostinil Iloprost Epoprostenol Selexipag 
+
+HGNC ID: 11608 
+Receptor Name: thromboxane A2 receptor 
+Approved drugs: Ridogrel 
+
+HGNC ID: 3537 
+Receptor Name: coagulation factor II thrombin receptor 
+Approved drugs: Vorapaxar 
+
+HGNC ID: 3538 
+Receptor Name: F2R like trypsin receptor 1 
+Approved drugs: Vorapaxar 
+
+HGNC ID: 3539 
+Receptor Name: coagulation factor II thrombin receptor like 2 
+Approved drugs: Vorapaxar 
+
+HGNC ID: 3540 
+Receptor Name: F2R like thrombin/trypsin receptor 3 
+Approved drugs: Vorapaxar 
+
+HGNC ID: 15565 
+Receptor Name: pyroglutamylated RFamide peptide receptor 
+Approved drugs: Vorapaxar 
+
+HGNC ID: 19718 
+Receptor Name: relaxin/insulin like family peptide receptor 1 
+Approved drugs: Vorapaxar 
+
+HGNC ID: 17318 
+Receptor Name: relaxin/insulin like family peptide receptor 2 
+Approved drugs: Vorapaxar 
+
+HGNC ID: 24883 
+Receptor Name: relaxin/insulin like family peptide receptor 3 
+Approved drugs: Vorapaxar 
+
+HGNC ID: 14666 
+Receptor Name: relaxin/insulin like family peptide receptor 4 
+Approved drugs: Vorapaxar 
+
+HGNC ID: 11330 
+Receptor Name: somatostatin receptor 1 
+Approved drugs: Octreotide 
+
+HGNC ID: 11331 
+Receptor Name: somatostatin receptor 2 
+Approved drugs: Octreotide Vapreotide 
+
+HGNC ID: 11332 
+Receptor Name: somatostatin receptor 3 
+Approved drugs: Octreotide Vapreotide 
+
+HGNC ID: 11333 
+Receptor Name: somatostatin receptor 4 
+Approved drugs: Octreotide Vapreotide 
+
+HGNC ID: 11334 
+Receptor Name: somatostatin receptor 5 
+Approved drugs: Octreotide Vapreotide 
+
+HGNC ID: 4542 
+Receptor Name: succinate receptor 1 
+Approved drugs: Octreotide Vapreotide 
+
+HGNC ID: 11526 
+Receptor Name: tachykinin receptor 1 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 11527 
+Receptor Name: tachykinin receptor 2 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 11528 
+Receptor Name: tachykinin receptor 3 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 14448 
+Receptor Name: taste 1 receptor member 1 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 14905 
+Receptor Name: taste 1 receptor member 2 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 15661 
+Receptor Name: taste 1 receptor member 3 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 14909 
+Receptor Name: taste 2 receptor member 1 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 14910 
+Receptor Name: taste 2 receptor member 3 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 14911 
+Receptor Name: taste 2 receptor member 4 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 14912 
+Receptor Name: taste 2 receptor member 5 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 14913 
+Receptor Name: taste 2 receptor member 7 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 14915 
+Receptor Name: taste 2 receptor member 8 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 14917 
+Receptor Name: taste 2 receptor member 9 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 14918 
+Receptor Name: taste 2 receptor member 10 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 14919 
+Receptor Name: taste 2 receptor member 13 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 14920 
+Receptor Name: taste 2 receptor member 14 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 14921 
+Receptor Name: taste 2 receptor member 16 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 19108 
+Receptor Name: taste 2 receptor member 19 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 19109 
+Receptor Name: taste 2 receptor member 20 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 19112 
+Receptor Name: taste 2 receptor member 30 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 19113 
+Receptor Name: taste 2 receptor member 31 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 9584 
+Receptor Name: taste 2 receptor member 38 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 18886 
+Receptor Name: taste 2 receptor member 39 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 18885 
+Receptor Name: taste 2 receptor member 40 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 18883 
+Receptor Name: taste 2 receptor member 41 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 18888 
+Receptor Name: taste 2 receptor member 42 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 18875 
+Receptor Name: taste 2 receptor member 43 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 18876 
+Receptor Name: taste 2 receptor member 45 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 18877 
+Receptor Name: taste 2 receptor member 46 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 18882 
+Receptor Name: taste 2 receptor member 50 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 20639 
+Receptor Name: taste 2 receptor member 60 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 12299 
+Receptor Name: thyrotropin releasing hormone receptor 
+Approved drugs: Aprepitant Netupitant 
+
+HGNC ID: 17734 
+Receptor Name: trace amine associated receptor 1 
+Approved drugs: Amphetamine Methamphetamine 
+
+HGNC ID: 4468 
+Receptor Name: urotensin 2 receptor 
+Approved drugs: Amphetamine Methamphetamine 
+
+HGNC ID: 895 
+Receptor Name: arginine vasopressin receptor 1A 
+Approved drugs: Desmopressin Vasopressin Felypressin Conivaptan 
+
+HGNC ID: 896 
+Receptor Name: arginine vasopressin receptor 1B 
+Approved drugs: Desmopressin Vasopressin 
+
+HGNC ID: 897 
+Receptor Name: arginine vasopressin receptor 2 
+Approved drugs: Desmopressin Vasopressin Conivaptan Terlipressin Tolvaptan 
+
+HGNC ID: 8529 
+Receptor Name: oxytocin receptor 
+Approved drugs: Oxytocin Carbetocin 
+
+HGNC ID: 242 
+Receptor Name: ADCYAP receptor type I 
+Approved drugs: Oxytocin Carbetocin 
+
+HGNC ID: 12694 
+Receptor Name: vasoactive intestinal peptide receptor 1 
+Approved drugs: Oxytocin Carbetocin 
+
+HGNC ID: 12695 
+Receptor Name: vasoactive intestinal peptide receptor 2 
+Approved drugs: Oxytocin Carbetocin 
+
