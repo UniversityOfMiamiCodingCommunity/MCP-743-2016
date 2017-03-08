@@ -53,7 +53,3 @@ Patient_3.name = "Carcinoma"
 Patient_3.location = "Skin Epthelial"
 Patient_3.type = "Benign"
 Patient_3.Attributes()
-
-
-
-
