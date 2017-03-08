@@ -2,7 +2,7 @@
 
 
 #Parsing Large Scale Gene Sets (9,404 genes)
-fileInput = open("/Users/SamuelDelOlio/Desktop/python_work/uniprot-CD36.txt", "r")
+fileInput = open("/Users/SamuelDelOlio/GitHub/MCP-743/assignments-finished/uniprot-CD36.txt", "r")
 for line in fileInput:
 	result = line.split("\t")
 	print(" Uniprot Entry Number:", result[0], "\n",
@@ -17,7 +17,7 @@ fileInput.close()
 
 
 #Searching all 9,404 genes for a Thrombospondin binding sequence motif (CSVTCG)
-fileInput = open("/Users/SamuelDelOlio/Desktop/python_work/uniprot-CD36.txt", "r")
+fileInput = open("/Users/SamuelDelOlio/GitHub/MCP-743/assignments-finished/uniprot-CD36.txt", "r")
 for line in fileInput:
 	CSVTCGcount = line.count("CSVTCG")
 	splitLine = line.split("\t")
@@ -68,7 +68,7 @@ class uniprotGenes:
 
 # Loop over the lines in the file.
 ##################################
-fileInput = open("/Users/SamuelDelOlio/Desktop/python_work/uniprot-CD36.txt", "r")
+fileInput = open("/Users/SamuelDelOlio/GitHub/MCP-743/assignments-finished/uniprot-CD36.txt", "r")
 i = 0
 listOfInstances = []
 for line in fileInput:
@@ -103,4 +103,5 @@ for x in listOfInstances:
 	else:
 		misses += 1
 
-print(" ", hits, "genes contain the motif,", "\n", " ",  "and", misses, "genes do not.")
+print("The above", hits, "genes contain the motif,", "\n", "and", misses, "genes do not.")
+
