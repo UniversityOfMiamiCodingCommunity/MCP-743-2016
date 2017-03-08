@@ -12,11 +12,11 @@ class Cells:
 		self.nameOfCellLine = ""
 		# This is a class variable for indicating if the cells have been transformed.
 		self.transformed = ""
-		# Leave comment. 
+		# This is a class variable for indicating if te cell line is immortalized
 		self.immortalized = ""
-		# Leave comment.
+		# This is a class variable for indicating the effectiveness of cell line's innate mmune response
 		self.immunity = ""
-		# Leave comment.
+		# This is a class variable for indicating if the cell line has HBV Receptor or not
 		self.receptor= ""
 
 	def set(self, cellLine, transformed, immortalized, immunity, receptor):
@@ -30,16 +30,16 @@ class Cells:
 	def printAttributes(self):
 
 		if self.nameOfCellLine:
-			print(self.nameOfCellLine, "Cell")#want it to report back cell line name: HepRG, HUH7, etc..
+			print(self.nameOfCellLine, " Cell")
 		if self.transformed:
-			print("Transformed: ", self.transformed) #want it to report back "yes" or "no"
+			print("Transformed: ", self.transformed) 
 		if self.immortalized:
-			print("Immortalized: ", self.immortalized)#want it to report back "yes" or "no"
+			print("Immortalized: ", self.immortalized)
 		if self.immunity:
-			print("Innate Immunity: ", self.immunity) #report back "Fully or Moderatley or Slightly Functional"
+			print("Innate Immunity: ", self.immunity) 
 		if self.receptor:
-			print("HBV Receptor: ", self.receptor) #want it to report back "yes" or "no"
-	
+			print("HBV Receptor: ", self.receptor)
+
 
 fileInput = open("..\dataFiles\HepatocyteCellLines.txt", "r")
 i = 0
@@ -51,12 +51,12 @@ for line in fileInput:
 		classInstance = Cells()
 		classInstance.set(result[0], result[1], result[2], result[3], result[4])
 		listOfCellInstances.append(classInstance)
-		#classInstance.printAttributes()
+		classInstance.printAttributes()
 	i += 1
 
-for x in listOfCellInstances:
-	print x
+#~ for x in listOfCellInstances:
+	#~ print x
 
-for x in listOfCellInstances:
-	print "------------------------"
-	x.printAttributes()
+#~ for x in listOfCellInstances:
+	#~ print "------------------------"
+	#~ x.printAttributes()
