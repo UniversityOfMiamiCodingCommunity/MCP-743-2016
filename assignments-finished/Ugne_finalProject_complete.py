@@ -60,7 +60,8 @@ for sequence in aligned_sequences:
 ##tupule??
 
 combined = [(species_name_list[i], percentage[i]) for i in range(len(species_name_list))]
-
+for key, value in combined.items():
+		print("Species name: " + key + " Percent aa seq similarity: " + value + "%")
 #print(combined) ###lists species name, percent similarity
 			
 
