@@ -28,25 +28,23 @@ print("The length of Sts5 protein sequence is:",len(Sts5Protein))
 import re
 # Define the pattern I would like to search for
 pattern = "H.[RKH]..[ST]"
-# pattern = "HGHRRS"
-# Use the regular search function
-re.search (pattern, Sts5Protein)
-St5Protein = sequence[name]
-if re.search(r"H.[RKH]..[ST]", Sts5Protein):
-	print("The Orb6 phosphorylation consensus in Sts5 protein is found")
+# testpattern = "HGHRRS"
+Orb6Consensus = re.findall (pattern, Sts5Protein)
+print(Orb6Consensus)
 
-patternCount = 0
-i = 0
-Orb6Consensus = open("C:/Users/Samuel/Documents/GitHub/MCP-743/assignments-finished/Personal Project_Fission yeast Sts5 protein/Orb6Consensus.txt", "w")
-patternCount = Sts5Protein.count(pattern)
-Orb6Consensus.write("The total number of Orb6 phosphorylation consensus found in the Sts5 protein sequence is: "+str(patternCount)+"\n")
-while i < len(Sts5Protein) - 5:
-	iPattern = Sts5Protein[i:i+6]
-	if iPattern == pattern:
-		Orb6Consensus.write("Found Orb6 consensus "+ iPattern+ " at index "+str(i+6)+"\n") 
-	i += 1
-print(patternCount)
-Orb6Consensus.close()
+#################################backup
+#patternCount = 0
+#i = 0
+#Orb6Consensus = open("C:/Users/Samuel/Documents/GitHub/MCP-743/assignments-finished/Personal Project_Fission yeast Sts5 protein/Orb6Consensus.txt", "w")
+#patternCount = Sts5Protein.count(pattern)
+#Orb6Consensus.write("The total number of Orb6 phosphorylation consensus found in the Sts5 protein sequence is: "+str(patternCount)+"\n")
+#while i < len(Sts5Protein) - 5:
+	#iPattern = Sts5Protein[i:i+6]
+	#if iPattern == pattern:
+		#Orb6Consensus.write("Found Orb6 consensus "+ iPattern+ " at index "+str(i+6)+"\n") 
+	#i += 1
+#print(patternCount)
+#Orb6Consensus.close()
 
 
 
