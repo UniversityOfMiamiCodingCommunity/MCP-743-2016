@@ -25,11 +25,11 @@ startCodon = "ATG"
 startCodonCount = dna.count(startCodon)
 startCodonList = []
 
-i = 0	
+i = 0
 while i < len(dna)-2:
 	codon = dna[i:i+3]
 	if codon == startCodon:
-		startCodonList.append(i)			
+		startCodonList.append(i)
 	i += 1
 print(startCodonList)
 
@@ -46,3 +46,21 @@ fileOutput.close()
 # a) the first line reports the total number of stopCodons
 # b) the additional lines report a single stop codon index 
 #################################################################################################
+
+stopCodons = ["TAG", "TGA", "TAA"]
+stopCodonCount = dna.count(stopCodons[0]+stopCodons[1]+stopCodons[2])
+stopCodonList = []
+
+i = 0
+while i < len(dna)-2:
+	codon = dna[i:i+3]
+	if codon == stopCodons:
+		stopCodonList.append(i)
+	i += 1
+print(stopCodonList)
+
+fileOutput = open("stopCodonIndices.txt", "w")
+fileOutput.write("Total stop codons: " + str(startCodonCount) + "\n")
+for index in startCodonList:
+	fileOutput.write(str(index) + "\n")
+fileOutput.close()
